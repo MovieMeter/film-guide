@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05bcc9d5-22ae-4632-8fc8-bb7081db2cad" name="Default" comment="" />
+    <list default="true" id="05bcc9d5-22ae-4632-8fc8-bb7081db2cad" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/home_database.py" afterPath="$PROJECT_DIR$/database/home_database.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schema/movie_table.sql" afterPath="$PROJECT_DIR$/schema/movie_table.sql" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +51,8 @@
       <file leaf-file-name="movie_table.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/schema/movie_table.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,17 +61,17 @@
       <file leaf-file-name="home_database.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/home_database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+            <state relative-caret-position="289">
+              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1499364250210" expanded="true" signature="549:684" ph="select * fro... movie_table" />
-                <marker date="1499364250210" expanded="true" signature="549:743" ph="select * fro... movie_table" />
-                <marker date="1499364250210" expanded="true" signature="549:950" ph="select * fro... movie_table" />
-                <marker date="1499364250210" expanded="true" signature="1055:1084" ph="select MAX(i... " />
-                <marker date="1499364250210" expanded="true" signature="1055:1095" ph="select MAX(i... movie_tale" />
-                <marker date="1499364250210" expanded="true" signature="1201:1240" ph="insert into movie_table... " />
-                <marker date="1499364250210" expanded="true" signature="1201:1326" ph="insert into movie_table... " />
+                <marker date="1499364872430" expanded="true" signature="549:684" ph="select * fro... movie_table" />
+                <marker date="1499364872430" expanded="true" signature="549:743" ph="select * fro... movie_table" />
+                <marker date="1499364872430" expanded="true" signature="549:950" ph="select * fro... movie_table" />
+                <marker date="1499364872430" expanded="true" signature="1055:1084" ph="select MAX(i... " />
+                <marker date="1499364872430" expanded="true" signature="1055:1095" ph="select MAX(i... movie_tale" />
+                <marker date="1499364872430" expanded="true" signature="1201:1240" ph="insert into movie_table... " />
+                <marker date="1499364872430" expanded="true" signature="1201:1326" ph="insert into movie_table... " />
               </folding>
             </state>
           </provider>
@@ -173,6 +177,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -191,9 +198,9 @@
         <option value="$PROJECT_DIR$/ratings/imdb_rating.py" />
         <option value="$PROJECT_DIR$/database/home-database.py" />
         <option value="$PROJECT_DIR$/database/db_manager.py" />
-        <option value="$PROJECT_DIR$/schema/movie_table.sql" />
         <option value="$PROJECT_DIR$/Film/film.py" />
         <option value="$PROJECT_DIR$/database/home_database.py" />
+        <option value="$PROJECT_DIR$/schema/movie_table.sql" />
       </list>
     </option>
   </component>
@@ -209,6 +216,7 @@
     <option name="width" value="1303" />
     <option name="height" value="780" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -234,48 +242,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="film-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="film-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="film-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schema" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="film-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="film-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ratings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="film-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="film-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Film" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -600,13 +566,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.033950616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23148148" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18885449" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -687,13 +653,13 @@
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1499364250210" expanded="true" signature="549:684" ph="select * fro... movie_table" />
-            <marker date="1499364250210" expanded="true" signature="549:743" ph="select * fro... movie_table" />
-            <marker date="1499364250210" expanded="true" signature="549:950" ph="select * fro... movie_table" />
-            <marker date="1499364250210" expanded="true" signature="1055:1084" ph="select MAX(i... " />
-            <marker date="1499364250210" expanded="true" signature="1055:1095" ph="select MAX(i... movie_tale" />
-            <marker date="1499364250210" expanded="true" signature="1201:1240" ph="insert into movie_table... " />
-            <marker date="1499364250210" expanded="true" signature="1201:1326" ph="insert into movie_table... " />
+            <marker date="1499364872430" expanded="true" signature="549:684" ph="select * fro... movie_table" />
+            <marker date="1499364872430" expanded="true" signature="549:743" ph="select * fro... movie_table" />
+            <marker date="1499364872430" expanded="true" signature="549:950" ph="select * fro... movie_table" />
+            <marker date="1499364872430" expanded="true" signature="1055:1084" ph="select MAX(i... " />
+            <marker date="1499364872430" expanded="true" signature="1055:1095" ph="select MAX(i... movie_tale" />
+            <marker date="1499364872430" expanded="true" signature="1201:1240" ph="insert into movie_table... " />
+            <marker date="1499364872430" expanded="true" signature="1201:1326" ph="insert into movie_table... " />
           </folding>
         </state>
       </provider>
@@ -795,13 +761,13 @@
           <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1499364250210" expanded="true" signature="549:684" ph="select * fro... movie_table" />
-            <marker date="1499364250210" expanded="true" signature="549:743" ph="select * fro... movie_table" />
-            <marker date="1499364250210" expanded="true" signature="549:950" ph="select * fro... movie_table" />
-            <marker date="1499364250210" expanded="true" signature="1055:1084" ph="select MAX(i... " />
-            <marker date="1499364250210" expanded="true" signature="1055:1095" ph="select MAX(i... movie_tale" />
-            <marker date="1499364250210" expanded="true" signature="1201:1240" ph="insert into movie_table... " />
-            <marker date="1499364250210" expanded="true" signature="1201:1326" ph="insert into movie_table... " />
+            <marker date="1499364872430" expanded="true" signature="549:684" ph="select * fro... movie_table" />
+            <marker date="1499364872430" expanded="true" signature="549:743" ph="select * fro... movie_table" />
+            <marker date="1499364872430" expanded="true" signature="549:950" ph="select * fro... movie_table" />
+            <marker date="1499364872430" expanded="true" signature="1055:1084" ph="select MAX(i... " />
+            <marker date="1499364872430" expanded="true" signature="1055:1095" ph="select MAX(i... movie_tale" />
+            <marker date="1499364872430" expanded="true" signature="1201:1240" ph="insert into movie_table... " />
+            <marker date="1499364872430" expanded="true" signature="1201:1326" ph="insert into movie_table... " />
           </folding>
         </state>
       </provider>
@@ -1086,14 +1052,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/schema/movie_table.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Film/film.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1102,19 +1060,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/schema/movie_table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database/home_database.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        <state relative-caret-position="289">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1499364250210" expanded="true" signature="549:684" ph="select * fro... movie_table" />
-            <marker date="1499364250210" expanded="true" signature="549:743" ph="select * fro... movie_table" />
-            <marker date="1499364250210" expanded="true" signature="549:950" ph="select * fro... movie_table" />
-            <marker date="1499364250210" expanded="true" signature="1055:1084" ph="select MAX(i... " />
-            <marker date="1499364250210" expanded="true" signature="1055:1095" ph="select MAX(i... movie_tale" />
-            <marker date="1499364250210" expanded="true" signature="1201:1240" ph="insert into movie_table... " />
-            <marker date="1499364250210" expanded="true" signature="1201:1326" ph="insert into movie_table... " />
+            <marker date="1499364872430" expanded="true" signature="549:684" ph="select * fro... movie_table" />
+            <marker date="1499364872430" expanded="true" signature="549:743" ph="select * fro... movie_table" />
+            <marker date="1499364872430" expanded="true" signature="549:950" ph="select * fro... movie_table" />
+            <marker date="1499364872430" expanded="true" signature="1055:1084" ph="select MAX(i... " />
+            <marker date="1499364872430" expanded="true" signature="1055:1095" ph="select MAX(i... movie_tale" />
+            <marker date="1499364872430" expanded="true" signature="1201:1240" ph="insert into movie_table... " />
+            <marker date="1499364872430" expanded="true" signature="1201:1326" ph="insert into movie_table... " />
           </folding>
         </state>
       </provider>

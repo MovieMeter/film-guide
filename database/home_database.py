@@ -36,4 +36,3 @@ class HomeDB():
             self.c.execute('''insert into movie_table values(?,?,?,?)''',
                            (new_id, film_obj.name, film_obj.year, film_obj.score))
 
-            
