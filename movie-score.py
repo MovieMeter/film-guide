@@ -3,7 +3,7 @@
 # Run this module from the terminal to enter a movie name and see its score.
 
 
-from ratings.score import get_score
+from ratings.get_score import get_score
 from google import search
 import requests
 from bs4 import BeautifulSoup

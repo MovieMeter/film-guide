@@ -1,3 +1,4 @@
+from ratings.calculate import score
 
 
 class Film:
@@ -9,7 +10,7 @@ class Film:
         self.rotten_link = None
         self.year = None
         self.genre = []
-        self.ratings = []
+        self.ratings = {}
 
     def set_name(self, name):
         self.name = name
@@ -30,11 +31,18 @@ class Film:
     def set_rotten_ref(self, rotten):
         self.rotten_link = rotten
 
-    def set_details(self, name, year, score, genres):
+    def set_details(self, name, year, genres):
         self.name = name
         self.year = year
-        self.score = score
         for item in genres:
             if item not in self.genre:
                 self.genre.append(item)
+
+    def set_ratings(self, rating_list):
+        self.ratings['imdb'] = rating_list[0]
+        self.ratings['meta'] = rating_list[1]
+        self.ratings['rt'] = rating_list[2]
+        self.ratings['audience'] = rating_list[3]
+
+        self.score = score(rating_list[0], rating_list[1], rating_list[2], rating_list[3])
 

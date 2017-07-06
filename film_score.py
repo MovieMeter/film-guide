@@ -1,7 +1,7 @@
 # Pass Movie name here. It makes the call to the get_score() to show the aggregate score.
 # Function call, need to make call to get_movie_score() and pass movie name.
 
-from ratings.score import get_score
+from ratings.get_score import get_score
 from google import search
 import requests
 from bs4 import BeautifulSoup
