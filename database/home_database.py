@@ -33,16 +33,21 @@ class HomeDB:
             print('Movie already exists in database')
             return
         else:
-            self.c.execute('''select MAX(id) as max_id from movie_tale''')
+            self.c.execute('''select MAX(id) as max_id from movie_table''')
             max_id = self.c.fetchone()
-            new_id = max_id + 1
+            print(max_id)
+            if max_id[0] is None:
+                new_id = 1
+            else:
+                new_id = max_id[0] + 1
+            print('new_id = ' + str(new_id))
             self.c.execute('''insert into movie_table values(?,?,?)''',
                            (new_id, film_obj.name, film_obj.year))
-
+            # self.conn.commit()
             if len(film_obj.genre) > 0:
                 for item in film_obj.genre:
                     self.c.execute('''insert into genre_table values(?,?)''', (new_id, item))
-
+            # self.conn.commit()
         return
 
     # get row_id from the main table, by name + year
@@ -51,7 +56,9 @@ class HomeDB:
                        (film_obj.name, film_obj.year))
 
         row_id = self.c.fetchone()
-        return row_id
+        if row_id[0] is None:
+            return None
+        return row_id[0]
 
     # Add genres for the movie
     def set_genre(self, film_obj):
@@ -70,6 +77,7 @@ class HomeDB:
             for item in film_obj.genre:
                 self.c.execute('insert into genre_table values(?,?)',
                                (row_id, item))
+        # self.conn.commit()
 
     # Add ratings for the movie, including the database score
     def set_ratings(self, film_obj):
@@ -94,3 +102,23 @@ class HomeDB:
                      movie_score)
 
             self.c.execute('insert into rating_table values(?,?,?,?,?,?)', tuple)
+        # self.conn.commit()
+
+    # view table (duh)
+    def view_movies(self):
+        # Right now this just prints the tuples. Formatting will be added later.
+        cursor = self.c.execute('select * from movie_table')
+        for row in cursor:
+            print(row)
+
+    def view_genres(self):
+        # Tuples only.
+        cursor = self.c.execute('select * from genre_table')
+        for row in cursor:
+            print(row)
+
+    def view_ratings(self):
+        # Tuples only.
+        cursor = self.c.execute('select * from rating_table')
+        for row in cursor:
+            print(row)
