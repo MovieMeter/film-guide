@@ -49,7 +49,7 @@ class DataBase:
         rows = self.c.execute('select * from movies where id = ?', (id,))
         # if(len(rows) > 1):
         #     return None
-        print(type(rows))
+        # print(type(rows))
 
         return rows.fetchone()
 
