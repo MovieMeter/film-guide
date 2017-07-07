@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup, SoupStrainer
 from fake_useragent import UserAgent
 from ratings.calculate import score
+import sys
 
 
 # Assign imdb and rt links to the film object.
@@ -32,21 +33,24 @@ def imdb_meta(film):
     r = requests.get(url, headers=headers)
 
     soup = BeautifulSoup(r.content, 'lxml', parse_only=SoupStrainer('div', id='pagecontent'))
+    try:
+        rating = soup.find('span', itemprop='ratingValue')
+        # print(rating.text)
 
-    rating = soup.find('span', itemprop='ratingValue')
-    # print(rating.text)
+        meta_score = soup.find('div', class_='metacriticScore')
+        # print(meta_score.text)
 
-    meta_score = soup.find('div', class_='metacriticScore')
-    # print(meta_score.text)
-
-    imdb_rating = int(float(rating.text) * 10)
-    if meta_score is not None:
-        meta_rating = int(meta_score.text)
-    else:
-        meta_rating = 0
-    film.ratings['imdb'] = imdb_rating
-    film.ratings['meta'] = meta_rating
-
+        imdb_rating = int(float(rating.text) * 10)
+        if meta_score is not None:
+            meta_rating = int(meta_score.text)
+        else:
+            meta_rating = 0
+        film.ratings['imdb'] = imdb_rating
+        film.ratings['meta'] = meta_rating
+    except:
+        print(sys.exc_info()[0])
+        film.ratings['imdb'] = -400
+        film.ratings['meta'] = -400
     # return imdb_rating, meta_rating
     # Getting genres.
     subtext = soup.find('div', class_='subtext')
@@ -87,28 +91,28 @@ def rotten(film):
     main = soup.find('div', id='mainColumn')
     # print(main)
     # exit()
+    try:
+        score_panel = main.find('div', id='scorePanel')
 
-    score_panel = main.find('div', id='scorePanel')
+        link = score_panel.find('a', id='tomato_meter_link')
+        span = link.find('span', class_='meter-value superPageFontColor')
+        rating = span.text[:len(span.text)-1]
 
-    link = score_panel.find('a', id='tomato_meter_link')
-    span = link.find('span', class_='meter-value superPageFontColor')
-    rating = span.text[:len(span.text)-1]
+        # print(rating)
 
-    # print(rating)
-
-    audience = soup.find('div', class_='audience-score meter')
-    value = audience.find('div', class_='meter-value')
-    # print(value.text[:len(value.text)-1])
-    temp1 = value.text.strip()
-    audience_score = temp1[:len(temp1) - 1]
-    # audience_score = value.text[:len(value.text)-1]
-    # print(audience_score)
-    # exit()
-    meter_score = int(rating)
-    a_score = int(audience_score)
-    # audience_score = int(value.text[:len(value.text)-1])
-    film.ratings['rt'] = meter_score
-    film.ratings['audience'] = a_score
+        audience = soup.find('div', class_='audience-score meter')
+        value = audience.find('div', class_='meter-value')
+        # print(value.text[:len(value.text)-1])
+        temp1 = value.text.strip()
+        audience_score = temp1[:len(temp1) - 1]
+        meter_score = int(rating)
+        a_score = int(audience_score)
+        film.ratings['rt'] = meter_score
+        film.ratings['audience'] = a_score
+    except:
+        print(sys.exc_info()[0])
+    film.ratings['rt'] = -400
+    film.ratings['audience'] = -400
     # return meter_score, a_score
 
 
