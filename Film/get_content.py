@@ -22,6 +22,7 @@ def load_url(film):
 
 
 # Load the imdb ratings, meta score, and the genres to the movie by referencing its IMDb page.
+# Also set the name and year properly, just in case.
 def imdb_meta(film):
     ua = UserAgent()
     headers = {'User-Agent': ua.chrome}
@@ -61,6 +62,17 @@ def imdb_meta(film):
             break
         film.genre.append(item.text)
         count = count + 1
+
+    # Setting name and year field properly
+    title_bar = soup.find('div', class_='title_wrapper')
+
+    name_tag = title_bar.find('h1')
+    st1 = name_tag.text
+    pos = st1.index('(')
+    name = st1[:pos].strip()
+    year = int(st1[pos + 1:pos + 5].strip())
+    film.name = name
+    film.year = year
 
 
 # Load the rotten and audience ratings for the film object.
