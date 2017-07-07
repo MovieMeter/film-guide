@@ -111,8 +111,8 @@ def rotten(film):
         film.ratings['audience'] = a_score
     except:
         print(sys.exc_info()[0])
-    film.ratings['rt'] = -400
-    film.ratings['audience'] = -400
+        film.ratings['rt'] = -400
+        film.ratings['audience'] = -400
     # return meter_score, a_score
 
 
