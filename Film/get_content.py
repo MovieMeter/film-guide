@@ -1,0 +1,111 @@
+from google import search
+import requests
+from bs4 import BeautifulSoup, SoupStrainer
+from fake_useragent import UserAgent
+from ratings.calculate import score
+
+
+# Assign imdb and rt links to the film object.
+def load_url(film):
+    name = film.name
+    year = film.year
+    imdb_url = rotten_url = None
+    for url in search(name + ' ' + str(year) + ' imdb', stop=1):
+        imdb_url = url
+        break
+    film.imdb_link = imdb_url
+
+    for url in search(name + ' ' + str(year) + ' rottentomatoes', stop=1):
+        rotten_url = url
+        break
+    film.rotten_link = rotten_url
+
+
+# Load the imdb ratings, meta score, and the genres to the movie by referencing its IMDb page.
+def imdb_meta(film):
+    ua = UserAgent()
+    headers = {'User-Agent': ua.chrome}
+    url = film.imdb_link
+    # url = 'http://www.imdb.com/title/tt1375666/'
+
+    r = requests.get(url, headers=headers)
+
+    soup = BeautifulSoup(r.content, 'lxml', parse_only=SoupStrainer('div', id='pagecontent'))
+
+    rating = soup.find('span', itemprop='ratingValue')
+    # print(rating.text)
+
+    meta_score = soup.find('div', class_='metacriticScore')
+    # print(meta_score.text)
+
+    imdb_rating = int(float(rating.text) * 10)
+    if meta_score is not None:
+        meta_rating = int(meta_score.text)
+    else:
+        meta_rating = 0
+    film.ratings['imdb'] = imdb_rating
+    film.ratings['meta'] = meta_rating
+
+    # return imdb_rating, meta_rating
+    # Getting genres.
+    subtext = soup.find('div', class_='subtext')
+    # print(subtext)
+    # print(type(subtext))
+    genre_list = subtext.find_all('a')
+    # print(genre_list)
+    # genres = []
+    count = 1
+    length = len(genre_list)
+    for item in genre_list:
+        if count == length:
+            break
+        film.genre.append(item.text)
+        count = count + 1
+
+
+# Load the rotten and audience ratings for the film object.
+def rotten(film):
+    ua = UserAgent()
+    headers = {'User-Agent': ua.chrome}
+    url = film.rotten_link
+    r = requests.get(url, headers=headers)
+
+    soup = BeautifulSoup(r.content, 'lxml', parse_only=SoupStrainer('div', class_='body_main container'))
+
+    main = soup.find('div', id='mainColumn')
+    # print(main)
+    # exit()
+
+    score_panel = main.find('div', id='scorePanel')
+
+    link = score_panel.find('a', id='tomato_meter_link')
+    span = link.find('span', class_='meter-value superPageFontColor')
+    rating = span.text[:len(span.text)-1]
+
+    # print(rating)
+
+    audience = soup.find('div', class_='audience-score meter')
+    value = audience.find('div', class_='meter-value')
+    # print(value.text[:len(value.text)-1])
+    temp1 = value.text.strip()
+    audience_score = temp1[:len(temp1) - 1]
+    # audience_score = value.text[:len(value.text)-1]
+    # print(audience_score)
+    # exit()
+    meter_score = int(rating)
+    a_score = int(audience_score)
+    # audience_score = int(value.text[:len(value.text)-1])
+    film.ratings['rt'] = meter_score
+    film.ratings['audience'] = a_score
+    # return meter_score, a_score
+
+
+# Load the movie score based on the ratings.
+def get_score(film):
+    film_score = score(film.ratings['imdb'],
+                       film.ratings['meta'],
+                       film.ratings['rt'],
+                       film.ratings['audience'])
+    film.score = film_score
+
+

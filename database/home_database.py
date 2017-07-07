@@ -82,26 +82,29 @@ class HomeDB:
     # Add ratings for the movie, including the database score
     def set_ratings(self, film_obj):
         row_id = self.get_row_id(film_obj)
+
         if row_id is None:
             print('Error(set_ratings()). Movie not found.')
             return
 
         self.c.execute('select COUNT(id) from rating_table where rating_table.id = ?',
                        (row_id, ))
-
-        if self.c.fetchone() is not None:
+        count = self.c.fetchone()[0]
+        print(count)
+        # exit()
+        if count > 0:
             print('Ratings already present. Call update function')
             return
         else:
             movie_score = film_obj.score
-            tuple = (row_id,
-                     film_obj['imdb'],
-                     film_obj['meta'],
-                     film_obj['rotten'],
-                     film_obj['audience'],
+            r_tuple = (row_id,
+                     film_obj.ratings['imdb'],
+                     film_obj.ratings['meta'],
+                     film_obj.ratings['rt'],
+                     film_obj.ratings['audience'],
                      movie_score)
 
-            self.c.execute('insert into rating_table values(?,?,?,?,?,?)', tuple)
+            self.c.execute('insert into rating_table values(?,?,?,?,?,?)', r_tuple)
         # self.conn.commit()
 
     # view table (duh)

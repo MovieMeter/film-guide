@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 
 # movie = input('Enter movie name : ')
 
+
 def get_movie_score(movie):
     imdb_url = rotten_url = None
 
@@ -31,5 +32,5 @@ def get_movie_score(movie):
 
     movie_score = get_score(imdb_url, rotten_url)
     print('Film Score : ' + str(movie_score))
-    return movie
+    return movie_score
 
