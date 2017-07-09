@@ -21,8 +21,7 @@ if int(choice) == 1:
 
     db.add_entry_to_main(film)
     db.set_ratings(film)
-db.view_movies()
-
+# db.view_movies()
 
 db.conn.commit()
 db.conn.close()

@@ -31,7 +31,7 @@ class HomeDB:
     def add_entry_to_main(self, film_obj):
         if self.check_entry(film_obj):
             print('Movie already exists in database')
-            return
+            return None
         else:
             self.c.execute('''select MAX(id) as max_id from movie_table''')
             max_id = self.c.fetchone()
@@ -48,7 +48,7 @@ class HomeDB:
                 for item in film_obj.genre:
                     self.c.execute('''insert into genre_table values(?,?)''', (new_id, item))
             # self.conn.commit()
-        return
+        return new_id
 
     # get row_id from the main table, by name + year
     def get_row_id(self, film_obj):
@@ -56,7 +56,8 @@ class HomeDB:
                        (film_obj.name, film_obj.year))
 
         row_id = self.c.fetchone()
-        if row_id[0] is None:
+        print(row_id)
+        if row_id is None:
             return None
         return row_id[0]
 
@@ -82,7 +83,7 @@ class HomeDB:
     # Add ratings for the movie, including the database score
     def set_ratings(self, film_obj):
         row_id = self.get_row_id(film_obj)
-
+        print('row_id = ' + str(row_id))
         if row_id is None:
             print('Error(set_ratings()). Movie not found.')
             return

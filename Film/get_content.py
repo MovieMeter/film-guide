@@ -29,6 +29,7 @@ def imdb_meta(film):
     headers = {'User-Agent': ua.chrome}
     url = film.imdb_link
     # url = 'http://www.imdb.com/title/tt1375666/'
+    fd = open('log_file', 'a')
 
     r = requests.get(url, headers=headers)
 
@@ -51,6 +52,9 @@ def imdb_meta(film):
         print(sys.exc_info()[0])
         film.ratings['imdb'] = -400
         film.ratings['meta'] = -400
+        fd.write(str(sys.exc_info()[0]) + '\n')
+
+    fd.close()
     # return imdb_rating, meta_rating
     # Getting genres.
     subtext = soup.find('div', class_='subtext')
@@ -85,7 +89,7 @@ def rotten(film):
     headers = {'User-Agent': ua.chrome}
     url = film.rotten_link
     r = requests.get(url, headers=headers)
-
+    fd = open('log_file', 'a')
     soup = BeautifulSoup(r.content, 'lxml', parse_only=SoupStrainer('div', class_='body_main container'))
 
     main = soup.find('div', id='mainColumn')
@@ -113,7 +117,9 @@ def rotten(film):
         print(sys.exc_info()[0])
         film.ratings['rt'] = -400
         film.ratings['audience'] = -400
+        fd.write(str(sys.exc_info()[0]) + '\n')
     # return meter_score, a_score
+    fd.close()
 
 
 # Load the movie score based on the ratings.
@@ -124,4 +130,11 @@ def get_score(film):
                        film.ratings['audience'])
     film.score = film_score
 
+
+def add_details(film):
+    load_url(film)
+    imdb_meta(film)
+    rotten(film)
+    get_score(film)
+    # return film
 

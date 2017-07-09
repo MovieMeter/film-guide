@@ -5,7 +5,8 @@ from Film.film import Film
 from Film.get_content import load_url, imdb_meta, rotten, get_score
 import sys
 
-
+print('Already added. Check source')
+exit()
 # The IMDb 250 database
 db = DataBase()
 
