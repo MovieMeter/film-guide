@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05bcc9d5-22ae-4632-8fc8-bb7081db2cad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/googleS/gsearch.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/googleS/try_search.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/movie_db.db" afterPath="$PROJECT_DIR$/database/movie_db.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Film/get_content.py" afterPath="$PROJECT_DIR$/Film/get_content.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Film/try_module.py" afterPath="$PROJECT_DIR$/Film/try_module.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/db_manager.py" afterPath="$PROJECT_DIR$/database/db_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/home_database.py" afterPath="$PROJECT_DIR$/database/home_database.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ratings/calculate.py" afterPath="$PROJECT_DIR$/ratings/calculate.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -104,8 +96,8 @@
       <file leaf-file-name="get_content.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Film/get_content.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="340">
+              <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -671,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499628254393</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="removed the google.search module dependency.">
+      <created>1500500629262</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1500500629262</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -744,7 +743,8 @@
     <MESSAGE value="exception handling." />
     <MESSAGE value="added a bunch of movies." />
     <MESSAGE value="added a 'popular now' table." />
-    <option name="LAST_COMMIT_MESSAGE" value="added a 'popular now' table." />
+    <MESSAGE value="removed the google.search module dependency." />
+    <option name="LAST_COMMIT_MESSAGE" value="removed the google.search module dependency." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1117,8 +1117,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Film/get_content.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="340">
+          <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>

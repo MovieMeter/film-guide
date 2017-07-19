@@ -1,0 +1,712 @@
+
+Beginning Log Record.. 
+Count 1... id : 2.. ok
+Count 2... id : 3.. ok
+Count 3... id : 5.. ok
+Count 4... id : 6.. ok
+Count 5... id : 7.. Error : <class 'urllib.error.URLError'>
+Count 6... id : 8.. ok
+Count 7... id : 9.. ok
+Count 8... id : 10.. ok
+Count 9... id : 11.. Error : <class 'urllib.error.URLError'>
+Count 10... id : 12.. Error : <class 'urllib.error.URLError'>
+Count 11... id : 13.. ok
+Count 12... id : 14.. ok
+Count 13... id : 15.. ok
+Count 14... id : 16.. ok
+Count 15... id : 17.. ok
+Count 16... id : 18.. ok
+Count 17... id : 19.. ok
+Count 18... id : 20.. ok
+Count 19... id : 21.. ok
+Count 20... id : 22.. ok
+Count 21... id : 23.. ok
+Count 22... id : 24.. ok
+Count 23... id : 25.. ok
+Count 24... id : 26.. ok
+Count 25... id : 27.. ok
+Count 26... id : 28.. ok
+Count 27... id : 29.. ok
+Count 28... id : 30.. ok
+Count 29... id : 31.. ok
+Count 30... id : 32.. ok
+Count 31... id : 33.. ok
+Count 32... id : 34.. ok
+Count 33... id : 35.. ok
+Count 34... id : 36.. ok
+Count 35... id : 37.. ok
+Count 36... id : 38.. ok
+Count 37... id : 39.. ok
+Count 38... id : 40.. ok
+Count 39... id : 41.. ok
+Count 40... id : 42.. ok
+Count 41... id : 43.. ok
+Count 42... id : 44.. ok
+Count 43... id : 45.. ok
+Count 44... id : 46.. ok
+Count 45... id : 47.. ok
+Count 46... id : 48.. ok
+Count 47... id : 49.. ok
+Count 48... id : 50.. ok
+Count 49... id : 51.. ok
+Count 50... id : 52.. ok
+Count 51... id : 53.. ok
+Count 52... id : 54.. ok
+Count 53... id : 55.. ok
+Count 54... id : 56.. ok
+Count 55... id : 57.. ok
+Count 56... id : 58.. ok
+Count 57... id : 59.. ok
+Count 58... id : 60.. ok
+Count 59... id : 61.. ok
+Count 60... id : 62.. ok
+Count 61... id : 63.. ok
+Count 62... id : 64.. ok
+Count 63... id : 65.. ok
+Count 64... id : 66.. ok
+Count 65... id : 67.. ok
+Count 66... id : 68.. ok
+Count 67... id : 69.. ok
+Count 68... id : 70.. ok
+Count 69... id : 71.. ok
+Count 70... id : 72.. ok
+Count 71... id : 73.. ok
+Count 72... id : 74.. ok
+Count 73... id : 75.. ok
+Count 74... id : 76.. ok
+Count 75... id : 77.. ok
+Count 76... id : 78.. ok
+Count 77... id : 79.. ok
+Count 78... id : 80.. ok
+Count 79... id : 81.. ok
+Count 80... id : 82.. ok
+Count 81... id : 83.. ok
+Count 82... id : 84.. ok
+Count 83... id : 85.. ok
+Count 84... id : 86.. ok
+Count 85... id : 87.. ok
+Count 86... id : 88.. ok
+Count 87... id : 89.. ok
+Count 88... id : 90.. ok
+Count 89... id : 91.. ok
+Count 90... id : 92.. ok
+Count 91... id : 93.. ok
+Count 92... id : 94.. ok
+Count 93... id : 95.. ok
+Count 94... id : 96.. ok
+Count 95... id : 97.. ok
+Count 96... id : 98.. ok
+Count 97... id : 99.. ok
+Count 98... id : 100.. ok
+Count 99... id : 101.. ok
+Count 100... id : 102.. ok
+Count 101... id : 103.. ok
+Count 102... id : 104.. ok
+Count 103... id : 105.. ok
+Count 104... id : 106.. ok
+Count 105... id : 107.. Error : <class 'AttributeError'>
+Count 106... id : 108.. ok
+Count 107... id : 109.. ok
+Count 108... id : 110.. ok
+Count 109... id : 111.. ok
+Count 110... id : 112.. ok
+Count 111... id : 113.. ok
+Count 112... id : 114.. ok
+Count 113... id : 115.. ok
+Count 114... id : 116.. ok
+Count 115... id : 117.. ok
+Count 116... id : 118.. ok
+Count 117... id : 119.. ok
+Count 118... id : 120.. ok
+Count 119... id : 121.. ok
+Count 120... id : 122.. ok
+Count 121... id : 123.. ok
+Count 122... id : 124.. ok
+Count 123... id : 125.. ok
+Count 124... id : 126.. ok
+Count 125... id : 127.. ok
+Count 126... id : 128.. ok
+Count 127... id : 129.. ok
+Count 128... id : 130.. ok
+Count 129... id : 131.. ok
+Count 130... id : 132.. ok
+Count 131... id : 133.. ok
+Count 132... id : 134.. ok
+Count 133... id : 135.. ok
+Count 134... id : 136.. ok
+Count 135... id : 137.. ok
+Count 136... id : 138.. Error : <class 'urllib.error.URLError'>
+Count 137... id : 139.. ok
+Count 138... id : 140.. ok
+Count 139... id : 141.. ok
+Count 140... id : 142.. ok
+Count 141... id : 143.. ok
+Count 142... id : 144.. ok
+Count 143... id : 145.. ok
+Count 144... id : 146.. ok
+Count 145... id : 147.. ok
+Count 146... id : 148.. ok
+Count 147... id : 149.. ok
+Count 148... id : 150.. ok
+Count 149... id : 151.. ok
+Count 150... id : 152.. ok
+Count 151... id : 153.. ok
+Count 152... id : 154.. ok
+Count 153... id : 155.. ok
+Count 154... id : 156.. ok
+Count 155... id : 157.. ok
+Count 156... id : 158.. ok
+Count 157... id : 159.. Error : <class 'AttributeError'>
+Count 158... id : 160.. ok
+Count 159... id : 161.. ok
+Count 160... id : 162.. ok
+Count 161... id : 163.. ok
+Count 162... id : 164.. ok
+Count 163... id : 165.. ok
+Count 164... id : 166.. ok
+Count 165... id : 167.. ok
+Count 166... id : 168.. ok
+Count 167... id : 169.. ok
+Count 168... id : 170.. ok
+Count 169... id : 171.. ok
+Count 170... id : 172.. ok
+Count 171... id : 173.. ok
+Count 172... id : 174.. ok
+Count 173... id : 175.. ok
+Count 174... id : 176.. ok
+Count 175... id : 177.. ok
+Count 176... id : 178.. Error : <class 'AttributeError'>
+Count 177... id : 179.. ok
+Count 178... id : 180.. ok
+Count 179... id : 181.. ok
+Count 180... id : 182.. ok
+Count 181... id : 183.. ok
+Count 182... id : 184.. ok
+Count 183... id : 185.. ok
+Count 184... id : 186.. ok
+Count 185... id : 187.. ok
+Count 186... id : 188.. ok
+Count 187... id : 189.. ok
+Count 188... id : 190.. ok
+Count 189... id : 191.. ok
+Count 190... id : 192.. ok
+Count 191... id : 193.. ok
+Count 192... id : 194.. ok
+Count 193... id : 195.. ok
+Count 194... id : 196.. ok
+Count 195... id : 197.. ok
+Count 196... id : 198.. ok
+Count 197... id : 199.. ok
+Count 198... id : 200.. ok
+Count 199... id : 201.. ok
+Count 200... id : 202.. ok
+Count 201... id : 203.. ok
+Count 202... id : 204.. ok
+Count 203... id : 205.. ok
+Count 204... id : 206.. ok
+Count 205... id : 207.. ok
+Count 206... id : 208.. Error : <class 'AttributeError'>
+Count 207... id : 209.. ok
+Count 208... id : 210.. ok
+Count 209... id : 211.. ok
+Count 210... id : 212.. ok
+Count 211... id : 213.. ok
+Count 212... id : 214.. ok
+Count 213... id : 215.. ok
+Count 214... id : 216.. ok
+Count 215... id : 217.. ok
+Count 216... id : 218.. Error : <class 'AttributeError'>
+Count 217... id : 219.. ok
+Count 218... id : 220.. ok
+Count 219... id : 221.. ok
+Count 220... id : 222.. ok
+Count 221... id : 223.. ok
+Count 222... id : 224.. ok
+Count 223... id : 225.. ok
+Count 224... id : 226.. ok
+Count 225... id : 227.. Error : <class 'AttributeError'>
+Count 226... id : 228.. ok
+Count 227... id : 229.. ok
+Count 228... id : 230.. Error : <class 'KeyboardInterrupt'>
+Count 229... id : 231.. ok
+Count 230... id : 232.. ok
+Count 231... id : 233.. ok
+Count 232... id : 234.. ok
+Count 233... id : 235.. ok
+Count 234... id : 236.. ok
+Count 235... id : 237.. ok
+Count 236... id : 238.. ok
+Count 237... id : 239.. ok
+Count 238... id : 240.. ok
+Count 239... id : 241.. ok
+Count 240... id : 242.. ok
+Count 241... id : 243.. ok
+Count 242... id : 244.. ok
+Count 243... id : 245.. ok
+Count 244... id : 246.. ok
+Count 245... id : 247.. ok
+Count 246... id : 248.. ok
+Count 247... id : 249.. ok
+Count 248... id : 250.. ok
+Count 249... id : 251.. ok
+Count 250... id : 252.. ok
+Count 251... id : 253.. ok
+Count 252... id : 254.. ok
+Count 253... id : 255.. ok
+Count 254... id : 256.. ok
+Count 255... id : 257.. ok
+Count 256... id : 258.. ok
+Count 257... id : 259.. ok
+Count 258... id : 260.. ok
+Count 259... id : 261.. ok
+Count 260... id : 262.. ok
+Count 261... id : 263.. ok
+Count 262... id : 264.. ok
+Count 263... id : 265.. ok
+Count 264... id : 266.. ok
+Count 265... id : 267.. ok
+Count 266... id : 268.. ok
+Count 267... id : 269.. ok
+Count 268... id : 270.. ok
+Count 269... id : 271.. ok
+Count 270... id : 272.. ok
+Count 271... id : 273.. ok
+Count 272... id : 274.. ok
+Count 273... id : 275.. ok
+Count 274... id : 276.. ok
+Count 275... id : 277.. ok
+Count 276... id : 278.. ok
+Count 277... id : 279.. ok
+Count 278... id : 280.. ok
+Count 279... id : 281.. ok
+Count 280... id : 282.. ok
+Count 281... id : 283.. ok
+Count 282... id : 284.. ok
+Count 283... id : 285.. ok
+Count 284... id : 286.. ok
+Count 285... id : 287.. ok
+Count 286... id : 288.. ok
+Count 287... id : 289.. ok
+Count 288... id : 290.. ok
+Count 289... id : 291.. ok
+Count 290... id : 292.. ok
+Count 291... id : 293.. ok
+Count 292... id : 294.. ok
+Count 293... id : 295.. ok
+Count 294... id : 296.. ok
+Count 295... id : 297.. ok
+Count 296... id : 298.. ok
+Count 297... id : 299.. ok
+Count 298... id : 300.. ok
+Count 299... id : 301.. ok
+Count 300... id : 302.. ok
+Count 301... id : 303.. ok
+Count 302... id : 304.. ok
+Count 303... id : 305.. ok
+Count 304... id : 306.. ok
+Count 305... id : 307.. ok
+Count 306... id : 308.. ok
+Count 307... id : 309.. ok
+Count 308... id : 310.. ok
+Count 309... id : 311.. ok
+Count 310... id : 312.. ok
+Count 311... id : 313.. ok
+Count 312... id : 314.. ok
+Count 313... id : 315.. ok
+Count 314... id : 316.. ok
+Count 315... id : 317.. ok
+Count 316... id : 318.. ok
+Count 317... id : 319.. ok
+Count 318... id : 320.. ok
+Count 319... id : 321.. ok
+Count 320... id : 322.. ok
+Count 321... id : 323.. ok
+Count 322... id : 324.. ok
+Count 323... id : 325.. ok
+Count 324... id : 326.. ok
+Count 325... id : 327.. ok
+Count 326... id : 328.. Error : <class 'AttributeError'>
+Count 327... id : 329.. ok
+Count 328... id : 330.. ok
+Count 329... id : 331.. ok
+Count 330... id : 332.. ok
+Count 331... id : 333.. ok
+Count 332... id : 334.. Error : <class 'AttributeError'>
+Count 333... id : 335.. ok
+Count 334... id : 336.. ok
+Count 335... id : 337.. Error : <class 'ValueError'>
+Count 336... id : 338.. Error : <class 'AttributeError'>
+Count 337... id : 339.. Error : <class 'AttributeError'>
+Count 338... id : 340.. ok
+Count 339... id : 341.. ok
+Count 340... id : 342.. ok
+Count 341... id : 343.. ok
+Count 342... id : 344.. ok
+
+Beginning Log Record.. 
+Count 1... id : 2.. ok
+Error : <class 'TypeError'>
+Count 2... id : 3.. ok
+Error : <class 'TypeError'>
+Count 3... id : 5.. ok
+Error : <class 'TypeError'>
+Count 4... id : 6.. ok
+Error : <class 'TypeError'>
+Count 5... id : 7.. Error : <class 'KeyboardInterrupt'>
+
+Beginning Log Record.. 
+Count 1... id : 2.. Up to date.
+Count 2... id : 3.. Up to date.
+Count 3... id : 5.. Up to date.
+Count 4... id : 6.. Up to date.
+Count 5... id : 7.. ok
+Count 6... id : 8.. Up to date.
+Count 7... id : 9.. Up to date.
+Count 8... id : 10.. Up to date.
+Count 9... id : 11.. ok
+Count 10... id : 12.. ok
+Count 11... id : 13.. Up to date.
+Count 12... id : 14.. Up to date.
+Count 13... id : 15.. Up to date.
+Count 14... id : 16.. Up to date.
+Count 15... id : 17.. Up to date.
+Count 16... id : 18.. Up to date.
+Count 17... id : 19.. Up to date.
+Count 18... id : 20.. Up to date.
+Count 19... id : 21.. Up to date.
+Count 20... id : 22.. Up to date.
+Count 21... id : 23.. Up to date.
+Count 22... id : 24.. Up to date.
+Count 23... id : 25.. Up to date.
+Count 24... id : 26.. Up to date.
+Count 25... id : 27.. Up to date.
+Count 26... id : 28.. Up to date.
+Count 27... id : 29.. Up to date.
+Count 28... id : 30.. Up to date.
+Count 29... id : 31.. Up to date.
+Count 30... id : 32.. Up to date.
+Count 31... id : 33.. Up to date.
+Count 32... id : 34.. Up to date.
+Count 33... id : 35.. Up to date.
+Count 34... id : 36.. Up to date.
+Count 35... id : 37.. Up to date.
+Count 36... id : 38.. Up to date.
+Count 37... id : 39.. Up to date.
+Count 38... id : 40.. Up to date.
+Count 39... id : 41.. Up to date.
+Count 40... id : 42.. Up to date.
+Count 41... id : 43.. Up to date.
+Count 42... id : 44.. Up to date.
+Count 43... id : 45.. Up to date.
+Count 44... id : 46.. Up to date.
+Count 45... id : 47.. Up to date.
+Count 46... id : 48.. Up to date.
+Count 47... id : 49.. Up to date.
+Count 48... id : 50.. Up to date.
+Count 49... id : 51.. Up to date.
+Count 50... id : 52.. Up to date.
+Count 51... id : 53.. Up to date.
+Count 52... id : 54.. Up to date.
+Count 53... id : 55.. Up to date.
+Count 54... id : 56.. Up to date.
+Count 55... id : 57.. Up to date.
+Count 56... id : 58.. Up to date.
+Count 57... id : 59.. Up to date.
+Count 58... id : 60.. Up to date.
+Count 59... id : 61.. Up to date.
+Count 60... id : 62.. Up to date.
+Count 61... id : 63.. Up to date.
+Count 62... id : 64.. Up to date.
+Count 63... id : 65.. Up to date.
+Count 64... id : 66.. Up to date.
+Count 65... id : 67.. Up to date.
+Count 66... id : 68.. Up to date.
+Count 67... id : 69.. Up to date.
+Count 68... id : 70.. Up to date.
+Count 69... id : 71.. Up to date.
+Count 70... id : 72.. Up to date.
+Count 71... id : 73.. Up to date.
+Count 72... id : 74.. Up to date.
+Count 73... id : 75.. Up to date.
+Count 74... id : 76.. Up to date.
+Count 75... id : 77.. Up to date.
+Count 76... id : 78.. Up to date.
+Count 77... id : 79.. Up to date.
+Count 78... id : 80.. Up to date.
+Count 79... id : 81.. Up to date.
+Count 80... id : 82.. Up to date.
+Count 81... id : 83.. Up to date.
+Count 82... id : 84.. Up to date.
+Count 83... id : 85.. Up to date.
+Count 84... id : 86.. Up to date.
+Count 85... id : 87.. Up to date.
+Count 86... id : 88.. Up to date.
+Count 87... id : 89.. Up to date.
+Count 88... id : 90.. Up to date.
+Count 89... id : 91.. Up to date.
+Count 90... id : 92.. Up to date.
+Count 91... id : 93.. Up to date.
+Count 92... id : 94.. Up to date.
+Count 93... id : 95.. Up to date.
+Count 94... id : 96.. Up to date.
+Count 95... id : 97.. Up to date.
+Count 96... id : 98.. Up to date.
+Count 97... id : 99.. Up to date.
+Count 98... id : 100.. Up to date.
+Count 99... id : 101.. Up to date.
+Count 100... id : 102.. Up to date.
+Count 101... id : 103.. Up to date.
+Count 102... id : 104.. Up to date.
+Count 103... id : 105.. Up to date.
+Count 104... id : 106.. Up to date.
+Count 105... id : 107.. Error : <class 'AttributeError'>
+Count 106... id : 108.. Up to date.
+Count 107... id : 109.. Up to date.
+Count 108... id : 110.. Up to date.
+Count 109... id : 111.. Up to date.
+Count 110... id : 112.. Up to date.
+Count 111... id : 113.. Up to date.
+Count 112... id : 114.. Up to date.
+Count 113... id : 115.. Up to date.
+Count 114... id : 116.. Up to date.
+Count 115... id : 117.. Up to date.
+Count 116... id : 118.. Up to date.
+Count 117... id : 119.. Up to date.
+Count 118... id : 120.. Up to date.
+Count 119... id : 121.. Up to date.
+Count 120... id : 122.. Up to date.
+Count 121... id : 123.. Up to date.
+Count 122... id : 124.. Up to date.
+Count 123... id : 125.. Up to date.
+Count 124... id : 126.. Up to date.
+Count 125... id : 127.. Up to date.
+Count 126... id : 128.. Up to date.
+Count 127... id : 129.. Up to date.
+Count 128... id : 130.. Up to date.
+Count 129... id : 131.. Up to date.
+Count 130... id : 132.. Up to date.
+Count 131... id : 133.. Up to date.
+Count 132... id : 134.. Up to date.
+Count 133... id : 135.. Up to date.
+Count 134... id : 136.. Up to date.
+Count 135... id : 137.. Up to date.
+Count 136... id : 138.. ok
+Count 137... id : 139.. Up to date.
+Count 138... id : 140.. Up to date.
+Count 139... id : 141.. Up to date.
+Count 140... id : 142.. Up to date.
+Count 141... id : 143.. Up to date.
+Count 142... id : 144.. Up to date.
+Count 143... id : 145.. Up to date.
+Count 144... id : 146.. Up to date.
+Count 145... id : 147.. Up to date.
+Count 146... id : 148.. Up to date.
+Count 147... id : 149.. Up to date.
+Count 148... id : 150.. Up to date.
+Count 149... id : 151.. Up to date.
+Count 150... id : 152.. Up to date.
+Count 151... id : 153.. Up to date.
+Count 152... id : 154.. Up to date.
+Count 153... id : 155.. Up to date.
+Count 154... id : 156.. Up to date.
+Count 155... id : 157.. Up to date.
+Count 156... id : 158.. Up to date.
+Count 157... id : 159.. Error : <class 'AttributeError'>
+Count 158... id : 160.. Up to date.
+Count 159... id : 161.. Up to date.
+Count 160... id : 162.. Up to date.
+Count 161... id : 163.. Up to date.
+Count 162... id : 164.. Up to date.
+Count 163... id : 165.. Up to date.
+Count 164... id : 166.. Up to date.
+Count 165... id : 167.. Up to date.
+Count 166... id : 168.. Up to date.
+Count 167... id : 169.. Up to date.
+Count 168... id : 170.. Up to date.
+Count 169... id : 171.. Up to date.
+Count 170... id : 172.. Up to date.
+Count 171... id : 173.. Up to date.
+Count 172... id : 174.. Up to date.
+Count 173... id : 175.. Up to date.
+Count 174... id : 176.. Up to date.
+Count 175... id : 177.. Up to date.
+Count 176... id : 178.. Error : <class 'AttributeError'>
+Count 177... id : 179.. Up to date.
+Count 178... id : 180.. Up to date.
+Count 179... id : 181.. Up to date.
+Count 180... id : 182.. Up to date.
+Count 181... id : 183.. Up to date.
+Count 182... id : 184.. Up to date.
+Count 183... id : 185.. Up to date.
+Count 184... id : 186.. Up to date.
+Count 185... id : 187.. Up to date.
+Count 186... id : 188.. Up to date.
+Count 187... id : 189.. Up to date.
+Count 188... id : 190.. Up to date.
+Count 189... id : 191.. Up to date.
+Count 190... id : 192.. Up to date.
+Count 191... id : 193.. Up to date.
+Count 192... id : 194.. Up to date.
+Count 193... id : 195.. Up to date.
+Count 194... id : 196.. Up to date.
+Count 195... id : 197.. Up to date.
+Count 196... id : 198.. Up to date.
+Count 197... id : 199.. Up to date.
+Count 198... id : 200.. Up to date.
+Count 199... id : 201.. Up to date.
+Count 200... id : 202.. Up to date.
+Count 201... id : 203.. Up to date.
+Count 202... id : 204.. Up to date.
+Count 203... id : 205.. Up to date.
+Count 204... id : 206.. Up to date.
+Count 205... id : 207.. Up to date.
+Count 206... id : 208.. Error : <class 'AttributeError'>
+Count 207... id : 209.. Up to date.
+Count 208... id : 210.. Up to date.
+Count 209... id : 211.. Up to date.
+Count 210... id : 212.. Up to date.
+Count 211... id : 213.. Up to date.
+Count 212... id : 214.. Up to date.
+Count 213... id : 215.. Up to date.
+Count 214... id : 216.. Up to date.
+Count 215... id : 217.. Up to date.
+Count 216... id : 218.. Error : <class 'AttributeError'>
+Count 217... id : 219.. Up to date.
+Count 218... id : 220.. Up to date.
+Count 219... id : 221.. Up to date.
+Count 220... id : 222.. Up to date.
+Count 221... id : 223.. Up to date.
+Count 222... id : 224.. Up to date.
+Count 223... id : 225.. Up to date.
+Count 224... id : 226.. Up to date.
+Count 225... id : 227.. Error : <class 'AttributeError'>
+Count 226... id : 228.. Up to date.
+Count 227... id : 229.. Up to date.
+Count 228... id : 230.. ok
+Count 229... id : 231.. Up to date.
+Count 230... id : 232.. Up to date.
+Count 231... id : 233.. Up to date.
+Count 232... id : 234.. Up to date.
+Count 233... id : 235.. Up to date.
+Count 234... id : 236.. Up to date.
+Count 235... id : 237.. Up to date.
+Count 236... id : 238.. Up to date.
+Count 237... id : 239.. Up to date.
+Count 238... id : 240.. Up to date.
+Count 239... id : 241.. Up to date.
+Count 240... id : 242.. Up to date.
+Count 241... id : 243.. Up to date.
+Count 242... id : 244.. Up to date.
+Count 243... id : 245.. Up to date.
+Count 244... id : 246.. Up to date.
+Count 245... id : 247.. Up to date.
+Count 246... id : 248.. Up to date.
+Count 247... id : 249.. Up to date.
+Count 248... id : 250.. Up to date.
+Count 249... id : 251.. Up to date.
+Count 250... id : 252.. Up to date.
+Count 251... id : 253.. Up to date.
+Count 252... id : 254.. Up to date.
+Count 253... id : 255.. Up to date.
+Count 254... id : 256.. Up to date.
+Count 255... id : 257.. Up to date.
+Count 256... id : 258.. Up to date.
+Count 257... id : 259.. Up to date.
+Count 258... id : 260.. Up to date.
+Count 259... id : 261.. Up to date.
+Count 260... id : 262.. Up to date.
+Count 261... id : 263.. Up to date.
+Count 262... id : 264.. Up to date.
+Count 263... id : 265.. Up to date.
+Count 264... id : 266.. Up to date.
+Count 265... id : 267.. Up to date.
+Count 266... id : 268.. Up to date.
+Count 267... id : 269.. Up to date.
+Count 268... id : 270.. Up to date.
+Count 269... id : 271.. Up to date.
+Count 270... id : 272.. Up to date.
+Count 271... id : 273.. Up to date.
+Count 272... id : 274.. Up to date.
+Count 273... id : 275.. Up to date.
+Count 274... id : 276.. Up to date.
+Count 275... id : 277.. Up to date.
+Count 276... id : 278.. Up to date.
+Count 277... id : 279.. Up to date.
+Count 278... id : 280.. Up to date.
+Count 279... id : 281.. Up to date.
+Count 280... id : 282.. Up to date.
+Count 281... id : 283.. Up to date.
+Count 282... id : 284.. Up to date.
+Count 283... id : 285.. Up to date.
+Count 284... id : 286.. Up to date.
+Count 285... id : 287.. Up to date.
+Count 286... id : 288.. Up to date.
+Count 287... id : 289.. Up to date.
+Count 288... id : 290.. Up to date.
+Count 289... id : 291.. Up to date.
+Count 290... id : 292.. Up to date.
+Count 291... id : 293.. Up to date.
+Count 292... id : 294.. Up to date.
+Count 293... id : 295.. Up to date.
+Count 294... id : 296.. Up to date.
+Count 295... id : 297.. Up to date.
+Count 296... id : 298.. Up to date.
+Count 297... id : 299.. Up to date.
+Count 298... id : 300.. Up to date.
+Count 299... id : 301.. Up to date.
+Count 300... id : 302.. Up to date.
+Count 301... id : 303.. Up to date.
+Count 302... id : 304.. Up to date.
+Count 303... id : 305.. Up to date.
+Count 304... id : 306.. Up to date.
+Count 305... id : 307.. Up to date.
+Count 306... id : 308.. Up to date.
+Count 307... id : 309.. Up to date.
+Count 308... id : 310.. Up to date.
+Count 309... id : 311.. Up to date.
+Count 310... id : 312.. Up to date.
+Count 311... id : 313.. Up to date.
+Count 312... id : 314.. Up to date.
+Count 313... id : 315.. Up to date.
+Count 314... id : 316.. Up to date.
+Count 315... id : 317.. Up to date.
+Count 316... id : 318.. Up to date.
+Count 317... id : 319.. Up to date.
+Count 318... id : 320.. Up to date.
+Count 319... id : 321.. Up to date.
+Count 320... id : 322.. Up to date.
+Count 321... id : 323.. Up to date.
+Count 322... id : 324.. Up to date.
+Count 323... id : 325.. Up to date.
+Count 324... id : 326.. Up to date.
+Count 325... id : 327.. Up to date.
+Count 326... id : 328.. Error : <class 'AttributeError'>
+Count 327... id : 329.. Up to date.
+Count 328... id : 330.. Up to date.
+Count 329... id : 331.. Up to date.
+Count 330... id : 332.. Up to date.
+Count 331... id : 333.. Up to date.
+Count 332... id : 334.. Error : <class 'AttributeError'>
+Count 333... id : 335.. Up to date.
+Count 334... id : 336.. Up to date.
+Count 335... id : 337.. Error : <class 'ValueError'>
+Count 336... id : 338.. Error : <class 'AttributeError'>
+Count 337... id : 339.. Error : <class 'AttributeError'>
+Count 338... id : 340.. Up to date.
+Count 339... id : 341.. ok
+Count 340... id : 342.. Up to date.
+Count 341... id : 343.. Up to date.
+Count 342... id : 344.. Up to date.
+
+Beginning Log Record.. 
+Count 335... id : 337.. Error : <class 'ValueError'>
+
+Beginning Log Record.. 
+Count 335... id : 337.. Error : <class 'ValueError'>
+
+Beginning Log Record.. 
+Count 335... id : 337.. Error : <class 'ValueError'>
+
+Beginning Log Record.. 
+Error : <class 'KeyboardInterrupt'>
+Count 335... id : 337.. Error : <class 'ValueError'>
