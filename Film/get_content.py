@@ -1,4 +1,4 @@
-from google import search
+from googleS.gsearch import search
 import requests
 from bs4 import BeautifulSoup, SoupStrainer
 from fake_useragent import UserAgent
@@ -11,14 +11,17 @@ def load_url(film):
     name = film.name
     year = film.year
     imdb_url = rotten_url = None
-    for url in search(name + ' ' + str(year) + ' imdb', stop=1):
-        imdb_url = url
-        break
+    print('Getting imdb link..')
+    # for url in search(name + ' ' + str(year) + ' imdb', stop=1):
+    #     imdb_url = url
+    #     break
+    imdb_url = search(name + ' ' + str(year) + ' imdb')
     film.imdb_link = imdb_url
-
-    for url in search(name + ' ' + str(year) + ' rottentomatoes', stop=1):
-        rotten_url = url
-        break
+    print('Getting rotten link..')
+    # for url in search(name + ' ' + str(year) + ' rottentomatoes', stop=1):
+    #     rotten_url = url
+    #     break
+    rotten_url = search(name + ' ' + str(year) + ' rottentomatoes')
     film.rotten_link = rotten_url
 
 
@@ -26,7 +29,7 @@ def load_url(film):
 # Also set the name and year properly, just in case.
 def imdb_meta(film):
     ua = UserAgent()
-    headers = {'User-Agent': ua.chrome}
+    headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36'}
     url = film.imdb_link
     # url = 'http://www.imdb.com/title/tt1375666/'
     fd = open('log_file', 'a')
@@ -86,31 +89,54 @@ def imdb_meta(film):
 # Load the rotten and audience ratings for the film object.
 def rotten(film):
     ua = UserAgent()
-    headers = {'User-Agent': ua.chrome}
+    headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36'}
     url = film.rotten_link
     r = requests.get(url, headers=headers)
     fd = open('log_file', 'a')
     soup = BeautifulSoup(r.content, 'lxml', parse_only=SoupStrainer('div', class_='body_main container'))
 
-    main = soup.find('div', id='mainColumn')
+    # main = soup.find('div', id='mainColumn')
     # print(main)
     # exit()
     try:
-        score_panel = main.find('div', id='scorePanel')
+        # score_panel = main.find('div', id='scorePanel')
+        #
+        # link = score_panel.find('a', id='tomato_meter_link')
+        # span = link.find('span', class_='meter-value superPageFontColor')
+        # rating = span.text[:len(span.text)-1]
+        #
+        # # print(rating)
+        #
+        # audience = soup.find('div', class_='audience-score meter')
+        # value = audience.find('div', class_='meter-value')
+        # # print(value.text[:len(value.text)-1])
+        # temp1 = value.text.strip()
+        # audience_score = temp1[:len(temp1) - 1]
+        # meter_score = int(rating)
+        # a_score = int(audience_score)
+        cr = soup.find('div', id='scoreStats')
+        rf = cr.find('div', class_='superPageFontColor')
+        rating = rf.text
+        print(rating)
+        # except:
+        #     print(sys.exc_info()[0])
+        pos = rating.index(':')
+        avg = rating[pos + 1:].strip()
+        pos = avg.index('/')
+        meter_score = int(float(avg[:pos]) * 10)
+        # print()
+        # avg = avg.strip()
+        cr = soup.find('div', class_='audience-info hidden-xs superPageFontColor')
+        rf = cr.find('div')
+        # print(rf.text)
+        rating = rf.text
+        print(rating)
 
-        link = score_panel.find('a', id='tomato_meter_link')
-        span = link.find('span', class_='meter-value superPageFontColor')
-        rating = span.text[:len(span.text)-1]
-
-        # print(rating)
-
-        audience = soup.find('div', class_='audience-score meter')
-        value = audience.find('div', class_='meter-value')
-        # print(value.text[:len(value.text)-1])
-        temp1 = value.text.strip()
-        audience_score = temp1[:len(temp1) - 1]
-        meter_score = int(rating)
-        a_score = int(audience_score)
+        pos = rating.index(':')
+        avg = rating[pos + 1:].strip()
+        pos = avg.index('/')
+        a_score = int(float(avg[:pos]) * 20)
+        # print(rt2)
         film.ratings['rt'] = meter_score
         film.ratings['audience'] = a_score
     except:

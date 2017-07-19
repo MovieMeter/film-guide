@@ -35,7 +35,7 @@ class HomeDB:
         else:
             self.c.execute('''select MAX(id) as max_id from movie_table''')
             max_id = self.c.fetchone()
-            print(max_id)
+            # print(max_id)
             if max_id[0] is None:
                 new_id = 1
             else:

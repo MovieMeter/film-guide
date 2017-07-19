@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05bcc9d5-22ae-4632-8fc8-bb7081db2cad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imdb/popular_now.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schema/popular.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/googleS/gsearch.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/googleS/try_search.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/movie_db.db" afterPath="$PROJECT_DIR$/database/movie_db.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Film/get_content.py" afterPath="$PROJECT_DIR$/Film/get_content.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Film/try_module.py" afterPath="$PROJECT_DIR$/Film/try_module.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/db_manager.py" afterPath="$PROJECT_DIR$/database/db_manager.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/home_database.py" afterPath="$PROJECT_DIR$/database/home_database.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imdb/fill_home_db.py" afterPath="$PROJECT_DIR$/imdb/fill_home_db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rottentomatoes/get_list.py" afterPath="$PROJECT_DIR$/rottentomatoes/get_list.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ratings/calculate.py" afterPath="$PROJECT_DIR$/ratings/calculate.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,14 +24,18 @@
     <SUITE FILE_PATH="coverage/film_guide$rotten_rating.coverage" NAME="rotten_rating Coverage Results" MODIFIED="1499091830271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ratings" />
     <SUITE FILE_PATH="coverage/film_guide$rotten_url.coverage" NAME="rotten_url Coverage Results" MODIFIED="1499082653540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/getURL" />
     <SUITE FILE_PATH="coverage/film_guide$get_a_movie.coverage" NAME="get_a_movie Coverage Results" MODIFIED="1499091171136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/film_guide$try_search.coverage" NAME="try_search Coverage Results" MODIFIED="1500497566649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/googleS" />
     <SUITE FILE_PATH="coverage/film_guide$popular_now.coverage" NAME="popular_now Coverage Results" MODIFIED="1499628150455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/imdb" />
     <SUITE FILE_PATH="coverage/film_guide$work250.coverage" NAME="work250 Coverage Results" MODIFIED="1498988870992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/imdb" />
     <SUITE FILE_PATH="coverage/film_guide$imdb_rating.coverage" NAME="imdb_rating Coverage Results" MODIFIED="1499034203687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ratings" />
     <SUITE FILE_PATH="coverage/film_guide$score.coverage" NAME="score Coverage Results" MODIFIED="1499035180960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ratings" />
     <SUITE FILE_PATH="coverage/film_guide$get_list.coverage" NAME="get_list Coverage Results" MODIFIED="1499493243597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rottentomatoes" />
-    <SUITE FILE_PATH="coverage/film_guide$db_manager.coverage" NAME="db_manager Coverage Results" MODIFIED="1499493487189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database" />
+    <SUITE FILE_PATH="coverage/film_guide$db_manager.coverage" NAME="db_manager Coverage Results" MODIFIED="1499639253310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database" />
+    <SUITE FILE_PATH="coverage/film_guide$gsearch.coverage" NAME="gsearch Coverage Results" MODIFIED="1500496225274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/googleS" />
     <SUITE FILE_PATH="coverage/film_guide$movie_score.coverage" NAME="movie-score Coverage Results" MODIFIED="1499106547522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/film_guide$try_module.coverage" NAME="try_module Coverage Results" MODIFIED="1499493204269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Film" />
+    <SUITE FILE_PATH="coverage/film_guide$ptest.coverage" NAME="ptest Coverage Results" MODIFIED="1500492127855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rottentomatoes" />
+    <SUITE FILE_PATH="coverage/film_guide$convert.coverage" NAME="convert Coverage Results" MODIFIED="1499678586455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ratings" />
+    <SUITE FILE_PATH="coverage/film_guide$try_module.coverage" NAME="try_module Coverage Results" MODIFIED="1500497602315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Film" />
     <SUITE FILE_PATH="coverage/film_guide$pick_classic.coverage" NAME="pick_classic Coverage Results" MODIFIED="1499102805622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -44,60 +48,27 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="film-guide" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pick_classic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pick_classic.py">
+      <file leaf-file-name="get_score.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ratings/get_score.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movie_table.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/schema/movie_table.sql">
+      <file leaf-file-name="calculate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ratings/calculate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_list.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rottentomatoes/get_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home_database.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/home_database.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="85" column="39" lean-forward="false" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1499627231239" expanded="true" signature="654:789" ph="select * fro... movie_table" />
-                <marker date="1499627231239" expanded="true" signature="1269:1310" ph="select MAX(i... movie_table" />
-                <marker date="1499627231239" expanded="true" signature="1573:1610" ph="insert into movie_table... " />
-                <marker date="1499627231239" expanded="true" signature="1837:1872" ph="insert into genre_table... " />
-                <marker date="1499627231239" expanded="true" signature="2062:2140" ph="select id fr... movie_table" />
-                <marker date="1499627231239" expanded="true" signature="2571:2629" ph="select COUNT... genre_table" />
-                <marker date="1499627231239" expanded="true" signature="2942:2977" ph="insert into genre_table... " />
-                <marker date="1499627231239" expanded="true" signature="3371:3431" ph="select COUNT... rating_table" />
-                <marker date="1499627231239" expanded="true" signature="3991:4035" ph="insert into rating_table... " />
-                <marker date="1499627231239" expanded="true" signature="4241:4266" ph="select * fro... movie_table" />
-                <marker date="1499627231239" expanded="true" signature="4403:4428" ph="select * fro... genre_table" />
-                <marker date="1499627231239" expanded="true" signature="4566:4592" ph="select * fro... rating_table" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -105,19 +76,14 @@
       <file leaf-file-name="db_manager.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/db_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="element.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3/dist-packages/bs4/element.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12308">
-              <caret line="729" column="0" lean-forward="false" selection-start-line="729" selection-start-column="0" selection-end-line="729" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <marker date="1499639252274" expanded="true" signature="986:1011" ph="select * fro... popular_now" />
+                <marker date="1499639252274" expanded="true" signature="1366:1546" ph="select movie... movie_table" />
+                <marker date="1499639252274" expanded="true" signature="2098:2712" ph="select movie... movie_table" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,8 +91,8 @@
       <file leaf-file-name="popular_now.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imdb/popular_now.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+            <state relative-caret-position="51">
+              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="43" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
                 <marker date="1499628216845" expanded="true" signature="1533:1570" ph="INSERT INTO popular_now... " />
@@ -135,24 +101,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popular.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/schema/popular.sql">
+      <file leaf-file-name="get_content.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Film/get_content.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.5/dist-packages/requests/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="382" column="0" lean-forward="true" selection-start-line="382" selection-start-column="0" selection-end-line="382" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_content.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Film/get_content.py">
+      <file leaf-file-name="gsearch.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/googleS/gsearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="125" column="20" lean-forward="true" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="try_search.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/googleS/try_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ptest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rottentomatoes/ptest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,8 +158,8 @@
       <file leaf-file-name="try_module.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Film/try_module.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="151">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -184,6 +182,10 @@
       <find>tuple</find>
       <find>print</find>
       <find>get_row_</find>
+      <find>proxy</find>
+      <find>user</find>
+      <find>rso</find>
+      <find>_NId</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,20 +205,25 @@
         <option value="$PROJECT_DIR$/ratings/imdb_rating.py" />
         <option value="$PROJECT_DIR$/database/home-database.py" />
         <option value="$PROJECT_DIR$/movie-score.py" />
-        <option value="$PROJECT_DIR$/ratings/calculate.py" />
         <option value="$PROJECT_DIR$/ratings/get_score.py" />
         <option value="$PROJECT_DIR$/Film/film.py" />
         <option value="$PROJECT_DIR$/schema/movie_table.sql" />
         <option value="$PROJECT_DIR$/film_score.py" />
-        <option value="$PROJECT_DIR$/Film/try_module.py" />
         <option value="$PROJECT_DIR$/imdb/db250.py" />
         <option value="$PROJECT_DIR$/imdb/fill_home_db.py" />
         <option value="$PROJECT_DIR$/rottentomatoes/get_list.py" />
-        <option value="$PROJECT_DIR$/database/db_manager.py" />
         <option value="$PROJECT_DIR$/schema/popular.sql" />
-        <option value="$PROJECT_DIR$/Film/get_content.py" />
-        <option value="$PROJECT_DIR$/database/home_database.py" />
         <option value="$PROJECT_DIR$/imdb/popular_now.py" />
+        <option value="$PROJECT_DIR$/database/home_database.py" />
+        <option value="$PROJECT_DIR$/database/db_manager.py" />
+        <option value="$PROJECT_DIR$/ratings/convert.py" />
+        <option value="$PROJECT_DIR$/ratings/calculate.py" />
+        <option value="$PROJECT_DIR$/rottentomatoes/ptest.py" />
+        <option value="$PROJECT_DIR$/Film/try_module.py" />
+        <option value="$PROJECT_DIR$/googleS/try_searc.py" />
+        <option value="$PROJECT_DIR$/googleS/try_search.py" />
+        <option value="$PROJECT_DIR$/Film/get_content.py" />
+        <option value="$PROJECT_DIR$/googleS/gsearch.py" />
       </list>
     </option>
   </component>
@@ -248,8 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,7 +277,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="schema" />
+              <option name="myItemId" value="imdb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,7 +291,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rottentomatoes" />
+              <option name="myItemId" value="googleS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,28 +309,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="film-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="film-guide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="imdb&#9;null&#9;null" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../movie_crawler" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -339,26 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.popular_now">
-    <configuration default="false" name="db_manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="film-guide" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/db_manager.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.try_module">
     <configuration default="false" name="try_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -378,26 +353,26 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="fill_home_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="convert" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imdb" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ratings" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="film-guide" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imdb/fill_home_db.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ratings/convert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="get_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="ptest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -410,26 +385,45 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="film-guide" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rottentomatoes/get_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rottentomatoes/ptest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="popular_now" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="gsearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imdb" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/googleS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="film-guide" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imdb/popular_now.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/googleS/gsearch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="try_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/googleS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="film-guide" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/googleS/try_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -584,19 +578,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.db_manager" />
-      <item index="1" class="java.lang.String" itemvalue="Python.try_module" />
-      <item index="2" class="java.lang.String" itemvalue="Python.fill_home_db" />
-      <item index="3" class="java.lang.String" itemvalue="Python.get_list" />
-      <item index="4" class="java.lang.String" itemvalue="Python.popular_now" />
+      <item index="0" class="java.lang.String" itemvalue="Python.try_module" />
+      <item index="1" class="java.lang.String" itemvalue="Python.convert" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ptest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.gsearch" />
+      <item index="4" class="java.lang.String" itemvalue="Python.try_search" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.popular_now" />
-        <item index="1" class="java.lang.String" itemvalue="Python.db_manager" />
-        <item index="2" class="java.lang.String" itemvalue="Python.get_list" />
-        <item index="3" class="java.lang.String" itemvalue="Python.try_module" />
-        <item index="4" class="java.lang.String" itemvalue="Python.fill_home_db" />
+        <item index="0" class="java.lang.String" itemvalue="Python.try_module" />
+        <item index="1" class="java.lang.String" itemvalue="Python.try_search" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gsearch" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ptest" />
+        <item index="4" class="java.lang.String" itemvalue="Python.convert" />
       </list>
     </recent_temporary>
   </component>
@@ -670,8 +664,24 @@
       <option name="project" value="LOCAL" />
       <updated>1499466075574</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added a 'popular now' table.">
+      <created>1499628254393</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1499628254393</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
@@ -681,13 +691,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.033950616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.033950616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119195044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23065016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -697,6 +707,27 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.033950616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27091634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22291021" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -712,7 +743,8 @@
     <MESSAGE value="fixed a name issue." />
     <MESSAGE value="exception handling." />
     <MESSAGE value="added a bunch of movies." />
-    <option name="LAST_COMMIT_MESSAGE" value="added a bunch of movies." />
+    <MESSAGE value="added a 'popular now' table." />
+    <option name="LAST_COMMIT_MESSAGE" value="added a 'popular now' table." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -726,85 +758,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ratings/get_score.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie-score.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/film_score.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Film/film.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/home_database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1499627231239" expanded="true" signature="654:789" ph="select * fro... movie_table" />
-            <marker date="1499627231239" expanded="true" signature="1269:1310" ph="select MAX(i... movie_table" />
-            <marker date="1499627231239" expanded="true" signature="1573:1610" ph="insert into movie_table... " />
-            <marker date="1499627231239" expanded="true" signature="1837:1872" ph="insert into genre_table... " />
-            <marker date="1499627231239" expanded="true" signature="2062:2140" ph="select id fr... movie_table" />
-            <marker date="1499627231239" expanded="true" signature="2571:2629" ph="select COUNT... genre_table" />
-            <marker date="1499627231239" expanded="true" signature="2942:2977" ph="insert into genre_table... " />
-            <marker date="1499627231239" expanded="true" signature="3371:3431" ph="select COUNT... rating_table" />
-            <marker date="1499627231239" expanded="true" signature="3991:4035" ph="insert into rating_table... " />
-            <marker date="1499627231239" expanded="true" signature="4241:4266" ph="select * fro... movie_table" />
-            <marker date="1499627231239" expanded="true" signature="4403:4428" ph="select * fro... genre_table" />
-            <marker date="1499627231239" expanded="true" signature="4566:4592" ph="select * fro... rating_table" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imdb/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imdb/db250.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_a_movie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rottentomatoes/get_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ratings/imdb_rating.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -838,6 +791,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -877,24 +831,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/requests/adapters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="474" column="34" lean-forward="false" selection-start-line="474" selection-start-column="34" selection-end-line="474" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/requests/adapters.py" />
     <entry file="file://$PROJECT_DIR$/imdb/imdb250.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.5/urllib/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="1232" column="55" lean-forward="true" selection-start-line="1232" selection-start-column="55" selection-end-line="1232" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -914,13 +855,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/getURL/rotten_url.py" />
     <entry file="file://$PROJECT_DIR$/ratings/metascore.py" />
-    <entry file="file://$PROJECT_DIR$/ratings/get_score.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ratings/imdb_rating.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -942,25 +876,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Film/film.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imdb/db250.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="51" column="15" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ratings/calculate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -982,39 +901,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="1331" column="8" lean-forward="false" selection-start-line="1331" selection-start-column="8" selection-end-line="1331" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rottentomatoes/logfile">
+    <entry file="file:///usr/lib/python3/dist-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12308">
+          <caret line="729" column="0" lean-forward="false" selection-start-line="729" selection-start-column="0" selection-end-line="729" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rottentomatoes/log_file" />
+    <entry file="file://$PROJECT_DIR$/database/log_file">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rottentomatoes/log_file">
+    <entry file="file://$PROJECT_DIR$/rottentomatoes/logfile" />
+    <entry file="file://$PROJECT_DIR$/Film/log_file">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Film/try_module.py">
+    <entry file="file://$PROJECT_DIR$/schema/popular.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pick_classic.py">
+    <entry file="file://$PROJECT_DIR$/rottentomatoes/get_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="498">
+          <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1028,11 +951,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/bs4/element.py">
+    <entry file="file:///usr/lib/python3.5/ssl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12308">
-          <caret line="729" column="0" lean-forward="false" selection-start-line="729" selection-start-column="0" selection-end-line="729" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="34">
+          <caret line="594" column="0" lean-forward="true" selection-start-line="594" selection-start-column="0" selection-end-line="594" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pick_classic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1040,62 +969,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schema/popular.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/db_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Film/get_content.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="125" column="20" lean-forward="true" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/home_database.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="85" column="39" lean-forward="false" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+        <state relative-caret-position="34">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1499627231239" expanded="true" signature="654:789" ph="select * fro... movie_table" />
-            <marker date="1499627231239" expanded="true" signature="1269:1310" ph="select MAX(i... movie_table" />
-            <marker date="1499627231239" expanded="true" signature="1573:1610" ph="insert into movie_table... " />
-            <marker date="1499627231239" expanded="true" signature="1837:1872" ph="insert into genre_table... " />
-            <marker date="1499627231239" expanded="true" signature="2062:2140" ph="select id fr... movie_table" />
-            <marker date="1499627231239" expanded="true" signature="2571:2629" ph="select COUNT... genre_table" />
-            <marker date="1499627231239" expanded="true" signature="2942:2977" ph="insert into genre_table... " />
-            <marker date="1499627231239" expanded="true" signature="3371:3431" ph="select COUNT... rating_table" />
-            <marker date="1499627231239" expanded="true" signature="3991:4035" ph="insert into rating_table... " />
-            <marker date="1499627231239" expanded="true" signature="4241:4266" ph="select * fro... movie_table" />
-            <marker date="1499627231239" expanded="true" signature="4403:4428" ph="select * fro... genre_table" />
-            <marker date="1499627231239" expanded="true" signature="4566:4592" ph="select * fro... rating_table" />
+            <element signature="e#0#14#0" expanded="false" />
+            <marker date="1499636971022" expanded="true" signature="654:789" ph="select * fro... movie_table" />
+            <marker date="1499636971022" expanded="true" signature="1269:1310" ph="select MAX(i... movie_table" />
+            <marker date="1499636971022" expanded="true" signature="1575:1612" ph="insert into movie_table... " />
+            <marker date="1499636971022" expanded="true" signature="1839:1874" ph="insert into genre_table... " />
+            <marker date="1499636971022" expanded="true" signature="2064:2142" ph="select id fr... movie_table" />
+            <marker date="1499636971022" expanded="true" signature="2573:2631" ph="select COUNT... genre_table" />
+            <marker date="1499636971022" expanded="true" signature="2944:2979" ph="insert into genre_table... " />
+            <marker date="1499636971022" expanded="true" signature="3373:3433" ph="select COUNT... rating_table" />
+            <marker date="1499636971022" expanded="true" signature="3993:4037" ph="insert into rating_table... " />
+            <marker date="1499636971022" expanded="true" signature="4243:4268" ph="select * fro... movie_table" />
+            <marker date="1499636971022" expanded="true" signature="4405:4430" ph="select * fro... genre_table" />
+            <marker date="1499636971022" expanded="true" signature="4568:4594" ph="select * fro... rating_table" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="1277" column="0" lean-forward="true" selection-start-line="1277" selection-start-column="0" selection-end-line="1277" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Film/film.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/imdb/popular_now.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+        <state relative-caret-position="51">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="43" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
             <marker date="1499628216845" expanded="true" signature="1533:1570" ph="INSERT INTO popular_now... " />
@@ -1103,12 +1020,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rottentomatoes/get_list.py">
+    <entry file="file://$PROJECT_DIR$/ratings/calculate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        <state relative-caret-position="306">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ratings/convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
+            <marker date="1499678586410" expanded="true" signature="342:367" ph="select * fro... movie_table" />
+            <marker date="1499678586410" expanded="true" signature="2060:2099" ph="select * fro... rating_table" />
+            <marker date="1499678586410" expanded="true" signature="2401:2478" ph="update ratin... " />
+            <marker date="1499678586410" expanded="true" signature="2401:2529" ph="update ratin... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ratings/get_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/db_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1499639252274" expanded="true" signature="986:1011" ph="select * fro... popular_now" />
+            <marker date="1499639252274" expanded="true" signature="1366:1546" ph="select movie... movie_table" />
+            <marker date="1499639252274" expanded="true" signature="2098:2712" ph="select movie... movie_table" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Film/try_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rottentomatoes/ptest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googleS/try_searc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googleS/try_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="382" column="0" lean-forward="true" selection-start-line="382" selection-start-column="0" selection-end-line="382" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googleS/gsearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Film/get_content.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
