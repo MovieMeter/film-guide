@@ -14,7 +14,7 @@ def show_movies():
 
 @app.route('/')
 def home():
-    return 'Home_Page'
+    return 'Home Page'
 
 
 
