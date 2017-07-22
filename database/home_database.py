@@ -1,11 +1,20 @@
 import sqlite3
 from Film.film import Film
+import os
 
 
 class HomeDB:
 
     def __init__(self):
-        self.conn = sqlite3.connect('/home/mehulagarwal/PycharmProjects/film-guide/database/movie_db.db')
+        path = os.getcwd()
+        cur = path.split('/')[-1]
+        if cur != 'database':
+            db_path = os.path.join(path, 'database/movie_db.db')
+        else:
+            db_path = os.path.join(path, 'movie_db.db')
+        print(db_path)
+        self.conn = sqlite3.connect(db_path)
+        # self.conn = sqlite3.connect('/home/mehulagarwal/PycharmProjects/film-guide/database/movie_db.db')
         self.c = self.conn.cursor()
 
     def initialize_tables(self):
