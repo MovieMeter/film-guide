@@ -41,7 +41,7 @@ def check_movie(film=None, name=None, year=None):
         f = Film()
         f.name = name
         f.year = year
-        check_movie(f)
+        check_movie(film=f)
     else:
         print('Validating movie information..')
         verify(film)

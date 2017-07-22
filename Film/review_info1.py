@@ -18,23 +18,23 @@ def get_info(movie):
     soup4=BeautifulSoup(r4.content,'lxml')
     name_year=soup4.find('h1', itemprop="name").get_text().strip()
     name=name_year[0:len(name_year)-6]
-    print(str(name))
+    # print(str(name))
     year=name_year[len(name_year)-5:len(name_year)-1]
-    print(year)
+    # print(year)
     rate=soup4.find('div', class_="imdbRating").div.get_text().strip()
-    print(rate)
+    # print(rate)
     director=soup4.find('span',itemprop="director").get_text().strip()
-    print(director)
+    # print(director)
     meta=soup4.find('div',class_="titleReviewBarItem")
     if meta!=None:
         meta=meta.div.get_text().strip()
-        print("meta score:" +str(meta))
-    else:
-        print("meta score not available")
+        # print("meta score:" +str(meta))
+    # else:
+        # print("meta score not available")
     genre_list=soup4.find_all('span', class_="itemprop", itemprop="genre")
     for item in genre_list:
         item=item.get_text().strip()
-        print(item)
+        # print(item)
 
 
 
@@ -52,8 +52,8 @@ def get_info(movie):
         index+=1
         if index>=9:
             break
-    for index in range(0, len(actor)):
-        print(str(actor[index])+'\t'+str(character[index]))
+    # for index in range(0, len(actor)):
+        # print(str(actor[index])+'\t'+str(character[index]))
         #fp.write('\n'+actor[index]+'\t'+ character[index]+'\n')
     #fp.close()
 
@@ -66,7 +66,7 @@ def get_info(movie):
     #print r6.url
     soup6=BeautifulSoup(r6.content,'lxml')
     score=soup6.find('div',class_='critic-score meter')
-    print(score.get_text().strip())
+    # print(score.get_text().strip())
 
     score_val = score.text.strip ()
     params = [name, year, rate, director, score_val]
