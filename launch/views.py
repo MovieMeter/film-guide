@@ -42,3 +42,21 @@ def result():
     # return params[0]
     return render_template('movie.html', params=params)
 
+
+@app.route('/genre', methods=['GET', 'POST'])
+def genre_search():
+    error = None
+    if request.method == 'POST':
+        # Get genre
+        genre = request.form['genre']
+        db = HomeDB()
+        m_list = db.conn.execute('''SELECT movie_table.id, 
+                                            movie_table.name, 
+                                            movie_table.year
+                                             FROM MOVIE_TABLE, GENRE_TABLE 
+                                             WHERE MOVIE_TABLE.id = GENRE_TABLE.id
+                                             AND Genre_table.genre = ? COLLATE NOCASE''',
+                                 (genre,))
+        return render_template('view_genre.html', genre=genre, m_list=m_list)
+    return render_template('get_genre.html', error=error)
+

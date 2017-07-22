@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Genre : {{ genre }}</title>
+</head>
+<body>
+<h3>
+    List of {{genre}} Movies:
+</h3>
+{% for movie in m_list %}
+<ul>
+    <li>{{ movie[1] }} ({{ movie[2] }}) </li>
+</ul>
+{% endfor %}
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View by Genre</title>
+</head>
+<body>
+<form action="{{ url_for('genre_search') }}" method="post">
+    Enter Genre : <br>
+    <input type="text" name="genre"><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
