@@ -17,7 +17,7 @@ The server accepts requests at
     127.0.0.1:5000
 OR
  
-    (Your LAN IP for the server machine):5000
+    (LAN IP for the server machine):5000
     For testing on a simple LAN connection
 Note:
 
