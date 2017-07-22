@@ -52,10 +52,13 @@ def genre_search():
         db = HomeDB()
         m_list = db.conn.execute('''SELECT movie_table.id, 
                                             movie_table.name, 
-                                            movie_table.year
-                                             FROM MOVIE_TABLE, GENRE_TABLE 
+                                            movie_table.year,
+                                            ROUND(rating_table.score, 2)
+                                             FROM MOVIE_TABLE, GENRE_TABLE, RATING_TABLE
                                              WHERE MOVIE_TABLE.id = GENRE_TABLE.id
-                                             AND Genre_table.genre = ? COLLATE NOCASE''',
+                                             AND MOVIE_TABLE.id = RATING_TABLE.id
+                                             AND Genre_table.genre = ? COLLATE NOCASE
+                                             ORDER BY RATING_TABLE.score DESC''',
                                  (genre,))
         return render_template('view_genre.html', genre=genre, m_list=m_list)
     return render_template('get_genre.html', error=error)
