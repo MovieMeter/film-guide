@@ -1,14 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>View by Genre</title>
-</head>
-<body>
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>View by Genre</title>#}
+{#</head>#}
+{#<body>#}
+
+{% extends 'layout.html' %}
+{% block body %}
+<h1>
+    Search database by genre:
+</h1>
 <form action="{{ url_for('genre_search') }}" method="post">
     Enter Genre : <br>
     <input type="text" name="genre"><br>
     <input type="submit" value="Submit">
 </form>
-</body>
-</html>
+{% endblock %}
+
+{#</body>#}
+{#</html>#}

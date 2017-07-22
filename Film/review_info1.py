@@ -68,7 +68,7 @@ def get_info(movie):
     score=soup6.find('div',class_='critic-score meter')
     # print(score.get_text().strip())
 
-    score_val = score.text.strip ()
+    score_val = score.text.strip()
     params = [name, year, rate, director, score_val]
     return params
 

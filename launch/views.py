@@ -15,7 +15,7 @@ def show_movies():
 
 @app.route('/')
 def home():
-    return 'Home Page'
+    return render_template('home.html')
 
 
 

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Film-Guide</title>
+</head>
+<body>
+<div>
+    <a href="{{ url_for('home') }}">Home</a>
+    <a href="{{ url_for('search') }}">Search</a>
+    <a href="{{ url_for('show_movies') }}">Top-Movies</a>
+    <a href="{{ url_for('genre_search') }}">Genres</a>
+    <br>
+</div>
+{% block body %}
+{% endblock %}
+</body>
+</html>

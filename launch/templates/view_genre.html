@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Genre : {{ genre }}</title>
-</head>
-<body>
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Genre : {{ genre }}</title>#}
+{#</head>#}
+{#<body>#}
+{% extends 'layout.html' %}
+{% block body %}
+
+<h1>
+    Database search results :
+</h1>
 <h3>
     List of {{genre}} Movies:
 </h3>
@@ -13,5 +19,6 @@
     <li>{{ movie[1] }} ({{ movie[2] }}) </li>
 </ul>
 {% endfor %}
-</body>
-</html>
+{% endblock %}
+{#</body>#}
+{#</html>#}
