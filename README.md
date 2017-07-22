@@ -21,7 +21,7 @@ OR
     For testing on a simple LAN connection
 Note:
 
-A basic form of multi-threaded support is working, not very efficiently though.
+A basic form of multi-threaded support is working (in-built Flask support), not very efficiently though.
 The server WILL accept multiple requests at once, but might slow down in some cases.
 
 Dependencies: 
