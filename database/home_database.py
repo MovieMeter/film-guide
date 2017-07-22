@@ -33,17 +33,18 @@ class HomeDB:
             print('Movie already exists in database')
             return None
         else:
-            self.c.execute('''select MAX(id) as max_id from movie_table''')
-            max_id = self.c.fetchone()
+            self.conn.execute('BEGIN EXCLUSIVE')
+            cur = self.conn.execute('''select MAX(id) as max_id from movie_table''')
+            max_id = cur.fetchone()
             # print(max_id)
             if max_id[0] is None:
                 new_id = 1
             else:
                 new_id = max_id[0] + 1
             print('new_id = ' + str(new_id))
-            self.c.execute('''insert into movie_table values(?,?,?)''',
+            self.conn.execute('''insert into movie_table values(?,?,?)''',
                            (new_id, film_obj.name, film_obj.year))
-            # self.conn.commit()
+            self.conn.commit()
             if len(film_obj.genre) > 0:
                 for item in film_obj.genre:
                     self.c.execute('''insert into genre_table values(?,?)''', (new_id, item))
