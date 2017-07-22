@@ -41,3 +41,5 @@ BeautifulSoup :
     pip install bs4
     
 
+Find out and install python3 for your machine.
+It might work on python2 if you modify the print statements, i have not tried it myself.
