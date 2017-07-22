@@ -19,7 +19,10 @@ OR
  
     (Your LAN IP for the server machine):5000
     For testing on a simple LAN connection
+Note:
 
+A basic form of multi-threaded support is working, not very efficiently though.
+The server WILL accept multiple requests at once, but might slow down in some cases.
 
 Dependencies: 
 1. python3
