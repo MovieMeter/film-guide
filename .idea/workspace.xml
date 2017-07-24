@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05bcc9d5-22ae-4632-8fc8-bb7081db2cad" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/movie_db.db" afterPath="$PROJECT_DIR$/database/movie_db.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launch/templates/view_genre.html" afterPath="$PROJECT_DIR$/launch/templates/view_genre.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launch/views.py" afterPath="$PROJECT_DIR$/launch/views.py" />
     </list>
     <list id="15b970cc-52d7-4d91-b3ec-a222b5e56614" name="New changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -872,7 +871,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500745595887</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="modified genre page.">
+      <created>1500758239655</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1500758239655</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -959,7 +965,8 @@
     <MESSAGE value="Added a genre Page to search by genres." />
     <MESSAGE value="README update" />
     <MESSAGE value="added navigation to pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="added navigation to pages." />
+    <MESSAGE value="modified genre page." />
+    <option name="LAST_COMMIT_MESSAGE" value="modified genre page." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
