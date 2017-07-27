@@ -3,16 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <title>Film-Guide</title>
+    <link href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+            <link href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap-theme.min.css') }}" rel="stylesheet">
+{#            <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">#}
+            <link href="{{ url_for('static', filename='bower_components/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+            <link href="{{ url_for('static', filename='bower_components/css/bootstrap-social.css')}}" rel="stylesheet">
+            <link href="{{ url_for('static', filename='bower_components/css/mystyles.css')}}" rel="stylesheet">
+            <link href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap-theme.css')}}" rel="stylesheet">
+            <link href="{{ url_for('static', filename='bower_components/css/mystyles.css')}}" >
+            <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='italy.css')}}">
+
 </head>
 <body>
+{#<div>#}
+{#    <a href="{{ url_for('home') }}">Home</a>#}
+{#    <a href="{{ url_for('search') }}">Search</a>#}
+{#    <a href="{{ url_for('show_movies') }}">Top-Movies</a>#}
+{#    <a href="{{ url_for('genre_search') }}">Genres</a>#}
+{#    <br>#}
 <div>
-    <a href="{{ url_for('home') }}">Home</a>
-    <a href="{{ url_for('search') }}">Search</a>
-    <a href="{{ url_for('show_movies') }}">Top-Movies</a>
-    <a href="{{ url_for('genre_search') }}">Genres</a>
-    <br>
+    <nav class="nav nav-fixed top" position="fixed" >
+                <ul class="nav nav-tabs nav-inverse nav-justified" style="font-size:14px;font-style:Comic; background-color:#ffffff">
+
+                    <li style="padding-bottom:10px; padding-left:20px; padding-top:5px"><img src="{{ url_for('static', filename='images/logo.jpg')}}" style="width:170px; height:120px"/></li>
+{#                    <li ><a href="#" style="padding-top:20px"> Home</a></li>#}
+                    <li><a href="{{ url_for('home') }}" style="padding-top:20px">Home</a></li>
+                    <li><a href="{{ url_for('search') }}" style="padding-top:20px">Search</a></li>
+                    <li><a href="{{ url_for('show_movies') }}" style="padding-top:20px">Top-Movies</a></li>
+                    <li><a href="{{ url_for('genre_search') }}" style="padding-top:20px">Genres</a></li>
+{#                    <li class="dropdown" style=";padding-top:20px">#}
+{#                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Places to visit#}
+{#                        <span class="caret"></span></a>#}
+{#                        <ul class="dropdown-menu">#}
+{#                            <li><a href="places.html">Naples</a></li>#}
+{#                            <li><a href="places.html">Rome</a></li>#}
+{#                            <li><a href="places.html">Pisa</a></li>#}
+{#                        </ul>#}
+{#                    </li>#}
+{#                    <li class="dropdown" style="padding-top:20px">#}
+{#                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Cuisine#}
+{#                        <span class="caret"></span></a>#}
+{#                        <ul class="dropdown-menu">#}
+{#                            <li><a href="cuisine.html">pizza</a></li>#}
+{#                            <li><a href="cuisine.html">spaghetti</a></li>#}
+{#                        </ul>#}
+{#                    </li>#}
+{#                    <li class="dropdown" style="padding-top:20px">#}
+{#                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Festivals#}
+{#                            <span class="caret"></span></a>#}
+{#                            <ul class="dropdown-menu">#}
+{#                                <li><a href="#">asdfg</a></li>#}
+{#                                <li><a href="#">asdfg</a></li>#}
+{#                                <li><a href="#">asdfg</a></li>#}
+{#                            </ul>#}
+{#                    </li>#}
+{##}
+{#                    <li class="dropdown" >#}
+{#                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" >others#}
+{#                            <span class="caret"></span></a>#}
+{#                            <ul class="dropdown-menu">#}
+{#                                <li clas><a href="#">part 1</a></li>#}
+{#                            </ul>#}
+{#                    </li>#}
+
+                </ul>
+        </nav>
 </div>
-{% block body %}
-{% endblock %}
+<div>
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-8">
+        {% block body %}
+        {% endblock %}
+    </div>
+    <div class="col-sm-2">
+    </div>
+</div>
 </body>
 </html>

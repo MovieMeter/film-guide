@@ -9,12 +9,12 @@ def get_info(movie):
     # movie = input('Enter movie? ')
     base = "https://www.google.co.in/search?"
     movie_imdb = movie+" movie imdb"
-    params = {'q': movie_imdb,'oq':movie_imdb}
-    r3 = requests.get(base,params=params, headers=headers)
+    params = {'q': movie_imdb, 'oq': movie_imdb}
+    r3 = requests.get(base, params=params, headers=headers)
     soup3=BeautifulSoup(r3.content, 'lxml')
     tag3=soup3.find('div', class_='rc').a['href']
 
-    r4=requests.get(tag3,headers=headers)
+    r4=requests.get(tag3, headers=headers)
     soup4=BeautifulSoup(r4.content, 'lxml')
     name_year=soup4.find('h1', itemprop="name").get_text().strip()
     name=name_year[0:len(name_year)-6]
@@ -41,7 +41,7 @@ def get_info(movie):
     index=0
     actor=list()
     character=list()
-    for item in soup4.find_all('span',class_="itemprop"):
+    for item in soup4.find_all('span', class_="itemprop"):
         actor.append(item.get_text())
         index+=1
         if index>=9:

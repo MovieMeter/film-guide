@@ -1,0 +1,90 @@
+img{
+	/*box-shadow:10px;*/
+	border-color: white;
+	
+}
+#carous
+{
+	position:block;
+	padding-top:70px;
+	padding-bottom:30px;
+}
+
+#mycarousel
+{
+	/*position:block;*/
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color: #ffffff
+}
+
+#intro
+{
+	color:white;
+	font-family:Brush Script Std;
+	font-size:24px;
+}
+
+ #head_1 
+{
+	color:white;
+	font-family:Algerian;
+	font-size:30px;
+	text-underline-position: 5px;
+}
+ #head_2
+{
+	color:white;
+	font-family:Algerian;
+	font-size:30px;
+	text-underline-position: 5px;
+}
+ #head_3 
+{
+	color:white;
+	font-family:Algerian;
+	font-size:30px;
+	text-underline-position: 5px;
+}
+ #head_4 
+{
+	color:white;
+	font-family:Algerian;
+	font-size:30px;
+	text-underline-position: 5px;
+}
+ #head_5 
+{
+	color:white;
+	font-family:Algerian;
+	font-size:30px;
+	text-underline-position: 5px;
+}
+
+#text
+{
+	color:white;
+	font-family:Freestyle;
+	font-size:20px;
+}
+
+#stack li
+{
+	padding-top: 20px;
+}
+
+#stack li a
+{
+	color:black;
+}
+
+#head div div img
+{
+
+}
+.name
+{
+	font-family:FreeSans;
+	font-size:20px;
+
+}
