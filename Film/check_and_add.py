@@ -2,11 +2,11 @@
 # If not present, it adds it to the database.
 # This is to be called anytime the app comes across a movie.
 
-import requests
+# import requests
 from database.home_database import HomeDB
 from Film.get_content import add_details, load_url, imdb_meta, rotten, get_score
 from Film.film import Film
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 
 
 def check(film):

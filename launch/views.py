@@ -18,7 +18,6 @@ def home():
     return render_template('home.html')
 
 
-
 @app.route('/search', methods=['GET', 'POST'])
 def search():
     error = None
