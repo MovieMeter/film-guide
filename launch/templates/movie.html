@@ -5,6 +5,8 @@
 {#    <title>{{params[0]}}</title>#}
 {#</head>#}
 {#<body>#} -->
+{#{{ url_for('Film', filename='image') }}#}
+{#url_for('static', filename='images/image')#}
 {% extends 'layout.html' %}
 {% block body %}
 <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='italy.css')}}">
@@ -15,7 +17,7 @@
 
 <div style="height:400px">
 	<div class="col-sm-8">
-		<img src="#" alt="downloading image">
+		<img src="{{ params[7] }}" alt="downloading image">
 	</div>
 	<div class="col-sm-4">
 	<p style="height:100px">

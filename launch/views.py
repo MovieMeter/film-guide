@@ -4,6 +4,7 @@ from flask import Flask, request, session, g, redirect, url_for, abort, render_t
 from Film.review_info1 import get_info
 from Film.check_and_add import check_movie
 from Film.mov import get_review
+# from Film.get_poster import poster
 
 
 @app.route('/top')
@@ -37,6 +38,10 @@ def search():
         session.pop('params', None)
         print('no params')
         session['params'] = params
+        movie = params[0]
+        year = params[1]
+        print(str(movie) + ', ' + str(year))
+        # link = poster(movie, year)
         # session['review'] = review
         # print(session['review'])
         return redirect(url_for('result'))

@@ -6,15 +6,21 @@ import os
 class HomeDB:
 
     def __init__(self):
-        path = os.getcwd()
-        cur = path.split('/')[-1]
-        if cur != 'database':
-            db_path = os.path.join(path, 'database/movie_db.db')
-        else:
-            db_path = os.path.join(path, 'movie_db.db')
-        print(db_path)
-        self.conn = sqlite3.connect(db_path)
-        # self.conn = sqlite3.connect('/home/mehulagarwal/PycharmProjects/film-guide/database/movie_db.db')
+        # path = os.getcwd()
+        # print(path)
+        path = os.path.dirname(os.path.realpath(__file__))
+        db_path = os.path.join(path, 'movie_db.db')
+        # cur = path.split('/')[-1]
+        # if cur != 'database':
+        #     db_path = os.path.join(path, 'database/movie_db.db')
+        # else:
+        #     db_path = os.path.join(path, 'movie_db.db')
+        # print(db_path)
+        try:
+            self.conn = sqlite3.connect(db_path)
+        except sqlite3.OperationalError as err:
+            print('Error occured, ' + str(err))
+            self.conn = sqlite3.connect('/home/mehulagarwal/PycharmProjects/film-guide/database/movie_db.db')
         self.c = self.conn.cursor()
 
     def initialize_tables(self):

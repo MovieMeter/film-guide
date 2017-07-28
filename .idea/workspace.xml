@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="05bcc9d5-22ae-4632-8fc8-bb7081db2cad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/movie_db.db" afterPath="$PROJECT_DIR$/database/movie_db.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Film/check_and_add.py" afterPath="$PROJECT_DIR$/Film/check_and_add.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Film/get_poster.py" afterPath="$PROJECT_DIR$/Film/get_poster.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Film/review_info1.py" afterPath="$PROJECT_DIR$/Film/review_info1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/home_database.py" afterPath="$PROJECT_DIR$/database/home_database.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launch/static/italy.css" afterPath="$PROJECT_DIR$/launch/static/italy.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launch/templates/movie.html" afterPath="$PROJECT_DIR$/launch/templates/movie.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launch/views.py" afterPath="$PROJECT_DIR$/launch/views.py" />
@@ -25,6 +29,7 @@
     <SUITE FILE_PATH="coverage/film_guide$get_a_movie.coverage" NAME="get_a_movie Coverage Results" MODIFIED="1499091171136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/film_guide$try_search.coverage" NAME="try_search Coverage Results" MODIFIED="1500497566649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/googleS" />
     <SUITE FILE_PATH="coverage/film_guide$mov.coverage" NAME="mov Coverage Results" MODIFIED="1501253363583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Film" />
+    <SUITE FILE_PATH="coverage/film_guide$check_and_add.coverage" NAME="check_and_add Coverage Results" MODIFIED="1501269021146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Film" />
     <SUITE FILE_PATH="coverage/film_guide$popular_now.coverage" NAME="popular_now Coverage Results" MODIFIED="1499628150455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/imdb" />
     <SUITE FILE_PATH="coverage/film_guide$work250.coverage" NAME="work250 Coverage Results" MODIFIED="1498988870992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/imdb" />
     <SUITE FILE_PATH="coverage/film_guide$imdb_rating.coverage" NAME="imdb_rating Coverage Results" MODIFIED="1499034203687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ratings" />
@@ -33,11 +38,13 @@
     <SUITE FILE_PATH="coverage/film_guide$db_manager.coverage" NAME="db_manager Coverage Results" MODIFIED="1499639253310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database" />
     <SUITE FILE_PATH="coverage/film_guide$gsearch.coverage" NAME="gsearch Coverage Results" MODIFIED="1500496225274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/googleS" />
     <SUITE FILE_PATH="coverage/film_guide$try_checker.coverage" NAME="try_checker Coverage Results" MODIFIED="1500503387339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Film" />
+    <SUITE FILE_PATH="coverage/film_guide$home_database.coverage" NAME="home_database Coverage Results" MODIFIED="1501269168313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database" />
     <SUITE FILE_PATH="coverage/film_guide$movie_score.coverage" NAME="movie-score Coverage Results" MODIFIED="1499106547522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/film_guide$launcher.coverage" NAME="launcher Coverage Results" MODIFIED="1500586513083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/launch" />
     <SUITE FILE_PATH="coverage/film_guide$ptest.coverage" NAME="ptest Coverage Results" MODIFIED="1500492127855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rottentomatoes" />
     <SUITE FILE_PATH="coverage/film_guide$convert.coverage" NAME="convert Coverage Results" MODIFIED="1499678586455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ratings" />
     <SUITE FILE_PATH="coverage/film_guide$try_module.coverage" NAME="try_module Coverage Results" MODIFIED="1500583517429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Film" />
+    <SUITE FILE_PATH="coverage/film_guide$get_poster.coverage" NAME="get_poster Coverage Results" MODIFIED="1501271335876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Film" />
     <SUITE FILE_PATH="coverage/film_guide$pick_classic.coverage" NAME="pick_classic Coverage Results" MODIFIED="1499102805622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -55,18 +62,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/launch/views.py">
+      <file leaf-file-name="result.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/launch/templates/result.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="51" column="54" lean-forward="false" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <marker date="1501256079007" expanded="true" signature="371:411" ph="select * fro... movie_table" />
-                <marker date="1501256079007" expanded="true" signature="371:424" ph="select * fro... movie_table" />
-                <marker date="1501256079007" expanded="true" signature="1715:2108" ph="SELECT * FRO... MOVIE_TABLE" />
-                <marker date="1501256079007" expanded="true" signature="1715:2354" ph="SELECT movie... MOVIE_TABLE" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,8 +75,8 @@
       <file leaf-file-name="check_and_add.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Film/check_and_add.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#185#226#0" expanded="true" />
               </folding>
@@ -83,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="review_info1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="review_info1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Film/review_info1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="75" column="61" lean-forward="false" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
+            <state relative-caret-position="476">
+              <caret line="82" column="18" lean-forward="true" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -98,7 +99,7 @@
       <file leaf-file-name="mov.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Film/mov.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="153">
               <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -107,12 +108,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/launch/templates/home.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/launch/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-              <folding />
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1501272506383" expanded="true" signature="408:448" ph="select * fro... movie_table" />
+                <marker date="1501272506383" expanded="true" signature="408:461" ph="select * fro... movie_table" />
+                <marker date="1501272506383" expanded="true" signature="1885:2278" ph="SELECT * FRO... MOVIE_TABLE" />
+                <marker date="1501272506383" expanded="true" signature="1885:2524" ph="SELECT movie... MOVIE_TABLE" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="movie.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/launch/templates/movie.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="32" column="57" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+              <folding>
+                <marker date="1501272506415" expanded="true" signature="414:448" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,23 +149,37 @@
       <file leaf-file-name="get_poster.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Film/get_poster.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="388">
+              <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1501272416787" expanded="true" signature="466:497" ph="SELECT MAX(i... movie_table" />
+                <marker date="1501272416787" expanded="true" signature="647:688" ph="SELECT name,... movie_tale" />
+                <marker date="1501272416787" expanded="true" signature="647:694" ph="SELECT name,... movie_tale" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movie.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/launch/templates/movie.html">
+      <file leaf-file-name="home_database.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/home_database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="58" />
               <folding>
-                <marker date="1501256991810" expanded="true" signature="323:357" ph="..." />
-                <marker date="1501256991810" expanded="true" signature="1511:1530" ph="..." />
-                <marker date="1501256991810" expanded="true" signature="1534:1557" ph="..." />
-                <marker date="1501256991810" expanded="true" signature="1578:1603" ph="..." />
+                <marker date="1501269792642" expanded="true" signature="1222:1357" ph="select * fro... movie_table" />
+                <marker date="1501269792642" expanded="true" signature="1838:1853" ph="BEGIN EXCLUS... " />
+                <marker date="1501269792642" expanded="true" signature="1895:1936" ph="select MAX(i... movie_table" />
+                <marker date="1501269792642" expanded="true" signature="2201:2238" ph="insert into movie_table... " />
+                <marker date="1501269792642" expanded="true" signature="2463:2498" ph="insert into genre_table... " />
+                <marker date="1501269792642" expanded="true" signature="2688:2766" ph="select id fr... movie_table" />
+                <marker date="1501269792642" expanded="true" signature="3197:3255" ph="select COUNT... genre_table" />
+                <marker date="1501269792642" expanded="true" signature="3568:3603" ph="insert into genre_table... " />
+                <marker date="1501269792642" expanded="true" signature="3997:4057" ph="select COUNT... rating_table" />
+                <marker date="1501269792642" expanded="true" signature="4617:4661" ph="insert into rating_table... " />
+                <marker date="1501269792642" expanded="true" signature="4867:4892" ph="select * fro... movie_table" />
+                <marker date="1501269792642" expanded="true" signature="5029:5054" ph="select * fro... genre_table" />
+                <marker date="1501269792642" expanded="true" signature="5192:5218" ph="select * fro... rating_table" />
               </folding>
             </state>
           </provider>
@@ -156,16 +189,8 @@
         <entry file="file://$PROJECT_DIR$/launch/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1258">
-              <caret line="74" column="26" lean-forward="true" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="74" column="26" lean-forward="false" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -192,6 +217,7 @@
       <find>print</find>
       <find>score_val</find>
       <find>index.</find>
+      <find>r.con</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -235,7 +261,6 @@
         <option value="$PROJECT_DIR$/Film/get_content.py" />
         <option value="$PROJECT_DIR$/templates/result.html" />
         <option value="$PROJECT_DIR$/try_flask.py" />
-        <option value="$PROJECT_DIR$/database/home_database.py" />
         <option value="$PROJECT_DIR$/launch/templates/get_genre.htm.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/launch/templates/result.html" />
@@ -244,14 +269,15 @@
         <option value="$PROJECT_DIR$/launch/templates/search.html" />
         <option value="$PROJECT_DIR$/launch/templates/view_genre.html" />
         <option value="$PROJECT_DIR$/launch/launcher.py" />
-        <option value="$PROJECT_DIR$/Film/check_and_add.py" />
         <option value="$PROJECT_DIR$/launch/static/italy.css" />
-        <option value="$PROJECT_DIR$/Film/get_poster.py" />
         <option value="$PROJECT_DIR$/launch/templates/layout.html" />
-        <option value="$PROJECT_DIR$/launch/templates/movie.html" />
         <option value="$PROJECT_DIR$/Film/mov.py" />
+        <option value="$PROJECT_DIR$/Film/check_and_add.py" />
+        <option value="$PROJECT_DIR$/database/home_database.py" />
+        <option value="$PROJECT_DIR$/Film/get_poster.py" />
         <option value="$PROJECT_DIR$/launch/views.py" />
         <option value="$PROJECT_DIR$/Film/review_info1.py" />
+        <option value="$PROJECT_DIR$/launch/templates/movie.html" />
       </list>
     </option>
   </component>
@@ -262,10 +288,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1301" />
-    <option name="height" value="772" />
+    <option name="x" value="64" />
+    <option name="y" value="-11" />
+    <option name="width" value="1303" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -283,7 +309,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -398,6 +423,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="launch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="film-guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="film-guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="imdb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -430,8 +477,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="film-guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="film-guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -443,6 +505,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/launch/static/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/launch/static" />
     </key>
@@ -459,64 +524,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mov">
-    <configuration default="false" name="try_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Film" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="film-guide" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Film/try_module.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="try_checker" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Film" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="film-guide" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Film/try_checker.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="launcher" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/launch" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="film-guide" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/launch/launcher.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.get_poster">
     <configuration default="false" name="try_flask" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -550,6 +558,63 @@
       <module name="film-guide" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Film/mov.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="get_poster" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Film" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="film-guide" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Film/get_poster.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="home_database" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="film-guide" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/home_database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="check_and_add" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Film" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="film-guide" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Film/check_and_add.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -704,19 +769,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.try_module" />
-      <item index="1" class="java.lang.String" itemvalue="Python.try_checker" />
-      <item index="2" class="java.lang.String" itemvalue="Python.launcher" />
-      <item index="3" class="java.lang.String" itemvalue="Python.try_flask" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mov" />
+      <item index="0" class="java.lang.String" itemvalue="Python.try_flask" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mov" />
+      <item index="2" class="java.lang.String" itemvalue="Python.get_poster" />
+      <item index="3" class="java.lang.String" itemvalue="Python.home_database" />
+      <item index="4" class="java.lang.String" itemvalue="Python.check_and_add" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mov" />
-        <item index="1" class="java.lang.String" itemvalue="Python.try_flask" />
-        <item index="2" class="java.lang.String" itemvalue="Python.launcher" />
-        <item index="3" class="java.lang.String" itemvalue="Python.try_module" />
-        <item index="4" class="java.lang.String" itemvalue="Python.try_checker" />
+        <item index="0" class="java.lang.String" itemvalue="Python.get_poster" />
+        <item index="1" class="java.lang.String" itemvalue="Python.home_database" />
+        <item index="2" class="java.lang.String" itemvalue="Python.check_and_add" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mov" />
+        <item index="4" class="java.lang.String" itemvalue="Python.try_flask" />
       </list>
     </recent_temporary>
   </component>
@@ -923,10 +988,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33227092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3378486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -936,7 +1001,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16718267" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5975232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71517026" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1182,13 +1247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/home_database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/db_manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-552">
@@ -1286,17 +1344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding>
-            <marker date="1501250111728" expanded="true" signature="960:1120" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launch/templates/result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,6 +1351,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Film/mov.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try_flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Film/check_and_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#185#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/home_database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <marker date="1501269792642" expanded="true" signature="1222:1357" ph="select * fro... movie_table" />
+            <marker date="1501269792642" expanded="true" signature="1838:1853" ph="BEGIN EXCLUS... " />
+            <marker date="1501269792642" expanded="true" signature="1895:1936" ph="select MAX(i... movie_table" />
+            <marker date="1501269792642" expanded="true" signature="2201:2238" ph="insert into movie_table... " />
+            <marker date="1501269792642" expanded="true" signature="2463:2498" ph="insert into genre_table... " />
+            <marker date="1501269792642" expanded="true" signature="2688:2766" ph="select id fr... movie_table" />
+            <marker date="1501269792642" expanded="true" signature="3197:3255" ph="select COUNT... genre_table" />
+            <marker date="1501269792642" expanded="true" signature="3568:3603" ph="insert into genre_table... " />
+            <marker date="1501269792642" expanded="true" signature="3997:4057" ph="select COUNT... rating_table" />
+            <marker date="1501269792642" expanded="true" signature="4617:4661" ph="insert into rating_table... " />
+            <marker date="1501269792642" expanded="true" signature="4867:4892" ph="select * fro... movie_table" />
+            <marker date="1501269792642" expanded="true" signature="5029:5054" ph="select * fro... genre_table" />
+            <marker date="1501269792642" expanded="true" signature="5192:5218" ph="select * fro... rating_table" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/templates/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="26" lean-forward="false" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1318,89 +1430,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Film/get_poster.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launch/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="26" lean-forward="true" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        <state relative-caret-position="388">
+          <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launch/templates/movie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1501256991810" expanded="true" signature="323:357" ph="..." />
-            <marker date="1501256991810" expanded="true" signature="1511:1530" ph="..." />
-            <marker date="1501256991810" expanded="true" signature="1534:1557" ph="..." />
-            <marker date="1501256991810" expanded="true" signature="1578:1603" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Film/mov.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/try_flask.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Film/check_and_add.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-          <folding>
-            <element signature="e#185#226#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1501272416787" expanded="true" signature="466:497" ph="SELECT MAX(i... movie_table" />
+            <marker date="1501272416787" expanded="true" signature="647:688" ph="SELECT name,... movie_tale" />
+            <marker date="1501272416787" expanded="true" signature="647:694" ph="SELECT name,... movie_tale" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/launch/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="51" column="54" lean-forward="false" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+        <state relative-caret-position="340">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-            <marker date="1501256079007" expanded="true" signature="371:411" ph="select * fro... movie_table" />
-            <marker date="1501256079007" expanded="true" signature="371:424" ph="select * fro... movie_table" />
-            <marker date="1501256079007" expanded="true" signature="1715:2108" ph="SELECT * FRO... MOVIE_TABLE" />
-            <marker date="1501256079007" expanded="true" signature="1715:2354" ph="SELECT movie... MOVIE_TABLE" />
+            <marker date="1501272506383" expanded="true" signature="408:448" ph="select * fro... movie_table" />
+            <marker date="1501272506383" expanded="true" signature="408:461" ph="select * fro... movie_table" />
+            <marker date="1501272506383" expanded="true" signature="1885:2278" ph="SELECT * FRO... MOVIE_TABLE" />
+            <marker date="1501272506383" expanded="true" signature="1885:2524" ph="SELECT movie... MOVIE_TABLE" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Film/review_info1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="75" column="61" lean-forward="false" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
+        <state relative-caret-position="476">
+          <caret line="82" column="18" lean-forward="true" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/templates/movie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="32" column="57" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+          <folding>
+            <marker date="1501272506415" expanded="true" signature="414:448" ph="..." />
           </folding>
         </state>
       </provider>

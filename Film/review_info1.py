@@ -3,6 +3,7 @@ from fake_useragent import UserAgent
 import requests
 import sys
 from Film.mov import get_review
+from Film.get_poster import poster
 
 
 def get_info(movie):
@@ -73,7 +74,8 @@ def get_info(movie):
     # print(score.get_text().strip())
     # review = get_review(name)
     # score_val = score.text.strip()
-    params = [name, year, rate, score, meta, director, genres]
+    link = poster(name, year)
+    params = [name, year, rate, score, meta, director, genres, link]
     return params
 
 
