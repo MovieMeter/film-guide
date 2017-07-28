@@ -40,6 +40,7 @@ def poster(movie=None, year=None):
     print(r.url)
     # print(r.content)
     soup = BeautifulSoup(r.content, 'lxml')
+
     h3 = soup.find('h3', class_='r')
 
     a = h3.find('a')
@@ -50,7 +51,8 @@ def poster(movie=None, year=None):
     print(r.url)
 
     soup = BeautifulSoup(r.content, 'lxml')
-    a = soup.find('a', class_='image')
+    table = soup.find ('table', class_='infobox vevent')
+    a = table.find('a', class_='image')
     ref = 'http://www.wikipedia.org' + a['href']
     print(ref)
 
