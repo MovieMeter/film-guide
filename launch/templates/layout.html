@@ -15,23 +15,23 @@
 
 </head>
 <body>
-<div>
+<!-- <div>
     <a href="{{ url_for('home') }}">Home</a>
     <a href="{{ url_for('search') }}">Search</a>
     <a href="{{ url_for('show_movies') }}">Top-Movies</a>
     <a href="{{ url_for('genre_search') }}">Genres</a>
-    <br>
+    <br> -->
 <div>
     <nav class="nav nav-fixed top" position="fixed" >
                 <ul class="nav nav-tabs nav-inverse nav-justified" style="font-size:14px;font-style:Comic; background-color:#ffffff">
 
                     <li style="padding-bottom:10px; padding-left:20px; padding-top:5px"><img src="{{ url_for('static', filename='images/logo.jpg')}}" style="width:170px; height:120px"/></li>
-                    <li ><a href="#" style="padding-top:20px"> Home</a></li>
+                   <!--  <li ><a href="#" style="padding-top:20px"> Home</a></li> -->
                     <li><a href="{{ url_for('home') }}" style="padding-top:20px">Home</a></li>
                     <li><a href="{{ url_for('search') }}" style="padding-top:20px">Search</a></li>
                     <li><a href="{{ url_for('show_movies') }}" style="padding-top:20px">Top-Movies</a></li>
                     <li><a href="{{ url_for('genre_search') }}" style="padding-top:20px">Genres</a></li>
-                    <li class="dropdown" style=";padding-top:20px">
+                    <!-- <li class="dropdown" style=";padding-top:20px">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Places to visit
                         <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -62,9 +62,9 @@
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" >others
                             <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li clas><a href="#">part 1</a></li>
+                                <li class><a href="#">part 1</a></li>
                             </ul>
-                    </li>
+                    </li> -->
 
                 </ul>
         </nav>

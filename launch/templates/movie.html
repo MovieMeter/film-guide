@@ -1,23 +1,27 @@
-{#<!DOCTYPE html>#}
+<!-- {#<!DOCTYPE html>#}
 {#<html lang="en">#}
 {#<head>#}
 {#    <meta charset="UTF-8">#}
 {#    <title>{{params[0]}}</title>#}
 {#</head>#}
-{#<body>#}
+{#<body>#} -->
 {% extends 'layout.html' %}
 {% block body %}
 
-<div class="name">{
-    {{ params[0] }}
-
+<div class="name">
+  <span style="font-size:35px;padding-right: 40px">{{params[0] }}</span>
+    {{params[1]}}
 </div>
-<h2>
-    Movie :
-</h2>
-<p>
-    {{params[0]}} ({{params[1]}})
-</p>
+
+<div>
+	<div class="col-sm-6">
+		<img src="#" alt="downloading image">
+	</div>
+	<div>
+		hello
+	</div>
+</div>
+
 <h3>
     Director :
 </h3>
@@ -31,5 +35,7 @@
     {{params[2]}}
 </p>
 {% endblock %}
-{#</body>#}
-{#</html>#}
+<!-- {#</body>#}
+{#</html>#} -->
+</body>
+</html>
