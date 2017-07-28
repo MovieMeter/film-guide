@@ -7,27 +7,62 @@
 {#<body>#} -->
 {% extends 'layout.html' %}
 {% block body %}
-
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='italy.css')}}">
 <div class="name">
-  <span style="font-size:35px;padding-right: 40px">{{params[0] }}</span>
+  <span style="font-size:35px;padding-right: 40px;font-family:Nevada">{{params[0] }}</span>
     {{params[1]}}
 </div>
 
-<div>
-	<div class="col-sm-6">
+<div style="height:400px">
+	<div class="col-sm-8">
 		<img src="#" alt="downloading image">
 	</div>
-	<div>
-		hello
+	<div class="col-sm-4">
+	<p style="height:100px">
+	</p>
+		<!-- <p><span style="font-size:35px;color:#c13c30">Rating:</span></p> -->
+		<p>
+		<table >
+			<tr>
+				<td style="color:#663f63;font-family:cursive;font-size:18px;padding-left: 10px; padding-right:20px">
+
+					IMDB:
+				</td>
+				<td style="color:#c13c30;font-size:25px">
+					{{params[2]}}
+				</td>
+			</tr>
+			<tr>
+				<td style="color:#663f63;font-family:cursive;font-size:18px;padding-left: 10px;padding-right:20px">
+					Rottentomatoes:
+				</td>
+				<td style="color:#c13c30;font-size:25px">
+					{{params[3]}}
+				</td>
+			</tr>
+			<tr>
+				<td style="color:#663f63;font-family:cursive;font-size:18px;padding-left: 10px;padding-right:20px">
+					Metacritic:
+				</td>
+				<td style="color:#c13c30;font-size:25px">
+					{{params[4]}}
+				</td>
+			</tr>
+		</table>
+		
+		</p>
 	</div>
 </div>
+<div style="height:100px">
+	</div>
 
-<h3>
-    Director :
-</h3>
-<p>
-    {{params[3]}}
-</p>
+
+	
+	{% for item in params[6] %}
+		<span style="width:100px">{{item}}</span>
+	{% endfor %}
+	
+
 <h3>
     Rating :
 </h3>

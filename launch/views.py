@@ -3,6 +3,7 @@ from database.home_database import HomeDB
 from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash
 from Film.review_info1 import get_info
 from Film.check_and_add import check_movie
+from Film.mov import get_review
 
 
 @app.route('/top')
@@ -26,10 +27,18 @@ def search():
         # Call Script review_info1.py
         movie = request.form['title']
         params = get_info(movie)
+
+        # print(review)
+        print(type(params))
+        # params.append(review)
         # More stuff
         print('Checking movie in database, wait')
         check_movie(name=params[0], year=params[1])
+        session.pop('params', None)
+        print('no params')
         session['params'] = params
+        # session['review'] = review
+        # print(session['review'])
         return redirect(url_for('result'))
 
     return render_template('search.html', error=error)
@@ -38,6 +47,7 @@ def search():
 @app.route('/result')
 def result():
     params = session['params']
+    # review = session['review']
     # return params[0]
     return render_template('movie.html', params=params)
 

@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 import requests
 import sys
+from Film.mov import get_review
 
 
 def get_info(movie):
@@ -26,15 +27,18 @@ def get_info(movie):
     director=soup4.find('span', itemprop="director").get_text().strip()
     # print(director)
     meta=soup4.find('div', class_="titleReviewBarItem")
+    # print('Tag Found!')
     if meta!=None:
-        meta=meta.div.get_text().strip()
+        meta=str(meta.div.get_text().strip())
         # print("meta score:" +str(meta))
     # else:
         # print("meta score not available")
+    genres = []
     genre_list=soup4.find_all('span', class_="itemprop", itemprop="genre")
     for item in genre_list:
         item=item.get_text().strip()
         # print(item)
+        genres.append(item)
 
 
 
@@ -65,11 +69,11 @@ def get_info(movie):
     r6=requests.get(tag4, headers=headers)
     #print r6.url
     soup6=BeautifulSoup(r6.content, 'lxml')
-    score=soup6.find('div', class_='critic-score meter')
+    score=soup6.find('div', class_='critic-score meter').get_text().strip()
     # print(score.get_text().strip())
-
-    score_val = score.text.strip()
-    params = [name, year, rate, director, score_val]
+    # review = get_review(name)
+    # score_val = score.text.strip()
+    params = [name, year, rate, score, meta, director, genres]
     return params
 
 
