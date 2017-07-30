@@ -1,0 +1,23 @@
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>{{ info[0] Review }}</title>#}
+{#</head>#}
+{#<body>#}
+{##}
+{#</body>#}
+{#</html>#}
+
+{% extends 'layout.html' %}
+{% block body %}
+
+<div class="name">
+    <span style="font-size:35px;padding-right: 40px;font-family:Nevada;"><a href="#" style="color:black">Review for {{params[0] }}({{ params[1] }})</a></span>
+</div>
+
+<div style="text-align: justify; font-family:Helvetica">
+    {{ review }}
+</div>
+{% endblock %}
+

@@ -17,7 +17,7 @@
 
 <div style="height:400px">
 	<div class="col-sm-8">
-		<img src="{{ params[7] }}" alt="downloading image">
+		<img src="{{ params[7] }}" alt="Poster for {{ params[0] }}.">
 	</div>
 	<div class="col-sm-4">
 	<p style="height:100px">
@@ -66,10 +66,10 @@
 	
 
 <h3>
-    Rating :
+    <a href="{{ url_for('show_review') }}">Summary :</a>
 </h3>
 <p>
-    {{params[2]}}
+    {{review}}
 </p>
 {% endblock %}
 <!-- {#</body>#}
