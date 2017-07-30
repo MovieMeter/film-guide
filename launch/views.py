@@ -49,6 +49,19 @@ def search():
     return render_template('search.html', error=error)
 
 
+@app.route('/movie/<name>')
+def show_movie(name):
+    params = get_info(name)
+    check_movie(name=params[0], year=params[1])
+    session.pop('params', None)
+    session['params'] = params
+    session.modified = True
+    movie = params[0]
+    year = params[1]
+    print(str(movie) + ', ' + str(year))
+    return redirect(url_for('result'))
+
+
 @app.route('/result')
 def result():
     params = session['params']
