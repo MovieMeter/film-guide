@@ -64,17 +64,17 @@ def poster(movie=None, year=None):
     link = 'http:' + img['src']
     print(link)
     return link
-    r = requests.get(link, headers=headers)
-    try:
-        path = os.path.join(os.getcwd(), 'launch/static/images')
-    except:
-        path = os.path.dirname(os.path.realpath(__file__))
-    image = os.path.join(path, 'image')
-    try:
-        with open(image, 'wb') as f:
-            f.write(r.content)
-    except IOError as err:
-        print('Error while writing, ' + str(err))
+    # r = requests.get(link, headers=headers)
+    # try:
+    #     path = os.path.join(os.getcwd(), 'launch/static/images')
+    # except:
+    #     path = os.path.dirname(os.path.realpath(__file__))
+    # image = os.path.join(path, 'image')
+    # try:
+    #     with open(image, 'wb') as f:
+    #         f.write(r.content)
+    # except IOError as err:
+    #     print('Error while writing, ' + str(err))
 
 # poster()
 #
