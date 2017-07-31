@@ -82,7 +82,21 @@ def result():
     # print(request.cookies)
     # print(session)
     params = session['params']
+    db = HomeDB()
+    # print(params[0])
+    # print(params[1])
+    movie = params[0].strip()
+    year = str(params[1]).strip()
+    print(str(movie) + ', ' + str(year))
+    # scores = db.conn.execute('''SELECT round(rating_table.score) from rating_table''')
+    score = db.conn.execute('''SELECT round(rating_table.score) from rating_table, movie_table 
+                              where movie_table.id = rating_table.id 
+                              and movie_table.name = ? COLLATE NOCASE
+                              and movie_table.year = ? COLLATE NOCASE''', (movie, year)).fetchone()[0]
+    print('Score : ' + str(score))
 
+    db.conn.close()
+    params.append(score)
     if 'review' in session:
         review = session['review'][:511] + '....'
     else:
@@ -95,14 +109,17 @@ def result():
 @app.route('/genre', methods=['GET', 'POST'])
 def genre_search():
     error = None
-    if request.method == 'POST':
+    if request.method == 'POST' or 'genre_name' in request.args:
         # Get genre
-        genre = request.form['genre']
+        if 'genre_name' in request.args:
+            genre = request.args['genre_name']
+        else:
+            genre = request.form['genre']
         db = HomeDB()
         m_list = db.conn.execute('''SELECT movie_table.id, 
                                             movie_table.name, 
                                             movie_table.year,
-                                            ROUND(rating_table.score, 2)
+                                            ROUND(rating_table.score)
                                              FROM MOVIE_TABLE, GENRE_TABLE, RATING_TABLE
                                              WHERE MOVIE_TABLE.id = GENRE_TABLE.id
                                              AND MOVIE_TABLE.id = RATING_TABLE.id

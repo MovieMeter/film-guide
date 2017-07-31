@@ -25,6 +25,14 @@
 		<!-- <p><span style="font-size:35px;color:#c13c30">Rating:</span></p> -->
 		<p>
 		<table >
+            <tr>
+                <td style="color:#663f63;font-family:cursive;font-size:25px;padding-left: 10px; padding-right:20px">
+                    Score:
+                </td>
+                <td style="color:#d64700;font-size:30px">
+                    {{params[8]}}
+                </td>
+            </tr>
 			<tr>
 				<td style="color:#663f63;font-family:cursive;font-size:18px;padding-left: 10px; padding-right:20px">
 
@@ -61,7 +69,7 @@
 
 	
 	{% for item in params[6] %}
-		<span style="width:100px">{{item}}</span>
+        <span style="width:100px"><a href="{{ url_for('genre_search', genre_name=item) }}">{{item}}</a></span>
 	{% endfor %}
 	
 
