@@ -96,6 +96,7 @@ def result():
     print('Score : ' + str(score))
 
     db.conn.close()
+    # get_similar(params[6])
     params.append(score)
     if 'review' in session:
         review = session['review'][:511] + '....'
@@ -138,9 +139,25 @@ def show_review():
     except:
         print(sys.exc_info()[0])
         # info = ['None', 'None']
-    review = get_review (params[0])
+    review = get_review(params[0])
     if review is None:
         review = 'No review available at the moment, sorry.'
     return render_template('show_review.html', review=review, params=params)
 
+
+def get_similar(genre_list):
+    movie_list = []
+    db = HomeDB()
+    cursors = []
+    for item in genre_list:
+        g1 = db.conn.execute('''select movie_table.id, movie_table.name, movie_table.year, round(rating_table.score)
+                                from movie_table, rating_table, genre_table
+                                where movie_table.id = rating_table.id 
+                                and movie_table.id = genre_table.id 
+                                and genre_table.genre = ? collate nocase
+                                order by rating_table.score DESC''',
+                             (item,)).fetchall()
+        cursors.append(g1)
+    db.conn.close()
+    print(cursors)
 
