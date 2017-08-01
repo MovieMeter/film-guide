@@ -96,7 +96,7 @@ def result():
     print('Score : ' + str(score))
 
     db.conn.close()
-    # get_similar(params[6])
+    get_similar(params[6])
     params.append(score)
     if 'review' in session:
         review = session['review'][:511] + '....'
@@ -149,15 +149,48 @@ def get_similar(genre_list):
     movie_list = []
     db = HomeDB()
     cursors = []
+    my_dict = {}
     for item in genre_list:
-        g1 = db.conn.execute('''select movie_table.id, movie_table.name, movie_table.year, round(rating_table.score)
-                                from movie_table, rating_table, genre_table
-                                where movie_table.id = rating_table.id 
-                                and movie_table.id = genre_table.id 
-                                and genre_table.genre = ? collate nocase
-                                order by rating_table.score DESC''',
-                             (item,)).fetchall()
-        cursors.append(g1)
-    db.conn.close()
-    print(cursors)
+        g1 = db.conn.execute('''select movie_table.id, round(rating_table.score)
+                                  from movie_table, rating_table, genre_table
+                                  where movie_table.id = rating_table.id 
+                                  and movie_table.id = genre_table.id 
+                                  and genre_table.genre = ? collate nocase
+                                  order by rating_table.score DESC''',
+                                (item,)).fetchall()
+        l1 = list(g1)
+        for item in l1:
+            if item[0] not in my_dict:
+                add_list = [1, item[1]]
+                my_dict[item[0]] = add_list
+            else:
+                # print('Count = ' + str(my_dict[[item[0]]][0]))
+                my_dict[item[0]][0] = my_dict[item[0]][0]+1
+
+    # print(my_dict)
+    sorted_dict = sorted(my_dict, key=my_dict.__getitem__)
+    print('Sorted dictionary : ')
+    print(type(sorted_dict))
+    print(sorted_dict)
+    # for item in genre_list:
+    #     g1 = db.conn.execute('''select movie_table.id, movie_table.name, movie_table.year, round(rating_table.score)
+    #                             from movie_table, rating_table, genre_table
+    #                             where movie_table.id = rating_table.id
+    #                             and movie_table.id = genre_table.id
+    #                             and genre_table.genre = ? collate nocase
+    #                             order by rating_table.score DESC''',
+    #                          (item,)).fetchall()
+    #     l1 = list(g1)
+    #     cursors.append(l1)
+    # db.conn.close()
+    # print(cursors)
+    # length = len(cursors)
+    # count = 0
+    # while(len(movie_list) < 5):
+    #     id = cursors[count][0]
+    #     for cursor in cursors:
+    #         cursor.remove(id)
+    #
+
+
 
