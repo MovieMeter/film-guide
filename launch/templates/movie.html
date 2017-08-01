@@ -5,34 +5,105 @@
 {#    <title>{{params[0]}}</title>#}
 {#</head>#}
 {#<body>#} -->
+<!-- {#{{ url_for('Film', filename='image') }}#}
+{#url_for('static', filename='images/image')#} -->
 {% extends 'layout.html' %}
 {% block body %}
-
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='italy.css')}}">
 <div class="name">
-  <span style="font-size:35px;padding-right: 40px">{{params[0] }}</span>
+    <span style="font-size:35px;padding-right: 40px;font-family:Nevada;"><a href="#" style="color:black">{{params[0] }}</a></span>
     {{params[1]}}
 </div>
 
-<div>
-	<div class="col-sm-6">
-		<img src="#" alt="downloading image">
+<div style="height:500px; position="block"" class="row">
+	<div class="col-sm-8">
+		<img src="{{ params[7] }}" alt="Poster for {{ params[0] }}." style="width:350px;height:500px">
 	</div>
-	<div>
-		hello
+	<div class="col-sm-4">
+	<p style="height:100px">
+	</p>
+		<!-- <p><span style="font-size:35px;color:#c13c30">Rating:</span></p> -->
+		<p>
+		<table>
+			<tr style="height:150px;z-index: 1">
+					<td style="color:#663f63;font-family:cursive;font-size:20px;width:150px;padding-left: -20px;text-align: center;">
+						Directed by:
+					</td>
+					<td style=" font-size: 20px;text-align: center;width:300px">
+					{{params[5]}}
+					</td>
+			</tr>
+		</table>
+
+
+
+	
+
+
+
+	
+		<table >
+
+            <tr>
+                <td style="color:#663f63;font-family:cursive;font-size:25px;padding-left: 10px; padding-right:20px">
+                    Score:
+                </td>
+                <td style="color:#c13c30;font-size:30px">
+                    {{params[8]}}
+                </td>
+            </tr>
+			<tr>
+				<td style="color:#663f63;font-family:cursive;font-size:18px;padding-left: 10px; padding-right:20px">
+
+					IMDB:
+				</td>
+				<td style="color:#c13c30;font-size:25px">
+					{{params[2]}}
+				</td>
+			</tr>
+			<tr>
+				<td style="color:#663f63;font-family:cursive;font-size:18px;padding-left: 10px;padding-right:20px">
+					Rottentomatoes:
+				</td>
+				<td style="color:#c13c30;font-size:25px">
+					{{params[3]}}
+				</td>
+			</tr>
+			<tr>
+				<td style="color:#663f63;font-family:cursive;font-size:18px;padding-left: 10px;padding-right:20px">
+					Metacritic:
+				</td>
+				<td style="color:#c13c30;font-size:25px">
+					{{params[4]}}
+				</td>
+			</tr>
+		</table>
+		
+		</p>
+
+		<p style="height:50px">
+		</p>
+		<p style="padding-left: 40px">
+		{% for item in params[6] %}
+        <span style="width:100px"><a href="{{ url_for('genre_search', genre_name=item) }}">{{item}}</a></span>
+		{% endfor %}
+		</p>
+
+
 	</div>
 </div>
+<div style="height:100px">
+	</div>
+
+
+	
+	
 
 <h3>
-    Director :
+    <a href="{{ url_for('show_review') }}">Summary :</a>
 </h3>
 <p>
-    {{params[3]}}
-</p>
-<h3>
-    Rating :
-</h3>
-<p>
-    {{params[2]}}
+    {{review}}
 </p>
 {% endblock %}
 <!-- {#</body>#}

@@ -15,7 +15,7 @@
     Movie Name :
 </h2>
 <p>
-    {{ m[1] }} ({{m[2]}})
+    <a href="{{ url_for('show_movie', name=m[1]) }}">{{ m[1] }}</a> ({{m[2]}})
 </p>
 {% endfor %}
 {% endblock %}

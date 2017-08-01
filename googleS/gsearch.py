@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 
 
 def search(term):
-    print('IP Test : ')
-    print(requests.get('http://ipecho.net/plain').text)
+    # print('IP Test : ')
+    # print(requests.get('http://ipecho.net/plain').text)
 
     # term = input('Enter : ')
     header = {

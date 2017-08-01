@@ -9,6 +9,8 @@ from Film.film import Film
 # from bs4 import BeautifulSoup
 
 
+my_db = HomeDB()
+
 def check(film):
     db = HomeDB()
     is_present = db.check_entry(film)
