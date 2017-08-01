@@ -11,30 +11,50 @@
 {% block body %}
 <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='italy.css')}}">
 <div class="name">
-    <span style="font-size:35px;padding-right: 40px;font-family:Nevada;"><a href="#" style="color:black">{{params[0] }}</a></span>
-    {{params[1]}}
+    <span style="font-size:35px;padding-right: 40px;font-family:'Bowlby One SC'"><a href="#" style="color:black">{{params[0] }}</a></span>
+    <span style="font-family:'Sofia'; font-size: 25px">{{params[1]}}</span>
 </div>
 
-<div style="height:400px">
+<div style="height:500px; position:block" class="row">
 	<div class="col-sm-8">
-		<img src="{{ params[7] }}" alt="Poster for {{ params[0] }}.">
+		<img src="{{ params[7] }}" alt="Poster for {{ params[0] }}." style="width:350px;height:500px">
 	</div>
 	<div class="col-sm-4">
 	<p style="height:100px">
 	</p>
 		<!-- <p><span style="font-size:35px;color:#c13c30">Rating:</span></p> -->
 		<p>
+		<table>
+			<tr style="height:150px;z-index: 1">
+					<td style="color:#663f63;font-family:Dosis, serif;font-size:23px;width:150px;text-align:center">
+						Directed by:
+					</td>
+					<td style=" font-size: 20px;width:250px">
+					<a href="#">
+					{{params[5]}}</a>
+					</td>
+			</tr>
+		</table>
+
+
+
+	
+
+
+
+	
 		<table >
+
             <tr>
-                <td style="color:#663f63;font-family:cursive;font-size:25px;padding-left: 10px; padding-right:20px">
+                <td style="color:#663f63;font-family:'Dancing Script';font-size:25px;padding-left: 10px; padding-right:20px">
                     Score:
                 </td>
-                <td style="color:#d64700;font-size:30px">
+                <td style="color:#c13c30;font-size:30px">
                     {{params[8]}}
                 </td>
             </tr>
 			<tr>
-				<td style="color:#663f63;font-family:cursive;font-size:18px;padding-left: 10px; padding-right:20px">
+				<td style="color:#663f63;font-family:'Dancing Script';font-size:25px;padding-left: 10px; padding-right:20px">
 
 					IMDB:
 				</td>
@@ -43,7 +63,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td style="color:#663f63;font-family:cursive;font-size:18px;padding-left: 10px;padding-right:20px">
+				<td style="color:#663f63;font-family:'Dancing Script';font-size:25px;padding-left: 10px;padding-right:20px">
 					Rottentomatoes:
 				</td>
 				<td style="color:#c13c30;font-size:25px">
@@ -51,7 +71,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td style="color:#663f63;font-family:cursive;font-size:18px;padding-left: 10px;padding-right:20px">
+				<td style="color:#663f63;font-family:'Dancing Script';font-size:25px;padding-left: 10px;padding-right:20px">
 					Metacritic:
 				</td>
 				<td style="color:#c13c30;font-size:25px">
@@ -61,6 +81,16 @@
 		</table>
 		
 		</p>
+
+		<p style="height:50px">
+		</p>
+		<p style="padding-left: 40px">
+		{% for item in params[6] %}
+        <span style="width:100px"><a href="{{ url_for('genre_search', genre_name=item) }}">{{item}}</a></span>
+		{% endfor %}
+		</p>
+
+
 	</div>
 </div>
 <div style="height:100px">
@@ -68,9 +98,6 @@
 
 
 	
-	{% for item in params[6] %}
-        <span style="width:100px"><a href="{{ url_for('genre_search', genre_name=item) }}">{{item}}</a></span>
-	{% endfor %}
 	
 
 <h3>

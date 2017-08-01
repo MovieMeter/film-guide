@@ -145,6 +145,11 @@ def show_review():
     return render_template('show_review.html', review=review, params=params)
 
 
+# @app.route('/director')
+# def show_director():
+#     return redirect('http://www.google.com/search?', q='John Glen')
+
+
 def get_similar(genre_list):
     movie_list = []
     db = HomeDB()
@@ -191,6 +196,7 @@ def get_similar(genre_list):
     #     for cursor in cursors:
     #         cursor.remove(id)
     #
+
 
 
 

@@ -5,10 +5,17 @@
   <link href="/images/branding/product/ico/googleg_lodp.ico" rel="shortcut icon"/>
   <meta content="origin" id="mref" name="referrer"/>
   <title>
+<<<<<<< HEAD
    Predestination  2014 rottentomatoes - Google Search
   </title>
   <script>
    (function(){window.google={kEI:'r5SAWfOkKobavATT87q4BA',kEXPI:'1352960,1353382,1354276,1354443,1354562,1354620,1354625,3700252,3700347,3700433,3700442,4029815,4031109,4038214,4038394,4041776,4043492,4045096,4045293,4045841,4047140,4047454,4048347,4048980,4050750,4051887,4056126,4056682,4058016,4061666,4061980,4062724,4064468,4064796,4069829,4072270,4072777,4076999,4078430,4078588,4080760,4081038,4081165,4082131,4082230,4093136,4093313,4093524,4094544,4095910,4097150,4097195,4097470,4097922,4097929,4097951,4098721,4098728,4098752,4101430,4101437,4103475,4103861,4104202,4104258,4105085,4106626,4106647,4107555,4109293,4109489,4109524,4109610,4110086,4110260,4110403,4110656,4110931,4110941,4111431,4111542,4112286,4113148,4113217,4113225,4113495,4114976,4114982,4115112,4115697,4116870,4116926,4116928,4116935,4117533,4117980,4118226,4118280,4118475,4118626,4118798,4119032,4119034,4119036,4119238,4119272,4119586,4119591,4119625,4120006,4120045,4120057,4120278,4120281,4120283,4120806,4120916,4121035,4121174,4121204,4121512,4121852,4122006,4122131,4122705,4122723,4123334,4123380,4123620,4124288,4124426,4124687,10200083,10201957',authuser:0,kscs:'c9c918f0_41'};google.kHL='en-IN';})();(function(){google.lc=[];google.li=0;google.getEI=function(a){for(var b;a&&(!a.getAttribute||!(b=a.getAttribute("eid")));)a=a.parentNode;return b||google.kEI};google.getLEI=function(a){for(var b=null;a&&(!a.getAttribute||!(b=a.getAttribute("leid")));)a=a.parentNode;return b};google.https=function(){return"https:"==window.location.protocol};google.ml=function(){return null};google.wl=function(a,b){try{google.ml(Error(a),!1,b)}catch(c){}};google.time=function(){return(new Date).getTime()};google.log=function(a,b,c,d,g){if(a=google.logUrl(a,b,c,d,g)){b=new Image;var e=google.lc,f=google.li;e[f]=b;b.onerror=b.onload=b.onabort=function(){delete e[f]};google.vel&&google.vel.lu&&google.vel.lu(a);b.src=a;google.li=f+1}};google.logUrl=function(a,b,c,d,g){var e="",f=google.ls||"";c||-1!=b.search("&ei=")||(e="&ei="+google.getEI(d),-1==b.search("&lei=")&&(d=google.getLEI(d))&&(e+="&lei="+d));a=c||"/"+(g||"gen_204")+"?atyp=i&ct="+a+"&cad="+b+e+f+"&zx="+google.time();/^http:/i.test(a)&&google.https()&&(google.ml(Error("a"),!1,{src:a,glmm:1}),a="");return a};google.y={};google.x=function(a,b){if(a)var c=a.id;else{do c=Math.random();while(google.y[c])}google.y[c]=[a,b];return!1};google.lq=[];google.load=function(a,b,c){google.lq.push([[a],b,c])};google.loadAll=function(a,b){google.lq.push([a,b])};}).call(this);google.f={};(function(){google.hs={h:true,pa:true,q:true};})();google.arwt=function(a){a.href=document.getElementById(a.id.substring(1)).href;return!0};(function(){function e(a){return a?(a=a.getAttribute("data-ved"))?"&ved="+a:"":""}
+=======
+   Ant-Man  2015 rottentomatoes - Google Search
+  </title>
+  <script>
+   (function(){window.google={kEI:'4XmAWYiaDYb5vgSi6qTgBg',kEXPI:'18167,1353382,1354276,1354515,1354562,1354625,3700331,3700347,3700433,3700442,4003510,4029815,4031109,4038214,4038394,4041776,4043492,4045096,4045293,4045841,4047140,4047454,4048347,4048980,4050750,4051887,4056126,4056682,4058016,4061666,4061980,4062724,4064468,4064796,4069829,4072270,4072777,4076999,4078430,4078588,4080760,4081039,4081165,4082131,4082230,4093136,4093314,4093524,4094544,4095910,4097153,4097469,4097922,4097929,4097951,4098052,4098061,4098721,4098728,4098752,4101430,4101437,4102238,4103475,4103861,4104037,4104202,4104258,4105085,4105114,4105118,4106625,4106647,4107555,4109293,4109316,4109490,4109524,4110086,4110403,4110656,4110931,4110941,4111431,4111542,4111593,4111736,4111968,4112286,4113148,4113214,4113219,4113495,4114976,4115287,4115697,4116724,4116731,4116870,4116926,4116928,4116935,4117534,4117979,4118227,4118475,4118627,4118798,4118976,4118977,4119025,4119032,4119034,4119036,4119121,4119239,4119272,4119621,4120004,4120045,4120057,4120277,4120281,4120283,4120916,4121035,4121174,4121513,4121536,4121786,4121792,4121851,4122024,4122190,4122298,4122415,4122699,4122705,4122723,4122809,4123472,4123588,4123898,4123955,4123984,4124288,4124420,10200083',authuser:0,kscs:'c9c918f0_41'};google.kHL='en-IN';})();(function(){google.lc=[];google.li=0;google.getEI=function(a){for(var b;a&&(!a.getAttribute||!(b=a.getAttribute("eid")));)a=a.parentNode;return b||google.kEI};google.getLEI=function(a){for(var b=null;a&&(!a.getAttribute||!(b=a.getAttribute("leid")));)a=a.parentNode;return b};google.https=function(){return"https:"==window.location.protocol};google.ml=function(){return null};google.wl=function(a,b){try{google.ml(Error(a),!1,b)}catch(c){}};google.time=function(){return(new Date).getTime()};google.log=function(a,b,c,d,g){if(a=google.logUrl(a,b,c,d,g)){b=new Image;var e=google.lc,f=google.li;e[f]=b;b.onerror=b.onload=b.onabort=function(){delete e[f]};google.vel&&google.vel.lu&&google.vel.lu(a);b.src=a;google.li=f+1}};google.logUrl=function(a,b,c,d,g){var e="",f=google.ls||"";c||-1!=b.search("&ei=")||(e="&ei="+google.getEI(d),-1==b.search("&lei=")&&(d=google.getLEI(d))&&(e+="&lei="+d));a=c||"/"+(g||"gen_204")+"?atyp=i&ct="+a+"&cad="+b+e+f+"&zx="+google.time();/^http:/i.test(a)&&google.https()&&(google.ml(Error("a"),!1,{src:a,glmm:1}),a="");return a};google.y={};google.x=function(a,b){if(a)var c=a.id;else{do c=Math.random();while(google.y[c])}google.y[c]=[a,b];return!1};google.lq=[];google.load=function(a,b,c){google.lq.push([[a],b,c])};google.loadAll=function(a,b){google.lq.push([a,b])};}).call(this);google.f={};(function(){google.hs={h:true,pa:true,q:true};})();google.arwt=function(a){a.href=document.getElementById(a.id.substring(1)).href;return!0};(function(){function e(a){return a?(a=a.getAttribute("data-ved"))?"&ved="+a:"":""}
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
 google.ausb=function(a){if(!a)return google.ml(Error("b"),!1),!0;if(a.getAttribute("data-sbv2")){var c=a.href,d=/[?&]adurl=([^&]+)/.exec(c);if(d&&/[?&]ae=1(&|$)/.test(c))try{var b={o:c+"&act=1",s:decodeURIComponent(d[1])}}catch(f){google.ml(Error("a`"+c),!1),b=null}else b=null;b&&(navigator.sendBeacon&&navigator.sendBeacon(b.o+"&ri=1")?a.href=b.s:a.href+="&ri=2")}else b="",a.getAttribute("data-arwt")?a.id&&(b=e(document.getElementById(a.id.substring(1)))):b=e(a),c=a.getAttribute("data-sbt"),d=a.getAttribute("data-sbf"),c&&d&&navigator.sendBeacon&&navigator.sendBeacon(c+b+"&bt=1")?a.href=d:a.href+="&bt=2";return!0};}).call(this);(function(){var k=this,l=Date.now||function(){return+new Date};var t={};var v=function(a,d){if(null===d)return!1;if("contains"in a&&1==d.nodeType)return a.contains(d);if("compareDocumentPosition"in a)return a==d||!!(a.compareDocumentPosition(d)&16);for(;d&&a!=d;)d=d.parentNode;return d==a};var w=function(a,d){return function(b){b||(b=window.event);return d.call(a,b)}},B=function(a){a=a.target||a.srcElement;!a.getAttribute&&a.parentNode&&(a=a.parentNode);return a},C="undefined"!=typeof navigator&&/Macintosh/.test(navigator.userAgent),D="undefined"!=typeof navigator&&!/Opera/.test(navigator.userAgent)&&/WebKit/.test(navigator.userAgent),E={A:1,INPUT:1,TEXTAREA:1,SELECT:1,BUTTON:1},aa=function(){this._mouseEventsPrevented=!0},F={A:13,BUTTON:0,CHECKBOX:32,COMBOBOX:13,GRIDCELL:13,LINK:13,LISTBOX:13,MENU:0,MENUBAR:0,MENUITEM:0,MENUITEMCHECKBOX:0,MENUITEMRADIO:0,OPTION:0,RADIO:32,RADIOGROUP:32,RESET:0,SUBMIT:0,TAB:0,TREE:13,TREEITEM:13},G=function(a){return(a.getAttribute("type")||a.tagName).toUpperCase()in ba},H=function(a){return(a.getAttribute("type")||a.tagName).toUpperCase()in ca},ba={CHECKBOX:!0,OPTION:!0,RADIO:!0},ca={COLOR:!0,DATE:!0,DATETIME:!0,"DATETIME-LOCAL":!0,EMAIL:!0,MONTH:!0,NUMBER:!0,PASSWORD:!0,RANGE:!0,SEARCH:!0,TEL:!0,TEXT:!0,TEXTAREA:!0,TIME:!0,URL:!0,WEEK:!0},da={A:!0,AREA:!0,BUTTON:!0,DIALOG:!0,IMG:!0,INPUT:!0,LINK:!0,MENU:!0,OPTGROUP:!0,OPTION:!0,PROGRESS:!0,SELECT:!0,TEXTAREA:!0};var I=function(){this.v=this.o=null},K=function(a,d){var b=J;b.o=a;b.v=d;return b};I.prototype.s=function(){var a=this.o;this.o&&this.o!=this.v?this.o=this.o.__owner||this.o.parentNode:this.o=null;return a};var L=function(){this.w=[];this.o=0;this.v=null;this.H=!1};L.prototype.s=function(){if(this.H)return J.s();if(this.o!=this.w.length){var a=this.w[this.o];this.o++;a!=this.v&&a&&a.__owner&&(this.H=!0,K(a.__owner,this.v));return a}return null};var J=new I,M=new L;var P=function(){this.T=[];this.o=[];this.s=[];this.H={};this.v=null;this.w=[];O(this,"_custom")},ea="undefined"!=typeof navigator&&/iPhone|iPad|iPod/.test(navigator.userAgent),Q=String.prototype.trim?function(a){return a.trim()}:function(a){return a.replace(/^\s+/,"").replace(/\s+$/,"")},fa=/\s*;\s*/,ka=function(a,d){return function(b){var c=d;if("_custom"==c){c=b.detail;if(!c||!c._type)return;c=c._type}if("click"==c&&(C&&b.metaKey||!C&&b.ctrlKey||2==b.which||null==b.which&&4==b.button||b.shiftKey))c=
 "clickmod";else{var e=b.which||b.keyCode||b.key;D&&3==e&&(e=13);if(13!=e&&32!=e)e=!1;else{var f=B(b),q=(f.getAttribute("role")||f.type||f.tagName).toUpperCase(),h;(h="keydown"!=b.type)||("getAttribute"in f?(h=(f.getAttribute("role")||f.tagName).toUpperCase(),h=!H(f)&&("COMBOBOX"!=h||"INPUT"!=h)&&!f.isContentEditable):h=!1,h=!h);(h=h||b.ctrlKey||b.shiftKey||b.altKey||b.metaKey||G(f)&&32==e)||((h=f.tagName in E)||(h=f.getAttributeNode("tabindex"),h=null!=h&&h.specified),h=!(h&&!f.disabled));h?e=!1:(f="INPUT"!=f.tagName.toUpperCase()||f.type,h=!(q in F)&&13==e,e=(0==F[q]%e||h)&&!!f)}e&&(c="clickkey")}q=b.srcElement||b.target;e=R(c,b,q,"",null);b.path?(M.w=b.path,M.o=0,M.v=this,M.H=!1,f=M):f=K(q,this);for(;h=f.s();){var m=h;var g=m;h=c;var p=g.__jsaction;if(!p){var u=null;"getAttribute"in g&&(u=g.getAttribute("jsaction"));if(u){p=t[u];if(!p){p={};for(var x=u.split(fa),y=0,ha=x?x.length:0;y<ha;y++){var r=x[y];if(r){var z=r.indexOf(":"),N=-1!=z;var ia=N?Q(r.substr(0,z)):"click";r=N?Q(r.substr(z+
 1)):r;p[ia]=r}}t[u]=p}g.__jsaction=p}else p=ja,g.__jsaction=p}"clickkey"==h?h="click":"click"!=h||p.click||(h="clickonly");g={S:h,action:p[h]||"",event:null,U:!1};e=R(g.S,g.event||b,q,g.action||"",m,e.timeStamp);if(g.U||g.action)break}e&&"touchend"==e.eventType&&(e.event._preventMouseEvents=aa);if(g&&g.action){if(g="clickkey"==c)g=B(b),g=(g.type||g.tagName).toUpperCase(),(g=32==(b.which||b.keyCode||b.key)&&"CHECKBOX"!=g)||(g=B(b),q=(g.getAttribute("role")||g.tagName).toUpperCase(),g=g.tagName.toUpperCase()in
@@ -33,7 +40,11 @@ m.event._mouseEventsPrevented){b=m.event;for(var oa in b);l()}}}},R=function(a,d
   </style>
   <script>
    (function(){var b=[function(){google.c&&google.tick("load","dcl")}];google.dcl=!1;google.dclc=function(a){google.dcl?a():b.push(a)};function c(){if(!google.dcl){google.dcl=!0;for(var a;a=b.shift();)a()}}window.addEventListener?(document.addEventListener("DOMContentLoaded",c,!1),window.addEventListener("load",c,!1)):window.attachEvent&&window.attachEvent("onload",c);}).call(this);window.rwt=function(a,l,m,n,i,f,b,j,g,d){return true};
+<<<<<<< HEAD
 (window['gbar']=window['gbar']||{})._CONFIG=[[[0,"www.gstatic.com","og.og2.en_US.snO5cT4sM-s.O","co.in","en","1",1,[3,2,".40.","","1300102,3700252,3700347,3700433,3700442","1501208823","0"],"40400","r5SAWd6YK8SAvwTuso3QCg",0,0,"og.og2.eykeuitiwjm7.L.W.O","AA2YrTtKXjzLcG6xUbNfYK31jjfgbWwamA","AA2YrTuZk82U3Ipt3z2Iphr7hLo0Iz7_xQ","",2,0,200,"IND"],null,0,["m;/_/scs/abc-static/_/js/k=gapi.gapi.en.pwuFxAM9sSs.O/m=__features__/rt=j/d=1/rs=AHpOoo_kFxiSkGFruvghs_M-2UjERAt_Iw","https://apis.google.com","","","","",null,1,"es_plusone_gc_20170713.0_p0","en"],["1","gci_91f30755d6a6b787dcc2a4062e6e9824.js","googleapis.client:plusone:gapi.iframes","","en"],null,null,null,[0.009999999776482582,"co.in","1",[null,"","w",null,1,5184000,1,1,"\u0026cot=2",0,1,"",0],[["845686785","845686784","6",30,5,2592000,"","AN2NJM4xUMj2AoXfqdVXhSPPnjqFiQ4-dg:1501598895713",0],"https://www.google.com/url?q=%2Fchrome%2Fbrowser%2F%3Fhl%3Den-US%26brand%3DRLNS%26utm_source%3Den-US-hpp%26utm_medium%3Dhpp%26utm_campaign%3Den-US\u0026source=hpp\u0026id=845686785\u0026ct=6\u0026usg=AFQjCNFOG7DpYgUexuHiXaJIg3dG5sqCCw",["#ffffff","#d9d9d9","#a0a0a0"],0,0,0],[["","","0",0,0,-1]],null,0,null,null,["5061451","google\\.(com|ru|ca|by|kz|com\\.mx|com\\.tr)$",1]],null,[0,0,0,null,"","","",""],[1,0.001000000047497451,1],[1,0.1000000014901161,2,1],[0,"",null,"",0,"There was an error loading your Marketplace apps.","You have no Marketplace apps.",0,[1,"https://www.google.co.in/webhp?tab=ww","Search","","0 -69px",null,0],null,null,1,0,null,1],[1],[0,1,["lg"],1,["lat"]],[["","","","","","","","","","","","","","","","","","","","def","","","","","","",""],[""]],null,null,null,[30,127,1,0,60],null,null,null,null,null,[1,0],null,[1,0.001000000047497451,0,40400,1,"IND","en","1501208823.0",1]]];(window['gbar']=window['gbar']||{})._LDD=["in","fot"];/* _GlobalPrefix_ */
+=======
+(window['gbar']=window['gbar']||{})._CONFIG=[[[0,"www.gstatic.com","og.og2.en_US.snO5cT4sM-s.O","co.in","en","1",1,[3,2,".40.","","1300102,3700331,3700347,3700433,3700442","1501208823","0"],"40400","4XmAWZXLDsj3vATe3pjwDQ",0,0,"og.og2.eykeuitiwjm7.L.W.O","AA2YrTtKXjzLcG6xUbNfYK31jjfgbWwamA","AA2YrTuZk82U3Ipt3z2Iphr7hLo0Iz7_xQ","",2,0,200,"IND"],null,0,["m;/_/scs/abc-static/_/js/k=gapi.gapi.en.pwuFxAM9sSs.O/m=__features__/rt=j/d=1/rs=AHpOoo_kFxiSkGFruvghs_M-2UjERAt_Iw","https://apis.google.com","","","","",null,1,"es_plusone_gc_20170713.0_p0","en"],["1","gci_91f30755d6a6b787dcc2a4062e6e9824.js","googleapis.client:plusone:gapi.iframes","","en"],null,null,null,[0.009999999776482582,"co.in","1",[null,"","w",null,1,5184000,1,1,"\u0026cot=2",0,1,"",0],[["845686785","845686784","6",30,5,2592000,"","AN2NJM7VBFctUpSiYWuiNEdkyH5aIBspDw:1501592033243",0],"https://www.google.com/url?q=%2Fchrome%2Fbrowser%2F%3Fhl%3Den-US%26brand%3DRLNS%26utm_source%3Den-US-hpp%26utm_medium%3Dhpp%26utm_campaign%3Den-US\u0026source=hpp\u0026id=845686785\u0026ct=6\u0026usg=AFQjCNFOG7DpYgUexuHiXaJIg3dG5sqCCw",["#ffffff","#d9d9d9","#a0a0a0"],0,0,0],[["","","0",0,0,-1]],null,0,null,null,["5061451","google\\.(com|ru|ca|by|kz|com\\.mx|com\\.tr)$",1]],null,[0,0,0,null,"","","",""],[1,0.001000000047497451,1],[1,0.1000000014901161,2,1],[0,"",null,"",0,"There was an error loading your Marketplace apps.","You have no Marketplace apps.",0,[1,"https://www.google.co.in/webhp?tab=ww","Search","","0 -69px",null,0],null,null,1,0,null,1],[1],[0,1,["lg"],1,["lat"]],[["","","","","","","","","","","","","","","","","","","","def","","","","","","",""],[""]],null,null,null,[30,127,1,0,60],null,null,null,null,null,[1,0],null,[1,0.001000000047497451,0,40400,1,"IND","en","1501208823.0",1]]];(window['gbar']=window['gbar']||{})._LDD=["in","fot"];/* _GlobalPrefix_ */
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
 this.gbar_=this.gbar_||{};(function(_){var window=this;
 /* _Module_:_r */
 try{
@@ -88,13 +99,21 @@ _.y("gbar.elr",function(){return{es:{f:152,h:60,m:30},mo:"md",vh:window.innerHei
   </noscript>
   <textarea id="csi" name="csi" style="display:none"></textarea>
   <noscript>
+<<<<<<< HEAD
    <meta content="0;url=/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;gbv=1&amp;sei=r5SAWfOkKobavATT87q4BA" http-equiv="refresh"/>
+=======
+   <meta content="0;url=/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;gbv=1&amp;sei=4XmAWYiaDYb5vgSi6qTgBg" http-equiv="refresh"/>
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
    <style>
     table,div,span,p{display:none}
    </style>
    <div style="display:block">
     Please click
+<<<<<<< HEAD
     <a href="/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;gbv=1&amp;sei=r5SAWfOkKobavATT87q4BA">
+=======
+    <a href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;gbv=1&amp;sei=4XmAWYiaDYb5vgSi6qTgBg">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
      here
     </a>
     if you are not redirected within a few seconds.
@@ -158,7 +177,11 @@ _.y("gbar.elr",function(){return{es:{f:152,h:60,m:30},mo:"md",vh:window.innerHei
         </div>
         <div class="gb_4f gb_R">
          <div class="gb_Dc">
+<<<<<<< HEAD
           <a class="gb_Af gb_Fa gb_wb" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.co.in/search%3Foq%3DPredestination%25C2%25A0%2B2014%2Brottentomatoes%26q%3DPredestination%25C2%25A0%2B2014%2Brottentomatoes" id="gb_70" target="_top">
+=======
+          <a class="gb_Af gb_Fa gb_wb" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.co.in/search%3Foq%3DAnt-Man%25C2%25A0%2B2015%2Brottentomatoes%26q%3DAnt-Man%25C2%25A0%2B2015%2Brottentomatoes" id="gb_70" target="_top">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
            Sign in
           </a>
           <div class="gb_kb">
@@ -182,7 +205,11 @@ _.y("gbar.elr",function(){return{es:{f:152,h:60,m:30},mo:"md",vh:window.innerHei
     <div class="tsf-p">
      <div class="nojsv logocont" id="logocont">
       <h1>
+<<<<<<< HEAD
        <a data-hveid="3" href="https://www.google.co.in/webhp?hl=en&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQPAgD" id="logo" title="Go to Google Home">
+=======
+       <a data-hveid="3" href="https://www.google.co.in/webhp?hl=en&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQPAgD" id="logo" title="Go to Google Home">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
         <img alt="Google" height="44" onload="google&amp;&amp;google.aft&amp;&amp;google.aft(this)" src="/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png" width="120"/>
        </a>
       </h1>
@@ -204,7 +231,11 @@ _.y("gbar.elr",function(){return{es:{f:152,h:60,m:30},mo:"md",vh:window.innerHei
           </span>
          </button>
          <div class="lst-c">
+<<<<<<< HEAD
           <input aria-label="Search" autocomplete="off" class="lst lst-tbb sbibps" id="lst-ib" maxlength="2048" name="q" title="Search" type="text" value="Predestination  2014 rottentomatoes"/>
+=======
+          <input aria-label="Search" autocomplete="off" class="lst lst-tbb sbibps" id="lst-ib" maxlength="2048" name="q" title="Search" type="text" value="Ant-Man  2015 rottentomatoes"/>
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
          </div>
         </div>
        </div>
@@ -245,11 +276,19 @@ _.y("gbar.elr",function(){return{es:{f:152,h:60,m:30},mo:"md",vh:window.innerHei
      <style>
       a.duf3{color:#777;float:right;font-style:italic;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0)}a._G8q{color:rgba(0,0,0,.54);float:none;font-style:normal}a._sWr{padding:0 5px;background:rgba(255,255,255,.9)}._v1h{color:#9e9e9e;cursor:pointer;padding-right:8px}._rWr{color:#9e9e9e;float:right;font-size:12px;padding-bottom:4px}
      </style>
+<<<<<<< HEAD
      <div class="r-iTQnslz1heOM" jsl="$t t-aTz9-_sUcEc;$x 0;" style="display:none">
      </div>
      <div class="y yp" data-async-context-required="type,open,feature_id,async_id,entry_point,authority,card_id,header,suggestions,surface,suggestions_types,suggestions_subtypes" data-async-type="duffy3" data-jiis="up" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ-0EIBA" id="duf3-46">
      </div>
      <a class="duf3 _sWr" data-async-trigger="duf3-46" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQtw8IBQ" href="#" id="sbfblt" jsaction="async.u">
+=======
+     <div class="r-iLbsdSnaOErQ" jsl="$t t-aTz9-_sUcEc;$x 0;" style="display:none">
+     </div>
+     <div class="y yp" data-async-context-required="type,open,feature_id,async_id,entry_point,authority,card_id,header,suggestions,surface,suggestions_types,suggestions_subtypes" data-async-type="duffy3" data-jiis="up" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ-0EIBA" id="duf3-46">
+     </div>
+     <a class="duf3 _sWr" data-async-trigger="duf3-46" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQtw8IBQ" href="#" id="sbfblt" jsaction="async.u">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
       Report inappropriate predictions
      </a>
     </div>
@@ -324,7 +363,11 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
      <style>
       .t6psHzYPBsD__highlighted{}.t6psHzYPBsD__separator{}._eMq{display:inline-block}._bMq{cursor:pointer}._dMq{background:white;box-shadow:0 2px 10px 0 rgba(0,0,0,0.2);outline:none;padding:5px 0;position:absolute}a._VJq,a._VJq:visited{color:inherit;cursor:pointer;display:block;line-height:23px;outline:0;padding:3px 16px;text-decoration:inherit;white-space:nowrap}._VJq.t6psHzYPBsD__highlighted{background:rgba(0,0,0,0.1)}.t6psHzYPBsD__separator{border-top:1px solid #ddd;cursor:default;height:0;margin:5px 0;overflow:hidden;padding:0}#ab_ctls a{text-decoration:none}#ab_ctls a.ab_button:active,#ab_ctls a.ab_dropdownlnk:active{color:#333}
      </style>
+<<<<<<< HEAD
      <div class="r-ilQ4CLyP1SqM" jsl="$t t-js5htJpaNsk;$x 0;">
+=======
+     <div class="r-ih6UIjHrt1t0" jsl="$t t-js5htJpaNsk;$x 0;">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
       <div class="hdtbna notl" id="hdtb" role="navigation" tabindex="0">
        <div id="hdtbSum">
         <div id="hdtb-s" style="white-space:nowrap">
@@ -336,26 +379,43 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
               All
              </div>
              <div class="hdtb-mitem hdtb-imb">
+<<<<<<< HEAD
               <a class="q qs" href="/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ_AUICigB">
+=======
+              <a class="q qs" href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ_AUICigB">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                Videos
               </a>
              </div>
              <div class="hdtb-mitem hdtb-imb">
+<<<<<<< HEAD
               <a class="q qs" href="/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ_AUICygC">
+=======
+              <a class="q qs" href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ_AUICygC">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                News
               </a>
              </div>
              <div class="hdtb-mitem hdtb-imb">
+<<<<<<< HEAD
               <a class="q qs" href="/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ_AUIDCgD">
+=======
+              <a class="q qs" href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ_AUIDCgD">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                Images
               </a>
              </div>
              <div class="hdtb-mitem hdtb-imb">
+<<<<<<< HEAD
               <a class="q qs" href="https://maps.google.co.in/maps?q=Predestination%C2%A0+2014+rottentomatoes&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ_AUIDSgE">
+=======
+              <a class="q qs" href="https://maps.google.co.in/maps?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ_AUIDSgE">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                Maps
               </a>
              </div>
             </div>
+<<<<<<< HEAD
             <g-header-menu class="hdtb-mitem _eMq r-ic5tNyB9sP6s" jsl="$t t-Nfexb0d83t0;$x 0;">
              <a aria-haspopup="true" class="_bMq ic5tNyB9sP6s-_UwgkgYBDrI hdtb-dd-b" data-rtid="ic5tNyB9sP6s" jsaction="r.mSRaIWm1OeU" jsl="$x 1;" role="button" tabindex="0">
               More
@@ -365,12 +425,24 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                Books
               </a>
               <a class="_VJq q qs" data-rtid="ic5tNyB9sP6s" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ_AUIECgB" href="https://www.google.co.in/flights/gwsredirect?q=Predestination%C2%A0+2014+rottentomatoes&amp;source=lnms&amp;tbm=flm" jsaction="mouseover:r.1-l5Y2Ws2-4" jsl="$x 3;" role="menuitem" tabindex="-1">
+=======
+            <g-header-menu class="hdtb-mitem _eMq r-ibWhH3Ru8sZ8" jsl="$t t-Nfexb0d83t0;$x 0;">
+             <a aria-haspopup="true" class="_bMq ibWhH3Ru8sZ8-_UwgkgYBDrI hdtb-dd-b" data-rtid="ibWhH3Ru8sZ8" jsaction="r.mSRaIWm1OeU" jsl="$x 1;" role="button" tabindex="0">
+              More
+             </a>
+             <div class="_dMq ibWhH3Ru8sZ8-4ixgWLBslXg" data-rtid="ibWhH3Ru8sZ8" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ2h8IDigF" jsaction="keydown:r.1rILPBv56Z8;focus:r.GB-JqtwpQI4;blur:r.fmpHtAq2VGM" jsl="$x 2;" role="menu" style="display:none" tabindex="-1">
+              <a class="_VJq q qs" data-rtid="ibWhH3Ru8sZ8" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ_AUIDygA" href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;source=lnms&amp;tbm=bks" jsaction="mouseover:r.1-l5Y2Ws2-4" jsl="$x 3;" role="menuitem" tabindex="-1">
+               Books
+              </a>
+              <a class="_VJq q qs" data-rtid="ibWhH3Ru8sZ8" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ_AUIECgB" href="https://www.google.co.in/flights/gwsredirect?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;source=lnms&amp;tbm=flm" jsaction="mouseover:r.1-l5Y2Ws2-4" jsl="$x 3;" role="menuitem" tabindex="-1">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                Flights
               </a>
              </div>
             </g-header-menu>
            </div>
            <div>
+<<<<<<< HEAD
             <g-header-menu class="hdtb-mitem _eMq r-iJ_7Xfr40LF8" id="ab_options" jsl="$t t-Nfexb0d83t0;$x 0;">
              <a aria-haspopup="true" class="_bMq iJ_7Xfr40LF8-_UwgkgYBDrI hdtb-dd-b" data-rtid="iJ_7Xfr40LF8" href="/preferences" id="abar_button_opt" jsaction="r.mSRaIWm1OeU" jsl="$x 1;" role="button" tabindex="0">
               Settings
@@ -380,15 +452,31 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                Search settings
               </a>
               <a class="_VJq" data-rtid="iJ_7Xfr40LF8" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQo_oBCBM" href="/preferences?hl=en&amp;prev=https://www.google.co.in/search?oq%3DPredestination%25C2%25A0%2B2014%2Brottentomatoes%26q%3DPredestination%25C2%25A0%2B2014%2Brottentomatoes#languages" jsaction="mouseover:r.1-l5Y2Ws2-4" jsl="$x 3;" role="menuitem" tabindex="-1">
+=======
+            <g-header-menu class="hdtb-mitem _eMq r-iqygtWgj99uk" id="ab_options" jsl="$t t-Nfexb0d83t0;$x 0;">
+             <a aria-haspopup="true" class="_bMq iqygtWgj99uk-_UwgkgYBDrI hdtb-dd-b" data-rtid="iqygtWgj99uk" href="/preferences" id="abar_button_opt" jsaction="r.mSRaIWm1OeU" jsl="$x 1;" role="button" tabindex="0">
+              Settings
+             </a>
+             <div class="_dMq iqygtWgj99uk-4ixgWLBslXg" data-rtid="iqygtWgj99uk" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQn_YBCBEoAA" jsaction="keydown:r.1rILPBv56Z8;focus:r.GB-JqtwpQI4;blur:r.fmpHtAq2VGM" jsl="$x 2;" role="menu" style="display:none" tabindex="-1">
+              <a class="_VJq" data-rtid="iqygtWgj99uk" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQo_oBCBI" href="/preferences?hl=en&amp;prev=https://www.google.co.in/search?oq%3DAnt-Man%25C2%25A0%2B2015%2Brottentomatoes%26q%3DAnt-Man%25C2%25A0%2B2015%2Brottentomatoes" jsaction="mouseover:r.1-l5Y2Ws2-4" jsl="$x 3;" role="menuitem" tabindex="-1">
+               Search settings
+              </a>
+              <a class="_VJq" data-rtid="iqygtWgj99uk" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQo_oBCBM" href="/preferences?hl=en&amp;prev=https://www.google.co.in/search?oq%3DAnt-Man%25C2%25A0%2B2015%2Brottentomatoes%26q%3DAnt-Man%25C2%25A0%2B2015%2Brottentomatoes#languages" jsaction="mouseover:r.1-l5Y2Ws2-4" jsl="$x 3;" role="menuitem" tabindex="-1">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                <span>
                 Languages
                </span>
               </a>
+<<<<<<< HEAD
               <a class="_VJq" data-rtid="iJ_7Xfr40LF8" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQo_oBCBQ" href="/setprefs?safeui=on&amp;sig=0_VVX3EjMXfxPmDZDUvo2W0htkMo4%3D&amp;prev=https://www.google.co.in/search?oq%3DPredestination%25C2%25A0%2B2014%2Brottentomatoes%26q%3DPredestination%25C2%25A0%2B2014%2Brottentomatoes" id="safesearch" jsaction="mouseover:r.1-l5Y2Ws2-4;m.cbbl" jsl="$x 3;" role="menuitem" tabindex="-1">
+=======
+              <a class="_VJq" data-rtid="iqygtWgj99uk" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQo_oBCBQ" href="/setprefs?safeui=on&amp;sig=0_9rl5jYI8oWymxfzwqyUM5VOJ45Q%3D&amp;prev=https://www.google.co.in/search?oq%3DAnt-Man%25C2%25A0%2B2015%2Brottentomatoes%26q%3DAnt-Man%25C2%25A0%2B2015%2Brottentomatoes" id="safesearch" jsaction="mouseover:r.1-l5Y2Ws2-4;m.cbbl" jsl="$x 3;" role="menuitem" tabindex="-1">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                <div>
                 Turn on SafeSearch
                </div>
               </a>
+<<<<<<< HEAD
               <a class="_VJq" data-rtid="iJ_7Xfr40LF8" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQo_oBCBU" href="/advanced_search?q=Predestination%C2%A0+2014+rottentomatoes&amp;hl=en" jsaction="mouseover:r.1-l5Y2Ws2-4" jsl="$x 3;" role="menuitem" tabindex="-1">
                Advanced search
               </a>
@@ -396,11 +484,24 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                History
               </a>
               <a class="_VJq" data-rtid="iJ_7Xfr40LF8" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQo_oBCBc" href="//support.google.com/websearch/?source=g&amp;hl=en-IN" jsaction="mouseover:r.1-l5Y2Ws2-4" jsl="$x 3;" role="menuitem" tabindex="-1">
+=======
+              <a class="_VJq" data-rtid="iqygtWgj99uk" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQo_oBCBU" href="/advanced_search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;hl=en" jsaction="mouseover:r.1-l5Y2Ws2-4" jsl="$x 3;" role="menuitem" tabindex="-1">
+               Advanced search
+              </a>
+              <a class="_VJq" data-rtid="iqygtWgj99uk" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQo_oBCBY" href="/history/optout?hl=en" jsaction="mouseover:r.1-l5Y2Ws2-4" jsl="$x 3;" role="menuitem" tabindex="-1">
+               History
+              </a>
+              <a class="_VJq" data-rtid="iqygtWgj99uk" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQo_oBCBc" href="//support.google.com/websearch/?source=g&amp;hl=en-IN" jsaction="mouseover:r.1-l5Y2Ws2-4" jsl="$x 3;" role="menuitem" tabindex="-1">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                Search help
               </a>
              </div>
             </g-header-menu>
+<<<<<<< HEAD
             <a class="hdtb-tl" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ2x8IGCgB" id="hdtb-tls" role="button" tabindex="0">
+=======
+            <a class="hdtb-tl" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ2x8IGCgB" id="hdtb-tls" role="button" tabindex="0">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
              Tools
             </a>
            </div>
@@ -410,7 +511,11 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
          </ol>
         </div>
        </div>
+<<<<<<< HEAD
        <div aria-expanded="false" class="hdtb-td-c hdtb-td-h" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ3B8IGQ" id="hdtbMenus" tabindex="0">
+=======
+       <div aria-expanded="false" class="hdtb-td-c hdtb-td-h" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ3B8IGQ" id="hdtbMenus" tabindex="0">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
        </div>
       </div>
      </div>
@@ -426,9 +531,15 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
        <div class="ab_tnav_wrp" id="slim_appbar">
         <div id="sbfrm_l">
          <div id="resultStats">
+<<<<<<< HEAD
           About 1,91,000 results
           <nobr>
            (0.81 seconds)
+=======
+          About 41,60,000 results
+          <nobr>
+           (0.74 seconds)
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
           </nobr>
          </div>
         </div>
@@ -492,28 +603,46 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
           <style>
            ._pxg{background-repeat:repeat-x;display:inline-block;overflow:hidden;position:relative}._pxg span{background-repeat:repeat-x;display:block}._sxg ._pxg,._pxg._Esh{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAQAAAADQ4RFAAAA6klEQVR4AZXQMWsCMRiH8SAnQacODgpyg8rh1EEQHXS5xaUdXA5KRUHo+/2/wdN3aBNK34TEZ0rCD86/S/140ZydI9WrVo3etUrk+dJ8Hdog2qYO9YjW16ARD0R7MCpHC+SnRTk6BHQoR0NAg43WvP1LYsbrWh0tN6SwG+3v53n6ItLj//6nFfcsuLOyhphwSZILk/R6nUm6/OQzE83yaGeiXR5dTXTNoSmSaJpGWyQ0aBLaplGc/EijHePkKdTwRLQP5uFurifRnjQ2ahHtzBhHbKw3orU2OvHJEme01JeTjfZ4XCLPPp6+AYsy7RMdMSvnAAAAAElFTkSuQmCC)}._sxg ._pxg span,._pxg._Esh span{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAQAAAADQ4RFAAAA9klEQVR4AZXUoY7iUABG4SYYEgwYwhOsx4MlqUaAQ/AGMxqHIUHDC4DnATaMx7MORVAEh5vAtzUN7M69TXuOurc5SfuLJjH8ykzCJmJ++qgefWVWjJq+M5vVojEYV4s2YFMlqrmBm1r5qC+nXz5ayFmUj/7IOYajkd//uffO/sfzUdZJXZTlIs1fr2WrDFutf79p6KqIq2FoiLadGDvt+HoTISbFk3eF6BZHMyFmxdFBiENR1PEU4qkTj6ZeHDNfTONRPvnDUj1z6ZFPHovq7uCkJ7/rOYG7ejhKwVrD+23DGqThaOVsIAk4cLYKR3NN8b/T/HX6C7jRb/QEnjPPAAAAAElFTkSuQmCC)}._ayg{background:url(/images/nav_logo242.png) no-repeat -100px -260px;display:inline-block;height:13px;overflow:hidden;position:relative;top:1px;width:65px}._ayg span{background:url(/images/nav_logo242.png) no-repeat -100px -275px;display:block;height:13px;width:65px}
           </style>
+<<<<<<< HEAD
           <div data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQGggi">
+=======
+          <div data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQGggi">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
            <!--a-->
            <h2 class="hd">
             Search Results
            </h2>
+<<<<<<< HEAD
            <div data-async-context="query:Predestination%C2%A0%202014%20rottentomatoes" id="ires">
             <div eid="r5SAWfOkKobavATT87q4BA" id="rso">
+=======
+           <div data-async-context="query:Ant-Man%C2%A0%202015%20rottentomatoes" id="ires">
+            <div eid="4XmAWYiaDYb5vgSi6qTgBg" id="rso">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
              <div class="_NId">
               <div class="srg">
                <div class="g">
                 <!--m-->
+<<<<<<< HEAD
                 <div data-hveid="36" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFQgkKAAwAA">
                  <div class="rc">
                   <h3 class="r">
                    <a href="https://www.rottentomatoes.com/m/predestination/" onmousedown="return rwt(this,'','','','1','AFQjCNG_rxaKZqIkHSK2-3EHWDGRs4HvSw','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFgglMAA','','',event)">
                     Predestination (2015) - Rotten Tomatoes
+=======
+                <div data-hveid="36" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFQgkKAAwAA">
+                 <div class="rc">
+                  <h3 class="r">
+                   <a href="https://www.rottentomatoes.com/m/antman/" onmousedown="return rwt(this,'','','','1','AFQjCNHkaJ5qxo8XOomSjzNAOxGD2NbhIg','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFgglMAA','','',event)">
+                    Ant-Man (2015) - Rotten Tomatoes
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                    </a>
                   </h3>
                   <div class="s">
                    <div>
                     <div class="f kv _SWb" style="white-space:nowrap">
                      <cite class="_Rm">
+<<<<<<< HEAD
                       https://www.rottentomatoes.com/m/predestination/
                      </cite>
                      <div class="action-menu ab_ctl">
@@ -525,6 +654,19 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                        <ol>
                         <li class="action-menu-item ab_dropdownitem" role="menuitem">
                          <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:vdsOSHH10AcJ:https://www.rottentomatoes.com/m/predestination/+&amp;cd=1&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','1','AFQjCNF9b9CsBJ-eQiZtsESu-6pOZkR-eA','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQIAgoMAA','','',event)">
+=======
+                      https://www.rottentomatoes.com/m/antman/
+                     </cite>
+                     <div class="action-menu ab_ctl">
+                      <a aria-expanded="false" aria-haspopup="true" aria-label="Result details" class="_Fmb ab_button" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ7B0IJjAA" href="#" id="am-b0" jsaction="m.tdd;keydown:m.hbke;keypress:m.mskpe" role="button">
+                       <span class="mn-dwn-arw">
+                       </span>
+                      </a>
+                      <div class="action-menu-panel ab_dropdown" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQqR8IJzAA" jsaction="keydown:m.hdke;mouseover:m.hdhne;mouseout:m.hdhue" role="menu" tabindex="-1">
+                       <ol>
+                        <li class="action-menu-item ab_dropdownitem" role="menuitem">
+                         <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:ttitngaml2wJ:https://www.rottentomatoes.com/m/antman/+&amp;cd=1&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','1','AFQjCNFp8ev033DTUAtDzPfAcCihAXDmug','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQIAgoMAA','','',event)">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                           Cached
                          </a>
                         </li>
@@ -542,6 +684,7 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                      Rating: 84% - ‎100 reviews
                     </div>
                     <span class="st">
+<<<<<<< HEAD
                      Critics Consensus: Fun genre fare with uncommon intelligence,
                      <em>
                       Predestination
@@ -557,18 +700,60 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                        ‎: ‎R (for violence, some sexuality, nudity ...
                       </div>
                       <div class="_pgd" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQsz0ILCgBMAA">
+=======
+                     <span class="f">
+                      Dec 8, 2015 -
+                     </span>
+                     Critics Consensus: Led by a charming performance from Paul Rudd,
+                     <em>
+                      Ant
+                     </em>
+                     -
+                     <em>
+                      Man
+                     </em>
+                     offers Marvel thrills on an appropriately smaller scale -- albeit not ...
+                    </span>
+                    <div class="_cwc" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQrz0IKjAA">
+                     <div class="_sgd">
+                      <div class="_qgd" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQsz0IKygAMAA">
                        <b>
-                        Runtime
+                        Rating
                        </b>
+                       ‎: ‎PG-13 (for sci-fi action violence)
+                      </div>
+                      <div class="_pgd" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQsz0ILCgBMAA">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
+                       <b>
+                        In Theaters
+                       </b>
+<<<<<<< HEAD
                        ‎: ‎97 minutes
                       </div>
                      </div>
                      <div class="_WQd">
                       <div class="_qgd" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQsz0ILSgCMAA">
+=======
+                       ‎: ‎Jul 17, 2015 wide
+                      </div>
+                     </div>
+                     <div class="_sgd">
+                      <div class="_qgd" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQsz0ILSgCMAA">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
+                       <b>
+                        Runtime
+                       </b>
+<<<<<<< HEAD
+                       ‎: ‎Mystery
+=======
+                       ‎: ‎115 minutes
+                      </div>
+                      <div class="_pgd" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQsz0ILigDMAA">
                        <b>
                         Genre
                        </b>
-                       ‎: ‎Mystery
+                       ‎: ‎Action
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                       </div>
                      </div>
                     </div>
@@ -580,17 +765,26 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                </div>
                <div class="g">
                 <!--m-->
+<<<<<<< HEAD
                 <div data-hveid="46" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFQguKAEwAQ">
                  <div class="rc">
                   <h3 class="r">
                    <a href="https://www.rottentomatoes.com/m/predestination/reviews/" onmousedown="return rwt(this,'','','','2','AFQjCNGBhH5snyy2VYmUPw2qd6YTZIgjmQ','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFggvMAE','','',event)">
                     Predestination - Movie Reviews - Rotten Tomatoes
+=======
+                <div data-hveid="47" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFQgvKAEwAQ">
+                 <div class="rc">
+                  <h3 class="r">
+                   <a href="https://www.rottentomatoes.com/m/antman/reviews/" onmousedown="return rwt(this,'','','','2','AFQjCNHNa2GIJ-fMdQujoSXVxlFDXO_fVQ','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFggwMAE','','',event)">
+                    Ant-Man - Movie Reviews - Rotten Tomatoes
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                    </a>
                   </h3>
                   <div class="s">
                    <div>
                     <div class="f kv _SWb" style="white-space:nowrap">
                      <cite class="_Rm">
+<<<<<<< HEAD
                       https://www.rottentomatoes.com/m/predestination/reviews/
                      </cite>
                      <div class="action-menu ab_ctl">
@@ -602,6 +796,19 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                        <ol>
                         <li class="action-menu-item ab_dropdownitem" role="menuitem">
                          <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:g4hSLArSYzQJ:https://www.rottentomatoes.com/m/predestination/reviews/+&amp;cd=2&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','2','AFQjCNG8CHSyOIsiY_NkZqh0sIB26NL1hA','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQIAgyMAE','','',event)">
+=======
+                      https://www.rottentomatoes.com/m/antman/reviews/
+                     </cite>
+                     <div class="action-menu ab_ctl">
+                      <a aria-expanded="false" aria-haspopup="true" aria-label="Result details" class="_Fmb ab_button" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ7B0IMTAB" href="#" id="am-b1" jsaction="m.tdd;keydown:m.hbke;keypress:m.mskpe" role="button">
+                       <span class="mn-dwn-arw">
+                       </span>
+                      </a>
+                      <div class="action-menu-panel ab_dropdown" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQqR8IMjAB" jsaction="keydown:m.hdke;mouseover:m.hdhne;mouseout:m.hdhue" role="menu" tabindex="-1">
+                       <ol>
+                        <li class="action-menu-item ab_dropdownitem" role="menuitem">
+                         <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:Gqq4W1v6X8UJ:https://www.rottentomatoes.com/m/antman/reviews/+&amp;cd=2&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','2','AFQjCNHDtSA1EJh0uIEKdqXlAUyfdLCvQQ','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQIAgzMAE','','',event)">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                           Cached
                          </a>
                         </li>
@@ -610,6 +817,7 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                      </div>
                     </div>
                     <span class="st">
+<<<<<<< HEAD
                      Added: Oct 3,
                      <em>
                       2014
@@ -619,6 +827,29 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                       Predestination
                      </em>
                      is a time-travel yarn that worked fine as a 13-page read, but as a film the time-bendy elements ...
+=======
+                     Added: Jan 7,
+                     <em>
+                      2015
+                     </em>
+                     ...
+                     <em>
+                      Ant
+                     </em>
+                     -
+                     <em>
+                      Man
+                     </em>
+                     stands on its own as an entertaining, smartly funny film, while also fitting neatly into the Marvel ... Ultimately,
+                     <em>
+                      Ant
+                     </em>
+                     -
+                     <em>
+                      Man
+                     </em>
+                     isn't the best of what the Marvel Cinematic Universe has to offer, but it's no train wreck either.
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                     </span>
                    </div>
                   </div>
@@ -628,17 +859,26 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                </div>
                <div class="g">
                 <!--m-->
+<<<<<<< HEAD
                 <div data-hveid="51" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFQgzKAIwAg">
                  <div class="rc">
                   <h3 class="r">
                    <a href="https://www.rottentomatoes.com/m/predestination/reviews/?page=28&amp;type=user&amp;sort=" onmousedown="return rwt(this,'','','','3','AFQjCNGJtUFSDI5koGVWAGfqI61zEc-Uiw','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFgg0MAI','','',event)">
                     Predestination - Movie Reviews - Rotten Tomatoes
+=======
+                <div data-hveid="52" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFQg0KAIwAg">
+                 <div class="rc">
+                  <h3 class="r">
+                   <a href="https://editorial.rottentomatoes.com/article/critics-consensus-antman-is-certified-fresh/" onmousedown="return rwt(this,'','','','3','AFQjCNGw84vKjtHcO54tBCmQMWm1hBIrzw','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFgg1MAI','','',event)">
+                    Ant-Man Is Certified Fresh - Rotten Tomatoes
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                    </a>
                   </h3>
                   <div class="s">
                    <div>
                     <div class="f kv _SWb" style="white-space:nowrap">
                      <cite class="_Rm">
+<<<<<<< HEAD
                       https://www.rottentomatoes.com/m/predestination/reviews/?page=28&amp;type=user...
                      </cite>
                      <div class="action-menu ab_ctl">
@@ -650,6 +890,19 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                        <ol>
                         <li class="action-menu-item ab_dropdownitem" role="menuitem">
                          <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:6lzpbEcGbO4J:https://www.rottentomatoes.com/m/predestination/reviews/%3Fpage%3D28%26type%3Duser%26sort%3D+&amp;cd=3&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','3','AFQjCNEdnzr_czdRnbunE5lwC8Cd8uPXlQ','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQIAg3MAI','','',event)">
+=======
+                      https://editorial.rottentomatoes.com/article/critics-consensus-antman-is-certified-fresh/
+                     </cite>
+                     <div class="action-menu ab_ctl">
+                      <a aria-expanded="false" aria-haspopup="true" aria-label="Result details" class="_Fmb ab_button" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ7B0INjAC" href="#" id="am-b2" jsaction="m.tdd;keydown:m.hbke;keypress:m.mskpe" role="button">
+                       <span class="mn-dwn-arw">
+                       </span>
+                      </a>
+                      <div class="action-menu-panel ab_dropdown" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQqR8INzAC" jsaction="keydown:m.hdke;mouseover:m.hdhne;mouseout:m.hdhue" role="menu" tabindex="-1">
+                       <ol>
+                        <li class="action-menu-item ab_dropdownitem" role="menuitem">
+                         <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:ftKTukKTqVIJ:https://editorial.rottentomatoes.com/article/critics-consensus-antman-is-certified-fresh/+&amp;cd=3&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','3','AFQjCNGZWvQNGvoFIyqMRv0JGiCaNZfvLQ','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQIAg4MAI','','',event)">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                           Cached
                          </a>
                         </li>
@@ -658,6 +911,7 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                      </div>
                     </div>
                     <span class="st">
+<<<<<<< HEAD
                      2 minutes31 seconds. Added: Oct 3,
                      <em>
                       2014
@@ -671,6 +925,24 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                       Predestination
                      </em>
                      Reviews.
+=======
+                     <span class="f">
+                      Jul 16, 2015 -
+                     </span>
+                     This week at the movies, we've got a tiny superhero (
+                     <em>
+                      Ant
+                     </em>
+                     -
+                     <em>
+                      Man
+                     </em>
+                     , starring Paul Rudd and Michael ... Masters of Sex: Season 3 (
+                     <em>
+                      2015
+                     </em>
+                     ) 75%.
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                     </span>
                    </div>
                   </div>
@@ -680,17 +952,26 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                </div>
                <div class="g">
                 <!--m-->
+<<<<<<< HEAD
                 <div data-hveid="56" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFQg4KAMwAw">
                  <div class="rc">
                   <h3 class="r">
                    <a href="https://www.rottentomatoes.com/m/predestination/reviews/?page=3&amp;sort=rotten" onmousedown="return rwt(this,'','','','4','AFQjCNFx7O3G7xAA7BC9KPa6bdWf03ZFcw','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFgg5MAM','','',event)">
                     Predestination - Movie Reviews - Rotten Tomatoes
+=======
+                <div data-hveid="58" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFQg6KAMwAw">
+                 <div class="rc">
+                  <h3 class="r">
+                   <a href="https://www.rottentomatoes.com/m/antman/reviews/?page=2&amp;sort=fresh" onmousedown="return rwt(this,'','','','4','AFQjCNGmbC_mFh19VIYttkvNiDyzfb0pjA','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFgg7MAM','','',event)">
+                    Ant-Man - Movie Reviews - Rotten Tomatoes
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                    </a>
                   </h3>
                   <div class="s">
                    <div>
                     <div class="f kv _SWb" style="white-space:nowrap">
                      <cite class="_Rm">
+<<<<<<< HEAD
                       https://www.rottentomatoes.com/m/predestination/reviews/?page=3&amp;sort=rotten
                      </cite>
                      <div class="action-menu ab_ctl">
@@ -702,6 +983,19 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                        <ol>
                         <li class="action-menu-item ab_dropdownitem" role="menuitem">
                          <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:7uNO9A41vXwJ:https://www.rottentomatoes.com/m/predestination/reviews/%3Fpage%3D3%26sort%3Drotten+&amp;cd=4&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','4','AFQjCNH9tg32TN1vZ7UMK6KewRMCQLKt9Q','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQIAg8MAM','','',event)">
+=======
+                      https://www.rottentomatoes.com/m/antman/reviews/?page=2&amp;sort=fresh
+                     </cite>
+                     <div class="action-menu ab_ctl">
+                      <a aria-expanded="false" aria-haspopup="true" aria-label="Result details" class="_Fmb ab_button" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ7B0IPDAD" href="#" id="am-b3" jsaction="m.tdd;keydown:m.hbke;keypress:m.mskpe" role="button">
+                       <span class="mn-dwn-arw">
+                       </span>
+                      </a>
+                      <div class="action-menu-panel ab_dropdown" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQqR8IPTAD" jsaction="keydown:m.hdke;mouseover:m.hdhne;mouseout:m.hdhue" role="menu" tabindex="-1">
+                       <ol>
+                        <li class="action-menu-item ab_dropdownitem" role="menuitem">
+                         <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:0t1xZTSc6l8J:https://www.rottentomatoes.com/m/antman/reviews/%3Fpage%3D2%26sort%3Dfresh+&amp;cd=4&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','4','AFQjCNEtbvr6ZstgNxfHzWiSmiqyeEqV4w','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQIAg-MAM','','',event)">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                           Cached
                          </a>
                         </li>
@@ -710,6 +1004,7 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                      </div>
                     </div>
                     <span class="st">
+<<<<<<< HEAD
                      FILMINK (Australia). August 26,
                      <em>
                       2014
@@ -719,6 +1014,21 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                       Predestination
                      </em>
                      thrills and enthralls as its developments confront and confuse the viewer, but hindsight does this flawed, ...
+=======
+                     December 14,
+                     <em>
+                      2015
+                     </em>
+                     .
+                     <em>
+                      Ant
+                     </em>
+                     -
+                     <em>
+                      Man
+                     </em>
+                     has its charms, but they're frequently lost beneath a story that feels like a patchwork job. It's a fun watch, but also a frustrating one.
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                     </span>
                    </div>
                   </div>
@@ -728,17 +1038,26 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                </div>
                <div class="g">
                 <!--m-->
+<<<<<<< HEAD
                 <div data-hveid="61" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFQg9KAQwBA">
                  <div class="rc">
                   <h3 class="r">
                    <a href="https://www.rottentomatoes.com/m/force_majeure_2014/" onmousedown="return rwt(this,'','','','5','AFQjCNF8x5LHN1QbQoASqWYgWKyVW6edVQ','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFgg-MAQ','','',event)">
                     Force Majeure (2014) - Rotten Tomatoes
+=======
+                <div data-hveid="63" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFQg_KAQwBA">
+                 <div class="rc">
+                  <h3 class="r">
+                   <a href="https://www.rottentomatoes.com/m/ant_man_and_the_wasp/" onmousedown="return rwt(this,'','','','5','AFQjCNEmOQrDdvHQfOBMqwFZkpCKKqWRJA','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFghAMAQ','','',event)">
+                    Ant-Man and the Wasp (2018) - Rotten Tomatoes
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                    </a>
                   </h3>
                   <div class="s">
                    <div>
                     <div class="f kv _SWb" style="white-space:nowrap">
                      <cite class="_Rm">
+<<<<<<< HEAD
                       https://www.rottentomatoes.com/m/force_majeure_2014/
                      </cite>
                      <div class="action-menu ab_ctl">
@@ -750,6 +1069,19 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                        <ol>
                         <li class="action-menu-item ab_dropdownitem" role="menuitem">
                          <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:HairuLq_oBkJ:https://www.rottentomatoes.com/m/force_majeure_2014/+&amp;cd=5&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','5','AFQjCNFN-3YJ_5idLwFh8rxCIS2gx1fMpg','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQIAhBMAQ','','',event)">
+=======
+                      https://www.rottentomatoes.com/m/ant_man_and_the_wasp/
+                     </cite>
+                     <div class="action-menu ab_ctl">
+                      <a aria-expanded="false" aria-haspopup="true" aria-label="Result details" class="_Fmb ab_button" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ7B0IQTAE" href="#" id="am-b4" jsaction="m.tdd;keydown:m.hbke;keypress:m.mskpe" role="button">
+                       <span class="mn-dwn-arw">
+                       </span>
+                      </a>
+                      <div class="action-menu-panel ab_dropdown" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQqR8IQjAE" jsaction="keydown:m.hdke;mouseover:m.hdhne;mouseout:m.hdhue" role="menu" tabindex="-1">
+                       <ol>
+                        <li class="action-menu-item ab_dropdownitem" role="menuitem">
+                         <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:V8EGV0I-m-AJ:https://www.rottentomatoes.com/m/ant_man_and_the_wasp/+&amp;cd=5&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','5','AFQjCNEJsRsKShPuhHEr7h0jkcsT3hdcOg','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQIAhDMAQ','','',event)">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                           Cached
                          </a>
                         </li>
@@ -767,12 +1099,46 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                      Rating: 93% - ‎136 reviews
                     </div>
                     <span class="st">
+<<<<<<< HEAD
                      Ostlund has a keen eye for human behavior that exacerbates marital discord and dysfunction. November 6,
                      <em>
                       2014
                      </em>
                      | Rating: 3/4 | Full Review… David Lewis.
+=======
+                     Critic Reviews for
+                     <em>
+                      Ant
+                     </em>
+                     -
+                     <em>
+                      Man
+                     </em>
+                     and the Wasp. There are no critic reviews yet for
+                     <em>
+                      Ant
+                     </em>
+                     -
+                     <wbr>
+                      <em>
+                       Man
+                      </em>
+                      and the Wasp. Keep checking
+                      <em>
+                       Rotten Tomatoes
+                      </em>
+                      for updates!
+                     </wbr>
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                     </span>
+                    <div class="_Tib">
+                     <span>
+                      Missing:
+                     </span>
+                     <s>
+                      2015
+                     </s>
+                    </div>
                    </div>
                   </div>
                  </div>
@@ -781,17 +1147,26 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                </div>
                <div class="g">
                 <!--m-->
+<<<<<<< HEAD
                 <div data-hveid="67" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFQhDKAUwBQ">
                  <div class="rc">
                   <h3 class="r">
                    <a href="https://www.rottentomatoes.com/m/nightcrawler/" onmousedown="return rwt(this,'','','','6','AFQjCNHeTsktCjQAaWSWJExAl_HcqqULZg','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFghEMAU','','',event)">
                     Nightcrawler (2014) - Rotten Tomatoes
+=======
+                <div data-hveid="69" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFQhFKAUwBQ">
+                 <div class="rc">
+                  <h3 class="r">
+                   <a href="https://editorial.rottentomatoes.com/article/marvel-cinematic-universe-movies-by-tomatometer/" onmousedown="return rwt(this,'','','','6','AFQjCNFDbHP42hMiah7_IyrHBqUvM4iUIA','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFghGMAU','','',event)">
+                    Marvel Movies Ranked Worst to Best by Tomatometer - Rotten Tomatoes
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                    </a>
                   </h3>
                   <div class="s">
                    <div>
                     <div class="f kv _SWb" style="white-space:nowrap">
                      <cite class="_Rm">
+<<<<<<< HEAD
                       https://www.rottentomatoes.com/m/nightcrawler/
                      </cite>
                      <div class="action-menu ab_ctl">
@@ -803,6 +1178,19 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                        <ol>
                         <li class="action-menu-item ab_dropdownitem" role="menuitem">
                          <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:USWHGNp_Z04J:https://www.rottentomatoes.com/m/nightcrawler/+&amp;cd=6&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','6','AFQjCNENXM8BldPplMrQM2fo0vyv3MZTMw','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQIAhHMAU','','',event)">
+=======
+                      https://editorial.rottentomatoes.com/.../marvel-cinematic-universe-movies-by-tomatom...
+                     </cite>
+                     <div class="action-menu ab_ctl">
+                      <a aria-expanded="false" aria-haspopup="true" aria-label="Result details" class="_Fmb ab_button" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ7B0IRzAF" href="#" id="am-b5" jsaction="m.tdd;keydown:m.hbke;keypress:m.mskpe" role="button">
+                       <span class="mn-dwn-arw">
+                       </span>
+                      </a>
+                      <div class="action-menu-panel ab_dropdown" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQqR8ISDAF" jsaction="keydown:m.hdke;mouseover:m.hdhne;mouseout:m.hdhue" role="menu" tabindex="-1">
+                       <ol>
+                        <li class="action-menu-item ab_dropdownitem" role="menuitem">
+                         <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:C7pQWWzr4hMJ:https://editorial.rottentomatoes.com/article/marvel-cinematic-universe-movies-by-tomatometer/+&amp;cd=6&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','6','AFQjCNFDmrsVqsn3P9DABnSUKbzbDQPX3g','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQIAhJMAU','','',event)">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                           Cached
                          </a>
                         </li>
@@ -812,9 +1200,23 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                     </div>
                     <span class="st">
                      <span class="f">
+<<<<<<< HEAD
                       Oct 31, 2014 -
                      </span>
                      NIGHTCRAWLER is a pulse-pounding thriller set in the nocturnal underbelly of contemporary Los Angeles. Jake Gyllenhaal stars as Lou ...
+=======
+                      Jul 10, 2017 -
+                     </span>
+                     For the most part, yes, but 2013's
+                     <em>
+                      Thor
+                     </em>
+                     : The Dark World still felt like ... And so it was with
+                     <em>
+                      2015's
+                     </em>
+                     Avengers: Age of Ultron, which added more of ...
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                     </span>
                     <div class="_cwc" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQrz0ISTAF">
                      <div class="_sgd">
@@ -854,17 +1256,26 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                </div>
                <div class="g">
                 <!--m-->
+<<<<<<< HEAD
                 <div data-hveid="78" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFQhOKAYwBg">
                  <div class="rc">
                   <h3 class="r">
                    <a href="https://www.rottentomatoes.com/m/felony_2013/" onmousedown="return rwt(this,'','','','7','AFQjCNGMkK-zbC4unTrBLpikLKCFfmd1Ww','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFghPMAY','','',event)">
                     Felony (2014) - Rotten Tomatoes
+=======
+                <div data-hveid="75" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFQhLKAYwBg">
+                 <div class="rc">
+                  <h3 class="r">
+                   <a href="http://www.metacritic.com/movie/ant-man" onmousedown="return rwt(this,'','','','7','AFQjCNGsNCmczt5q_rYZQUXFm0PqYe8FuQ','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFghMMAY','','',event)">
+                    Ant-Man Reviews - Metacritic
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                    </a>
                   </h3>
                   <div class="s">
                    <div>
                     <div class="f kv _SWb" style="white-space:nowrap">
                      <cite class="_Rm">
+<<<<<<< HEAD
                       https://www.rottentomatoes.com/m/felony_2013/
                      </cite>
                      <div class="action-menu ab_ctl">
@@ -876,7 +1287,25 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                        <ol>
                         <li class="action-menu-item ab_dropdownitem" role="menuitem">
                          <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:6h8zoIURslEJ:https://www.rottentomatoes.com/m/felony_2013/+&amp;cd=7&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','7','AFQjCNFsh6f0pFDOmNOxBRUMlDOt2iEVtA','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQIAhSMAY','','',event)">
+=======
+                      www.metacritic.com/movie/ant-man
+                     </cite>
+                     <div class="action-menu ab_ctl">
+                      <a aria-expanded="false" aria-haspopup="true" aria-label="Result details" class="_Fmb ab_button" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ7B0ITTAG" href="#" id="am-b6" jsaction="m.tdd;keydown:m.hbke;keypress:m.mskpe" role="button">
+                       <span class="mn-dwn-arw">
+                       </span>
+                      </a>
+                      <div class="action-menu-panel ab_dropdown" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQqR8ITjAG" jsaction="keydown:m.hdke;mouseover:m.hdhne;mouseout:m.hdhue" role="menu" tabindex="-1">
+                       <ol>
+                        <li class="action-menu-item ab_dropdownitem" role="menuitem">
+                         <a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:hm-RA4q-YQsJ:www.metacritic.com/movie/ant-man+&amp;cd=7&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','7','AFQjCNGw5Zw9qrB3c7VxKMJ6w6VBu6pyUA','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQIAhPMAY','','',event)">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                           Cached
+                         </a>
+                        </li>
+                        <li class="action-menu-item ab_dropdownitem" role="menuitem">
+                         <a class="fl" href="/search?q=related:www.metacritic.com/movie/ant-man+Ant-Man%C2%A0+2015+rottentomatoes&amp;tbo=1&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQHwhQMAY">
+                          Similar
                          </a>
                         </li>
                        </ol>
@@ -885,6 +1314,7 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                     </div>
                     <div class="slp f">
                      <g-review-stars>
+<<<<<<< HEAD
                       <span aria-label="Rated 3.5 out of 5," class="_ayg">
                        <span style="width:46px">
                        </span>
@@ -905,7 +1335,37 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                       2014
                      </em>
                      | Rating: 6.4/10 | Full Review… Adam DiLeo.
+=======
+                      <span aria-label="Rated 3.0 out of 5," class="_ayg">
+                       <span style="width:40px">
+                       </span>
+                      </span>
+                     </g-review-stars>
+                     Rating: 64% - ‎43 votes
+                    </div>
+                    <span class="st">
+                     <em>
+                      Ant
+                     </em>
+                     -
+                     <em>
+                      Man
+                     </em>
+                     is a
+                     <em>
+                      2015
+                     </em>
+                     American superhero film based on the Marvel Comics characters of the same name,It is the 12th movie in the Marvel Cinematic Universe.
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                     </span>
+                    <div class="_Tib">
+                     <span>
+                      Missing:
+                     </span>
+                     <s>
+                      rottentomatoes
+                     </s>
+                    </div>
                    </div>
                   </div>
                  </div>
@@ -914,17 +1374,26 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                </div>
                <div class="g">
                 <!--m-->
+<<<<<<< HEAD
                 <div data-hveid="85" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFQhVKAcwBw">
                  <div class="rc">
                   <h3 class="r">
                    <a href="http://www.imdb.com/title/tt2397535/" onmousedown="return rwt(this,'','','','8','AFQjCNEuFywNErp7suaVInUJrw1AC0Kytw','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFghWMAc','','',event)">
                     Predestination (2014) - IMDb
+=======
+                <div data-hveid="83" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFQhTKAcwBw">
+                 <div class="rc">
+                  <h3 class="r">
+                   <a href="http://www.rogerebert.com/reviews/ant-man-2015" onmousedown="return rwt(this,'','','','8','AFQjCNFRpub2FVnMIxN8Q6RbHKzop8PVKw','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFghUMAc','','',event)">
+                    Ant-Man Movie Review &amp; Film Summary (2015) | Roger Ebert
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                    </a>
                   </h3>
                   <div class="s">
                    <div>
                     <div class="f kv _SWb" style="white-space:nowrap">
                      <cite class="_Rm">
+<<<<<<< HEAD
                       www.imdb.com/title/tt2397535/
                      </cite>
                      <div class="action-menu ab_ctl">
@@ -936,11 +1405,28 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                        <ol>
                         <li class="action-menu-item ab_dropdownitem" role="menuitem">
                          <a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:TmeyGGLabe4J:www.imdb.com/title/tt2397535/+&amp;cd=8&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','8','AFQjCNHWuQzCeSBh5X06xkWY2C-Yb6XbpA','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQIAhZMAc','','',event)">
+=======
+                      www.rogerebert.com/reviews/ant-man-2015
+                     </cite>
+                     <div class="action-menu ab_ctl">
+                      <a aria-expanded="false" aria-haspopup="true" aria-label="Result details" class="_Fmb ab_button" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ7B0IVTAH" href="#" id="am-b7" jsaction="m.tdd;keydown:m.hbke;keypress:m.mskpe" role="button">
+                       <span class="mn-dwn-arw">
+                       </span>
+                      </a>
+                      <div class="action-menu-panel ab_dropdown" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQqR8IVjAH" jsaction="keydown:m.hdke;mouseover:m.hdhne;mouseout:m.hdhue" role="menu" tabindex="-1">
+                       <ol>
+                        <li class="action-menu-item ab_dropdownitem" role="menuitem">
+                         <a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:YPMC5mj6NiQJ:www.rogerebert.com/reviews/ant-man-2015+&amp;cd=8&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','8','AFQjCNEBpWVyqasUaP4TnQ2QgDE81RVJLg','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQIAhXMAc','','',event)">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                           Cached
                          </a>
                         </li>
                         <li class="action-menu-item ab_dropdownitem" role="menuitem">
+<<<<<<< HEAD
                          <a class="fl" href="/search?q=related:www.imdb.com/title/tt2397535/+Predestination%C2%A0+2014+rottentomatoes&amp;tbo=1&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQHwhaMAc">
+=======
+                         <a class="fl" href="/search?q=related:www.rogerebert.com/reviews/ant-man-2015+Ant-Man%C2%A0+2015+rottentomatoes&amp;tbo=1&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQHwhYMAc">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                           Similar
                          </a>
                         </li>
@@ -950,6 +1436,7 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                     </div>
                     <div class="slp f">
                      <g-review-stars>
+<<<<<<< HEAD
                       <span aria-label="Rated 4.0 out of 5," class="_ayg">
                        <span style="width:53px">
                        </span>
@@ -959,6 +1446,28 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                     </div>
                     <span class="st">
                      Drama · For his final assignment, a top temporal agent must pursue the one criminal that has eluded him throughout time. The chase turns into a unique, ...
+=======
+                      <span aria-label="Rated 4.5 out of 5," class="_ayg">
+                       <span style="width:59px">
+                       </span>
+                      </span>
+                     </g-review-stars>
+                     Rating: 3.5/4 - ‎Review by Glenn Kenny
+                    </div>
+                    <span class="st">
+                     <span class="f">
+                      Jul 17, 2015 -
+                     </span>
+                     “
+                     <em>
+                      Ant
+                     </em>
+                     -
+                     <em>
+                      Man
+                     </em>
+                     ,” the comics-based superhero movie that's centered around one of the more arguably goofy Marvel Comics characters (first prize has ...
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                     </span>
                    </div>
                   </div>
@@ -968,17 +1477,26 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                </div>
                <div class="g">
                 <!--m-->
+<<<<<<< HEAD
                 <div data-hveid="92" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFQhcKAgwCA">
                  <div class="rc">
                   <h3 class="r">
                    <a href="https://en.wikipedia.org/wiki/Predestination_(film)" onmousedown="return rwt(this,'','','','9','AFQjCNEv0Jqe4kS_aS1javMCirBYusbj0w','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFghdMAg','','',event)">
                     Predestination (film) - Wikipedia
+=======
+                <div data-hveid="91" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFQhbKAgwCA">
+                 <div class="rc">
+                  <h3 class="r">
+                   <a href="https://www.reddit.com/r/marvelstudios/comments/3dqncs/antman_is_currently_sitting_at_an_80_on_rotten/" onmousedown="return rwt(this,'','','','9','AFQjCNHX3zDINfo9aTic8zDW_MJgQjA9_w','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQFghcMAg','','',event)">
+                    Ant-Man is currently sitting at an 80% on Rotten Tomatoes. 9 days ago ...
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                    </a>
                   </h3>
                   <div class="s">
                    <div>
                     <div class="f kv _SWb" style="white-space:nowrap">
                      <cite class="_Rm">
+<<<<<<< HEAD
                       https://en.wikipedia.org/wiki/Predestination_(film)
                      </cite>
                      <div class="action-menu ab_ctl">
@@ -990,11 +1508,28 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                        <ol>
                         <li class="action-menu-item ab_dropdownitem" role="menuitem">
                          <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:0HHdGGu4-WsJ:https://en.wikipedia.org/wiki/Predestination_(film)+&amp;cd=9&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','9','AFQjCNHOMMdQrRFnOWTpMIRzc8-0Nvl_vQ','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQIAhgMAg','','',event)">
+=======
+                      https://www.reddit.com/.../comments/.../antman_is_currently_sitting_at_an_80_on_ro...
+                     </cite>
+                     <div class="action-menu ab_ctl">
+                      <a aria-expanded="false" aria-haspopup="true" aria-label="Result details" class="_Fmb ab_button" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ7B0IXTAI" href="#" id="am-b8" jsaction="m.tdd;keydown:m.hbke;keypress:m.mskpe" role="button">
+                       <span class="mn-dwn-arw">
+                       </span>
+                      </a>
+                      <div class="action-menu-panel ab_dropdown" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQqR8IXjAI" jsaction="keydown:m.hdke;mouseover:m.hdhne;mouseout:m.hdhue" role="menu" tabindex="-1">
+                       <ol>
+                        <li class="action-menu-item ab_dropdownitem" role="menuitem">
+                         <a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:3FGyYEVXPDwJ:https://www.reddit.com/r/marvelstudios/comments/3dqncs/antman_is_currently_sitting_at_an_80_on_rotten/+&amp;cd=9&amp;hl=en&amp;ct=clnk&amp;gl=in" onmousedown="return rwt(this,'','','','9','AFQjCNFKisEtPnufK2cKXvbVNLZY8URv6A','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQIAhfMAg','','',event)">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                           Cached
                          </a>
                         </li>
                         <li class="action-menu-item ab_dropdownitem" role="menuitem">
+<<<<<<< HEAD
                          <a class="fl" href="/search?q=related:https://en.wikipedia.org/wiki/Predestination_(film)+Predestination%C2%A0+2014+rottentomatoes&amp;tbo=1&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQHwhhMAg">
+=======
+                         <a class="fl" href="/search?q=related:https://www.reddit.com/r/marvelstudios/comments/3dqncs/antman_is_currently_sitting_at_an_80_on_rotten/+Ant-Man%C2%A0+2015+rottentomatoes&amp;tbo=1&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQHwhgMAg">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                           Similar
                          </a>
                         </li>
@@ -1003,7 +1538,12 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                      </div>
                     </div>
                     <span class="st">
+                     <span class="f">
+                      Jul 18, 2015 -
+                     </span>
+                     this post was submitted on 18 Jul
                      <em>
+<<<<<<< HEAD
                       Predestination
                      </em>
                      is a
@@ -1015,6 +1555,19 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                       Rotten Tomatoes
                      </em>
                      , a review aggregator, the film has a score of 84% based on 100 reviews with an average rating of 6.9 out of 10. The site's ...
+=======
+                      2015
+                     </em>
+                     ..... In fact, even when
+                     <em>
+                      Ant Man
+                     </em>
+                     had a low rating on
+                     <em>
+                      Rotten Tomatoes
+                     </em>
+                     earlier, posts here were saying "Oh ...
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                     </span>
                    </div>
                   </div>
@@ -1024,17 +1577,26 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                </div>
                <div class="g">
                 <!--m-->
+<<<<<<< HEAD
                 <div data-hveid="98" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFQhiKAkwCQ">
                  <div class="rc">
                   <h3 class="r">
                    <a href="https://forum.bodybuilding.com/showthread.php?t=165193241" onmousedown="return rwt(this,'','','','10','AFQjCNHwJUfNUhem1KVrxylq65kStaK1ZQ','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQFghjMAk','','',event)">
                     Predestination 82% rotten tomatoes 7.7 imdb but a piece of chit ...
+=======
+                <div data-hveid="98" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ5wEIYigJMAk">
+                 <div class="rc">
+                  <h3 class="r">
+                   <a href="https://books.google.co.in/books?id=EzckDwAAQBAJ&amp;pg=PA2110-IA753&amp;lpg=PA2110-IA753&amp;dq=Ant-Man%C2%A0+2015+rottentomatoes&amp;source=bl&amp;ots=KKQoTzXZit&amp;sig=9Y0X2BMeD424oSJ0hhxxmdaFaG4&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ6AEIYzAJ">
+                    e-Pedia: Captain America: Civil War: Captain America: Civil War is a ...
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                    </a>
                   </h3>
                   <div class="s">
                    <div>
                     <div class="f kv _SWb" style="white-space:nowrap">
                      <cite class="_Rm">
+<<<<<<< HEAD
                       https://forum.bodybuilding.com/showthread.php?t=165193241
                      </cite>
                      <div class="action-menu ab_ctl">
@@ -1069,6 +1631,35 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                       2014
                      </em>
                      ; Age: 26; Posts: 255; Rep Power: 0 ...
+=======
+                      https://books.google.co.in/books?isbn=8026860888
+                     </cite>
+                    </div>
+                    <div class="slp f">
+                     <a class="fl" href="/search?tbm=bks&amp;q=inauthor:%22Contributors,+Wikipedia%22&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ9AgIZDAJ">
+                      Contributors, Wikipedia
+                     </a>
+                     - 2017 - ‎Fiction
+                    </div>
+                    <span class="st">
+                     Rotten Tomatoes. ^ "Avengers: Age of Ultron Reviews" . Retrieved April 23, 2015. ^ "Big Hero 6 (2014)" . Metacritic . Metacritic ^ "
+                     <em>
+                      Ant
+                     </em>
+                     -
+                     <em>
+                      Man
+                     </em>
+                     (
+                     <em>
+                      2015
+                     </em>
+                     )".
+                     <em>
+                      Rotten
+                     </em>
+                     ...
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                     </span>
                    </div>
                   </div>
@@ -1091,6 +1682,7 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
           <style>
            .mfr{margin-top:1em;margin-bottom:1em}#brs{}#brs{margin-bottom:28px}#brs .med{color:#222;height:auto;padding-bottom:8px}.brs_col{font-size:14px;margin-top:-1px;padding-bottom:1px;display:inline-block;line-height:20px;vertical-align:top;max-width:100%;box-sizing:border-box}#brs ._e4b{margin:0;clear:both}#brs a{padding:3px 32px 3px 0;display:inline-block;float:left}#brs a{text-decoration:none}g-section-with-header{display:block;margin:40px 0}._ojo{padding:0 0px 12px 0px}
           </style>
+<<<<<<< HEAD
           <div data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQCAho">
            <div id="bres">
            </div>
@@ -1099,71 +1691,136 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
              <div class="_ojo">
               <h3 class="med _wI" style="text-align:left">
                Searches related to Predestination  2014 rottentomatoes
+=======
+          <div data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQCAhl">
+           <div id="bres">
+           </div>
+           <div data-hveid="102" id="brs">
+            <g-section-with-header style="margin-bottom:0">
+             <div class="_ojo">
+              <h3 class="med _wI" style="text-align:left">
+               Searches related to Ant-Man  2015 rottentomatoes
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
               </h3>
              </div>
              <div class="card-section">
               <div class="brs_col">
                <p class="_e4b">
+<<<<<<< HEAD
                 <a href="/search?q=predestination+review&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ1QIIaigA">
                  predestination
                  <b>
                   review
+=======
+                <a href="/search?q=ant+man+rating&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ1QIIZygA">
+                 ant man
+                 <b>
+                  rating
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                  </b>
                 </a>
                </p>
                <p class="_e4b">
+<<<<<<< HEAD
                 <a href="/search?q=predestination+movie&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ1QIIaygB">
                  predestination
                  <b>
                   movie
+=======
+                <a href="/search?q=ant+man+movie+online&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ1QIIaCgB">
+                 ant man
+                 <b>
+                  movie online
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                  </b>
                 </a>
                </p>
                <p class="_e4b">
+<<<<<<< HEAD
                 <a href="/search?q=predestination+netflix&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ1QIIbCgC">
                  predestination
                  <b>
                   netflix
+=======
+                <a href="/search?q=ant+man+wiki&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ1QIIaSgC">
+                 ant man
+                 <b>
+                  wiki
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                  </b>
                 </a>
                </p>
                <p class="_e4b">
+<<<<<<< HEAD
                 <a href="/search?q=predestination+explained&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ1QIIbSgD">
                  predestination
                  <b>
                   explained
+=======
+                <a href="/search?q=ant+man+review&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ1QIIaigD">
+                 ant man
+                 <b>
+                  review
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                  </b>
                 </a>
                </p>
               </div>
               <div class="brs_col">
                <p class="_e4b">
+<<<<<<< HEAD
                 <a href="/search?q=predestination+paradox&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ1QIIbigE">
                  predestination
                  <b>
                   paradox
+=======
+                <a href="/search?q=ant+man+rotten+tomatoes&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ1QIIaygE">
+                 ant man
+                 <b>
+                  rotten tomatoes
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                  </b>
                 </a>
                </p>
                <p class="_e4b">
+<<<<<<< HEAD
                 <a href="/search?q=sarah+snook&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ1QIIbygF">
                  <b>
                   sarah snook
+=======
+                <a href="/search?q=ant+man+movie+download&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ1QIIbCgF">
+                 ant man
+                 <b>
+                  movie download
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                  </b>
                 </a>
                </p>
                <p class="_e4b">
+<<<<<<< HEAD
                 <a href="/search?q=peter+spierig&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ1QIIcCgG">
                  <b>
                   peter spierig
+=======
+                <a href="/search?q=peyton+reed&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ1QIIbSgG">
+                 <b>
+                  peyton reed
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                  </b>
                 </a>
                </p>
                <p class="_e4b">
+<<<<<<< HEAD
                 <a href="/search?q=predestination+imdb&amp;sa=X&amp;ved=0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQ1QIIcSgH">
                  predestination
                  <b>
                   imdb
+=======
+                <a href="/search?q=ant+man+powers&amp;sa=X&amp;ved=0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQ1QIIbigH">
+                 ant man
+                 <b>
+                  powers
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                  </b>
                 </a>
                </p>
@@ -1197,70 +1854,110 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
                1
               </td>
               <td>
+<<<<<<< HEAD
                <a aria-label="Page 2" class="fl" href="/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;ei=r5SAWfOkKobavATT87q4BA&amp;start=10&amp;sa=N">
+=======
+               <a aria-label="Page 2" class="fl" href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;ei=4XmAWYiaDYb5vgSi6qTgBg&amp;start=10&amp;sa=N">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                 <span class="csb ch" style="background:url(/images/nav_logo242.png) no-repeat;background-position:-74px 0;width:20px">
                 </span>
                 2
                </a>
               </td>
               <td>
+<<<<<<< HEAD
                <a aria-label="Page 3" class="fl" href="/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;ei=r5SAWfOkKobavATT87q4BA&amp;start=20&amp;sa=N">
+=======
+               <a aria-label="Page 3" class="fl" href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;ei=4XmAWYiaDYb5vgSi6qTgBg&amp;start=20&amp;sa=N">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                 <span class="csb ch" style="background:url(/images/nav_logo242.png) no-repeat;background-position:-74px 0;width:20px">
                 </span>
                 3
                </a>
               </td>
               <td>
+<<<<<<< HEAD
                <a aria-label="Page 4" class="fl" href="/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;ei=r5SAWfOkKobavATT87q4BA&amp;start=30&amp;sa=N">
+=======
+               <a aria-label="Page 4" class="fl" href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;ei=4XmAWYiaDYb5vgSi6qTgBg&amp;start=30&amp;sa=N">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                 <span class="csb ch" style="background:url(/images/nav_logo242.png) no-repeat;background-position:-74px 0;width:20px">
                 </span>
                 4
                </a>
               </td>
               <td>
+<<<<<<< HEAD
                <a aria-label="Page 5" class="fl" href="/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;ei=r5SAWfOkKobavATT87q4BA&amp;start=40&amp;sa=N">
+=======
+               <a aria-label="Page 5" class="fl" href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;ei=4XmAWYiaDYb5vgSi6qTgBg&amp;start=40&amp;sa=N">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                 <span class="csb ch" style="background:url(/images/nav_logo242.png) no-repeat;background-position:-74px 0;width:20px">
                 </span>
                 5
                </a>
               </td>
               <td>
+<<<<<<< HEAD
                <a aria-label="Page 6" class="fl" href="/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;ei=r5SAWfOkKobavATT87q4BA&amp;start=50&amp;sa=N">
+=======
+               <a aria-label="Page 6" class="fl" href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;ei=4XmAWYiaDYb5vgSi6qTgBg&amp;start=50&amp;sa=N">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                 <span class="csb ch" style="background:url(/images/nav_logo242.png) no-repeat;background-position:-74px 0;width:20px">
                 </span>
                 6
                </a>
               </td>
               <td>
+<<<<<<< HEAD
                <a aria-label="Page 7" class="fl" href="/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;ei=r5SAWfOkKobavATT87q4BA&amp;start=60&amp;sa=N">
+=======
+               <a aria-label="Page 7" class="fl" href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;ei=4XmAWYiaDYb5vgSi6qTgBg&amp;start=60&amp;sa=N">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                 <span class="csb ch" style="background:url(/images/nav_logo242.png) no-repeat;background-position:-74px 0;width:20px">
                 </span>
                 7
                </a>
               </td>
               <td>
+<<<<<<< HEAD
                <a aria-label="Page 8" class="fl" href="/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;ei=r5SAWfOkKobavATT87q4BA&amp;start=70&amp;sa=N">
+=======
+               <a aria-label="Page 8" class="fl" href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;ei=4XmAWYiaDYb5vgSi6qTgBg&amp;start=70&amp;sa=N">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                 <span class="csb ch" style="background:url(/images/nav_logo242.png) no-repeat;background-position:-74px 0;width:20px">
                 </span>
                 8
                </a>
               </td>
               <td>
+<<<<<<< HEAD
                <a aria-label="Page 9" class="fl" href="/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;ei=r5SAWfOkKobavATT87q4BA&amp;start=80&amp;sa=N">
+=======
+               <a aria-label="Page 9" class="fl" href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;ei=4XmAWYiaDYb5vgSi6qTgBg&amp;start=80&amp;sa=N">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                 <span class="csb ch" style="background:url(/images/nav_logo242.png) no-repeat;background-position:-74px 0;width:20px">
                 </span>
                 9
                </a>
               </td>
               <td>
+<<<<<<< HEAD
                <a aria-label="Page 10" class="fl" href="/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;ei=r5SAWfOkKobavATT87q4BA&amp;start=90&amp;sa=N">
+=======
+               <a aria-label="Page 10" class="fl" href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;ei=4XmAWYiaDYb5vgSi6qTgBg&amp;start=90&amp;sa=N">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                 <span class="csb ch" style="background:url(/images/nav_logo242.png) no-repeat;background-position:-74px 0;width:20px">
                 </span>
                 10
                </a>
               </td>
               <td class="b navend">
+<<<<<<< HEAD
                <a class="pn" href="/search?q=Predestination%C2%A0+2014+rottentomatoes&amp;ei=r5SAWfOkKobavATT87q4BA&amp;start=10&amp;sa=N" id="pnnext" style="text-align:left">
+=======
+               <a class="pn" href="/search?q=Ant-Man%C2%A0+2015+rottentomatoes&amp;ei=4XmAWYiaDYb5vgSi6qTgBg&amp;start=10&amp;sa=N" id="pnnext" style="text-align:left">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
                 <span class="csb ch" style="background:url(/images/nav_logo242.png) no-repeat;background-position:-96px 0;width:71px">
                 </span>
                 <span style="display:block;margin-left:53px">
@@ -1285,7 +1982,11 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
       </div>
       <div class="col" data-jibp="h" data-jiis="uc" id="rhscol">
        <div id="rhs">
+<<<<<<< HEAD
         <div class="r-ic8DyZjUAfM4" id="rhs_block" jsl="$t t-5RRekjfu2Ys;$x 0;">
+=======
+        <div class="r-iuwDaeZ8QNys" id="rhs_block" jsl="$t t-5RRekjfu2Ys;$x 0;">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
          <script>
           (function(){var c4=1188;var c5=1276;try{var w=document.body.offsetWidth,n=3;if(w>=c4)n=w<c5?4:5;document.getElementById('rhs_block').className+=' rhstc'+n;}catch(e){}
 })();
@@ -1298,12 +1999,20 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
      </div>
      <div data-jibp="h" data-jiis="uc" id="bfoot">
       <span style="display:none">
+<<<<<<< HEAD
        <span class="r-iOd_NksQyav8" data-d="1" data-lhe="1" data-lve="1" data-t="C" jsl="$t t-xJZnhKySAM0;$x 0;" style="display:none">
+=======
+       <span class="r-iUdJ2RdqIbAg" data-d="1" data-lhe="1" data-lve="1" data-t="C" jsl="$t t-xJZnhKySAM0;$x 0;" style="display:none">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
        </span>
       </span>
      </div>
     </div>
+<<<<<<< HEAD
     <div data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQpyoIdA" id="footcnt">
+=======
+    <div data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQpyoIcQ" id="footcnt">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
      <div>
       <style>
        .fmulti{}._dQc{bottom:0;left:0;position:absolute;right:0}._GR{background:#f2f2f2;left:0;right:0;-webkit-text-size-adjust:none}.fbar p{display:inline}.fbar a,#fsettl{text-decoration:none;white-space:nowrap}.fbar{margin-left:-27px}._Gs{padding-left:27px;margin:0 !important}._eA{padding:0 !important;margin:0 !important}#fbarcnt{display:block}._E2 a:hover{text-decoration:underline}._HR img{margin-right:4px}._HR a,._GR #swml a{text-decoration:none}.fmulti{text-align:center}.fmulti #fsr{display:block;float:none}.fmulti #fuser{display:block;float:none}#fuserm{line-height:25px}#fsr{float:right;white-space:nowrap}#fsl{white-space:nowrap}#fsett{background:#fff;border:1px solid #999;bottom:30px;padding:10px 0;position:absolute;box-shadow:0 2px 4px rgba(0,0,0,0.2);box-shadow:0 2px 4px rgba(0,0,0,0.2);text-align:left;z-index:104}#fsett a{display:block;line-height:44px;padding:0 20px;text-decoration:none;white-space:nowrap}._E2 #fsettl:hover{text-decoration:underline}._E2 #fsett a:hover{text-decoration:underline}._mk{color:#777}._Nh{color:#222;font-size:14px;font-weight:normal;-webkit-tap-highlight-color:rgba(0,0,0,0)}._Mo{display:inline-block;opacity:0.55;vertical-align:top}a._Nh:hover ._Mo,a._Nh:active ._Mo{opacity:1.0}._Nh{padding:8px 16px;margin-right:10px}._mk{margin:40px 0}._dD{margin-right:10px}._nW{margin-left:166px}#fbar{background:#f2f2f2;border-top:1px solid #e4e4e4;line-height:40px;min-width:1100px}._xac{margin-left:166px}.fbar p,.fbar a,#fsettl,#fsett a{color:#777}.fbar a:hover,#fsett a:hover{color:#333}.fbar{font-size:small}#fuser{float:right}._HR{margin-left:166px;line-height:15px;}
@@ -1320,7 +2029,11 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
           <span id="swml_lmsep">
            -
           </span>
+<<<<<<< HEAD
           <a href="https://support.google.com/websearch?p=ws_settings_location&amp;hl=en-IN" onmousedown="return rwt(this,'','','','','AFQjCNF6NKvZDx4cTna7tVFnVjhlNhp3NQ','','0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQty4IdQ','','',event)">
+=======
+          <a href="https://support.google.com/websearch?p=ws_settings_location&amp;hl=en-IN" onmousedown="return rwt(this,'','','','','AFQjCNF6NKvZDx4cTna7tVFnVjhlNhp3NQ','','0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQty4Icg','','',event)">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
            Learn more
           </a>
          </div>
@@ -1331,7 +2044,11 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
            <a class="_Gs" href="//support.google.com/websearch/?p=ws_results_help&amp;hl=en-IN&amp;fg=1">
             Help
            </a>
+<<<<<<< HEAD
            <a class="_Gs" data-bucket="websearch" data-ved="0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQLgh2" href="javascript:void(0)" id="_Yvd" jsaction="gf.sf" target="_blank">
+=======
+           <a class="_Gs" data-bucket="websearch" data-ved="0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQLghz" href="javascript:void(0)" id="_Yvd" jsaction="gf.sf" target="_blank">
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
             Send feedback
            </a>
            <a class="_Gs" href="//www.google.co.in/intl/en/policies/privacy/?fg=1">
@@ -1357,6 +2074,7 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
        </div>
        <div id="xjsi">
         <script>
+<<<<<<< HEAD
          (function(){function c(b){window.setTimeout(function(){var a=document.createElement("script");a.src=b;document.getElementById("xjsd").appendChild(a)},0)}google.dljp=function(b,a){google.xjsu=b;c(a)};google.dlj=c;}).call(this);(function(){window.google.xjsrm=['d3l','tnv','mrn','me','atn'];})();if(google.y)google.y.first=[];if(!google.xjs){window._=window._||{};window._DumpException=window._._DumpException=function(e){throw e};if(google.timers&&google.timers.load.t){google.timers.load.t.xjsls=new Date().getTime();}google.dljp('/xjs/_/js/k\x3dxjs.s.en.YhqO7-Qeekw.O/m\x3dsx,c,sb,cdos,cr,elog,hsm,jsa,r,qsm,d,csi/am\x3dgBGK8njBAJD_E0KCoVsIC5IGJg4k/rt\x3dj/d\x3d1/t\x3dzcms/rs\x3dACT90oEhUDlVaw6Tzs_TzNNSRTw9FNatdQ','/xjs/_/js/k\x3dxjs.s.en.YhqO7-Qeekw.O/m\x3dsx,c,sb,cdos,cr,elog,hsm,jsa,r,qsm,d,csi/am\x3dgBGK8njBAJD_E0KCoVsIC5IGJg4k/rt\x3dj/d\x3d1/t\x3dzcms/rs\x3dACT90oEhUDlVaw6Tzs_TzNNSRTw9FNatdQ');google.xjs=1;}google.pmc={"sx":{},"c":{"mcr":5},"sb":{"agen":false,"cgen":false,"client":"psy-ab","dh":true,"dhqt":true,"ds":"","fl":true,"host":"google.co.in","isbh":44,"jam":0,"mara":true,"msgs":{"che":"Not listening. Something went wrong.","ched":"Help","cher":"Restart listening","chh":"Say \"Ok Google\"","cht":"Hotword detection is off.","chtr":"Start listening for \"Ok Google\"","chtt":"Listening for \"Ok Google\"","cibl":"Clear Search","dym":"Did you mean:","flf":"Report inappropriate predictions","lcky":"I\u0026#39;m Feeling Lucky","lml":"Learn more","oskt":"Input tools","psrc":"This search was removed from your \u003Ca href=\"/history\"\u003EWeb History\u003C/a\u003E","psrl":"Remove","sbit":"Search by image","srch":"Google Search","srtt":"Search by voice"},"nds":true,"ovr":{},"pq":"Predestination  2014 rottentomatoes","refpd":true,"rfs":["predestination review","predestination movie","predestination netflix","predestination explained","predestination paradox","sarah snook","peter spierig","predestination imdb"],"sbas":"0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08)","sbpl":16,"sbpr":16,"scd":4,"sce":4,"sre":true,"stok":"ij_iO4JVUk2oIhvVsXYsws1DlQQ"},"aa":{},"abd":{"abd":false,"deb":false,"det":false},"am":{},"aspn":{},"async":{"slm":false},"cdos":{"cdobsel":false},"cr":{"eup":false,"qir":false,"rctj":true,"ref":false,"uff":false},"ddls":{},"dvl":{"cookie_secure":true,"cookie_timeout":86400,"driver_ui_type":2,"jsc":"[null,null,null,30000,null,null,null,2]\n","mnr_crd":"1","msg_dsc":"From your Internet address","msg_dvl":"Reported by this computer","msg_err":"Location unavailable","msg_gps":"Using GPS","msg_unk":"Unknown","msg_upd":"Update location","msg_use":"Use precise location","uul_text":"Kolkata, West Bengal"},"elog":{},"foot":{"pf":true,"po":false,"qe":false},"fpe":{"js":true},"gf":{"pid":196},"hsm":{},"ipv6":{},"jsa":{"csi":true,"csir":100},"jsaleg":{},"llc":{},"lu":{},"m":{"ab":{"on":true},"msgs":{"hPers":"Hide private results","hPersD":"Currently hiding private results","sPers":"Show all results","sPersD":"Currently showing private results"}},"r":{},"sf":{},"spch":{"ae":"Please check your microphone.  \u003Ca href=\"https://support.google.com/chrome/?p=ui_voice_search\" target=\"_blank\"\u003ELearn more\u003C/a\u003E","hen":true,"hl":"en-IN","htt":"Listening for \"Ok Google\"","im":"Click \u003Cb\u003EAllow\u003C/b\u003E to start voice search","iw":"Waiting...","lm":"Listening...","lu":"%1$s voice search not available","ne":"No Internet connection","nt":"Didn't get that. \u003Cspan\u003ETry again\u003C/span\u003E","nv":"Please check your microphone and audio levels.  \u003Ca href=\"https://support.google.com/chrome/?p=ui_voice_search\" target=\"_blank\"\u003ELearn more\u003C/a\u003E","pe":"Voice search has been turned off.  \u003Ca href=\"https://support.google.com/chrome/?p=ui_voice_search\" target=\"_blank\"\u003EDetails\u003C/a\u003E","rm":"Speak now"},"tl":{"key":"AIzaSyC_9Rt88UMjzgg5pIVArnfuIVkJx4zCdTY"},"vs":{},"qsm":{},"d":{},"csi":{"acsi":true,"jsmf":true},"TG8rFw":{"sd":"1"},"Iz7bbg":{},"q7pS8A":{},"q1cupA":{},"GDHetg":{},"71W8GA":{},"7Fjppg":{},"I7Pl5g":{},"RLN7pw":{},"BmJv2w":{},"aQRXjA":{},"w5TOlw":{},"bnhGTQ":{},"4RZUyg":{},"flRZRg":{},"/nNC3A":{},"ov7Bgw":{},"v52Mdg":{},"x5vR5A":{},"DDSUHw":{},"WZXAwQ":{},"CjL7kw":{},"hmvvig":{},"ITl3wQ":{},"v0BWCA":{},"4csGKQ":{},"PUB9yA":{},"2kDaKA":{},"k9pyPA":{},"c+PT4g":{},"/1S6iw":{},"GqeGtQ":{},"aWiv7g":{},"NpA8BQ":{},"ADSBcg":{},"C+zmgA":{},"/K7T0g":{},"YFCs/g":{},"zIpemg":{},"A/Ucpg":{},"zobSAA":{},"63G1zA":{},"cm4D8w":{}};google.y.first.push(function(){google.loadAll(['aa','abd','aspn','async','dvl','foot','fpe','ipv6','lu','m','sf','spch','tl','vs'].concat(google.xjsrm||[]));(function(){window.jsl=window.jsl||{};window.jsl.dh=window.jsl.dh||function(i,c,d){try{var e=document.getElementById(i);if(e){e.innerHTML=c;if(d){d();}}else{if(window.jsl.el){window.jsl.el(new Error('Missing ID.'),{'id':i});}}}catch(e){if(window.jsl.el){window.jsl.el(new Error('jsl.dh'));}}};})();(function(){window.jsl.dh('hdtbMenus','\x3cdiv class\x3d\x22hdtb-mn-cont\x22\x3e\x3cdiv id\x3d\x22hdtb-mn-gp\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny country\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22lr_\x22 tabindex\x3d\x220\x22\x3eAny country\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22ctr_countryIN\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dPredestination%C2%A0+2014+rottentomatoes\x26amp;source\x3dlnt\x26amp;tbs\x3dctr:countryIN\x26amp;cr\x3dcountryIN\x26amp;sa\x3dX\x26amp;ved\x3d0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQpwUIHQ\x22\x3eCountry: India\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22_Vxd\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny time\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22qdr_\x22 tabindex\x3d\x220\x22\x3eAny time\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_h\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dPredestination%C2%A0+2014+rottentomatoes\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:h\x26amp;sa\x3dX\x26amp;ved\x3d0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQpwUIHQ\x22\x3ePast hour\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_d\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dPredestination%C2%A0+2014+rottentomatoes\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:d\x26amp;sa\x3dX\x26amp;ved\x3d0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQpwUIHQ\x22\x3ePast 24 hours\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_w\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dPredestination%C2%A0+2014+rottentomatoes\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:w\x26amp;sa\x3dX\x26amp;ved\x3d0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQpwUIHQ\x22\x3ePast week\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_m\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dPredestination%C2%A0+2014+rottentomatoes\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:m\x26amp;sa\x3dX\x26amp;ved\x3d0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQpwUIHQ\x22\x3ePast month\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_y\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dPredestination%C2%A0+2014+rottentomatoes\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:y\x26amp;sa\x3dX\x26amp;ved\x3d0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQpwUIHQ\x22\x3ePast year\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22cdr_opt\x22\x3e\x3cdiv jsl\x3d\x22$t t-t_nYWbCdeK4;$x 0;\x22 class\x3d\x22r-iL_wW77mFkO0\x22\x3e\x3cdiv class\x3d\x22cdr_sep\x22\x3e\x3c/div\x3e\x3cspan class\x3d\x22q\x22 id\x3d\x22cdrlnk\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22r.FRTb2aDIjnc\x22 data-rtid\x3d\x22iL_wW77mFkO0\x22 jsl\x3d\x22$x 1;\x22 data-ved\x3d\x220ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQpwUIHQ\x22\x3eCustom range...\x3c/span\x3e\x3cdiv class\x3d\x22cdr_cont iL_wW77mFkO0--t6VZ5o0Dhc\x22 style\x3d\x22display:none\x22\x3e\x3cdiv class\x3d\x22cdr_bg\x22 jsaction\x3d\x22r.GnxOjRBdeA8\x22 data-rtid\x3d\x22iL_wW77mFkO0\x22 jsl\x3d\x22$x 2;\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22cdr_dlg\x22\x3e\x3cdiv class\x3d\x22cdr_ttl\x22\x3eCustomised date range\x3c/div\x3e\x3clabel class\x3d\x22cdr_mml cdr_minl\x22 for\x3d\x22cdr_min\x22\x3eFrom\x3c/label\x3e\x3clabel class\x3d\x22cdr_mml cdr_maxl\x22 for\x3d\x22cdr_max\x22\x3eTo\x3c/label\x3e\x3cdiv class\x3d\x22cdr_cls\x22 jsaction\x3d\x22r.GnxOjRBdeA8\x22 data-rtid\x3d\x22iL_wW77mFkO0\x22 jsl\x3d\x22$x 3;\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22cdr_sft\x22\x3e\x3cdiv class\x3d\x22cdr_highl\x22\x3e\x3c/div\x3e\x3cform action\x3d\x22/search\x22 class\x3d\x22cdr_frm\x22 method\x3d\x22get\x22\x3e\x3cinput type\x3dhidden name\x3dq value\x3d\x22Predestination\xa0 2014 rottentomatoes\x22\x3e\x3cinput name\x3d\x22source\x22 type\x3d\x22hidden\x22 value\x3d\x22lnt\x22\x3e\x3cinput value\x3d\x22cdr:1,cd_min:x,cd_max:x\x22 class\x3d\x22ctbs\x22 name\x3d\x22tbs\x22 type\x3d\x22hidden\x22\x3e\x3cinput value\x3d\x22\x22 name\x3d\x22tbm\x22 type\x3d\x22hidden\x22\x3e\x3cinput type\x3d\x22text\x22 value\x3d\x22\x22 class\x3d\x22ktf mini cdr_mm cdr_min\x22 autocomplete\x3d\x22off\x22 tabindex\x3d\x221\x22 jsaction\x3d\x22focus:r.9Ak-cPSnJQs\x22 data-rtid\x3d\x22iL_wW77mFkO0\x22 jsl\x3d\x22$x 4;\x22\x3e\x3cinput type\x3d\x22text\x22 value\x3d\x22\x22 class\x3d\x22ktf mini cdr_mm cdr_max\x22 autocomplete\x3d\x22off\x22 tabindex\x3d\x221\x22 jsaction\x3d\x22focus:r.9Ak-cPSnJQs\x22 data-rtid\x3d\x22iL_wW77mFkO0\x22 jsl\x3d\x22$x 5;\x22\x3e\x3cinput class\x3d\x22ksb mini cdr_go\x22 value\x3d\x22Go\x22 tabindex\x3d\x221\x22 type\x3d\x22submit\x22 jsaction\x3d\x22tnv.scf\x22\x3e\x3c/form\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22_Vxd\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAll results\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22li_\x22 tabindex\x3d\x220\x22\x3eAll results\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22li_1\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dPredestination%C2%A0+2014+rottentomatoes\x26amp;source\x3dlnt\x26amp;tbs\x3dli:1\x26amp;sa\x3dX\x26amp;ved\x3d0ahUKEwizuJfmo7bVAhUGLY8KHdO5DkcQpwUIHQ\x22\x3eVerbatim\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22_Vxd\x22\x3e\x3c/span\x3e\x3c/div\x3e');})();(function(){(function(){var sn='web';google.sn=sn;})();})();(function(){(function(){var ctx=["top_nav",[["t-js5htJpaNsk","ilQ4CLyP1SqM","r-ilQ4CLyP1SqM",[["top_nav",null,null,null,null,[null,"[0,0,0,null,null,null,null,null,1]\n"]
 ]
 ]
@@ -1364,18 +2082,35 @@ c&&(c.className+=n);s&&(s.className+=n);}catch(e){}
 ,["t-Nfexb0d83t0","ic5tNyB9sP6s","r-ic5tNyB9sP6s"]
 ,["t-Nfexb0d83t0","iJ_7Xfr40LF8","r-iJ_7Xfr40LF8"]
 ,["t-t_nYWbCdeK4","iL_wW77mFkO0","r-iL_wW77mFkO0",[["data",null,null,null,null,[null,"[null,null,null,null,null,null,null,null,null,1]\n"]
+=======
+         (function(){function c(b){window.setTimeout(function(){var a=document.createElement("script");a.src=b;document.getElementById("xjsd").appendChild(a)},0)}google.dljp=function(b,a){google.xjsu=b;c(a)};google.dlj=c;}).call(this);(function(){window.google.xjsrm=['d3l','tnv','mrn','me','atn'];})();if(google.y)google.y.first=[];if(!google.xjs){window._=window._||{};window._DumpException=window._._DumpException=function(e){throw e};if(google.timers&&google.timers.load.t){google.timers.load.t.xjsls=new Date().getTime();}google.dljp('/xjs/_/js/k\x3dxjs.s.en.YhqO7-Qeekw.O/m\x3dsx,c,sb,cdos,cr,elog,hsm,jsa,r,qsm,d,csi/am\x3dgBGK8njBAJD_E0KCoVsIC5IGJg4k/rt\x3dj/d\x3d1/t\x3dzcms/rs\x3dACT90oEhUDlVaw6Tzs_TzNNSRTw9FNatdQ','/xjs/_/js/k\x3dxjs.s.en.YhqO7-Qeekw.O/m\x3dsx,c,sb,cdos,cr,elog,hsm,jsa,r,qsm,d,csi/am\x3dgBGK8njBAJD_E0KCoVsIC5IGJg4k/rt\x3dj/d\x3d1/t\x3dzcms/rs\x3dACT90oEhUDlVaw6Tzs_TzNNSRTw9FNatdQ');google.xjs=1;}google.pmc={"sx":{},"c":{"mcr":5},"sb":{"agen":false,"cgen":false,"client":"psy-ab","dh":true,"dhqt":true,"ds":"","fl":true,"host":"google.co.in","isbh":44,"jam":0,"mara":true,"msgs":{"che":"Not listening. Something went wrong.","ched":"Help","cher":"Restart listening","chh":"Say \"Ok Google\"","cht":"Hotword detection is off.","chtr":"Start listening for \"Ok Google\"","chtt":"Listening for \"Ok Google\"","cibl":"Clear Search","dym":"Did you mean:","flf":"Report inappropriate predictions","lcky":"I\u0026#39;m Feeling Lucky","lml":"Learn more","oskt":"Input tools","psrc":"This search was removed from your \u003Ca href=\"/history\"\u003EWeb History\u003C/a\u003E","psrl":"Remove","sbit":"Search by image","srch":"Google Search","srtt":"Search by voice"},"nds":true,"ovr":{},"pq":"Ant-Man  2015 rottentomatoes","refpd":true,"rfs":["ant man rating","ant man movie online","ant man wiki","ant man review","ant man rotten tomatoes","ant man movie download","peyton reed","ant man powers"],"sbas":"0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08)","sbpl":16,"sbpr":16,"scd":4,"sce":4,"sre":true,"stok":"9P9393ICrj7WvkxoCfG7Mx_r31s"},"aa":{},"abd":{"abd":false,"deb":false,"det":false},"am":{},"aspn":{},"async":{"slm":false},"cdos":{"cdobsel":false},"cr":{"eup":false,"qir":false,"rctj":true,"ref":false,"uff":false},"ddls":{},"dvl":{"cookie_secure":true,"cookie_timeout":86400,"driver_ui_type":2,"jsc":"[null,null,null,30000,null,null,null,2]\n","mnr_crd":"1","msg_dsc":"From your Internet address","msg_dvl":"Reported by this computer","msg_err":"Location unavailable","msg_gps":"Using GPS","msg_unk":"Unknown","msg_upd":"Update location","msg_use":"Use precise location","uul_text":"Kolkata, West Bengal"},"elog":{},"foot":{"pf":true,"po":false,"qe":false},"fpe":{"js":true},"gf":{"pid":196},"hsm":{},"ipv6":{},"jsa":{"csi":true,"csir":100},"jsaleg":{},"llc":{},"lu":{},"m":{"ab":{"on":true},"msgs":{"hPers":"Hide private results","hPersD":"Currently hiding private results","sPers":"Show all results","sPersD":"Currently showing private results"}},"r":{},"sf":{},"spch":{"ae":"Please check your microphone.  \u003Ca href=\"https://support.google.com/chrome/?p=ui_voice_search\" target=\"_blank\"\u003ELearn more\u003C/a\u003E","hen":true,"hl":"en-IN","htt":"Listening for \"Ok Google\"","im":"Click \u003Cb\u003EAllow\u003C/b\u003E to start voice search","iw":"Waiting...","lm":"Listening...","lu":"%1$s voice search not available","ne":"No Internet connection","nt":"Didn't get that. \u003Cspan\u003ETry again\u003C/span\u003E","nv":"Please check your microphone and audio levels.  \u003Ca href=\"https://support.google.com/chrome/?p=ui_voice_search\" target=\"_blank\"\u003ELearn more\u003C/a\u003E","pe":"Voice search has been turned off.  \u003Ca href=\"https://support.google.com/chrome/?p=ui_voice_search\" target=\"_blank\"\u003EDetails\u003C/a\u003E","rm":"Speak now"},"tl":{"key":"AIzaSyC_9Rt88UMjzgg5pIVArnfuIVkJx4zCdTY"},"vs":{},"qsm":{},"d":{},"csi":{"acsi":true,"jsmf":true},"TG8rFw":{"sd":"1"},"Iz7bbg":{},"q7pS8A":{},"q1cupA":{},"GDHetg":{},"71W8GA":{},"7Fjppg":{},"I7Pl5g":{},"RLN7pw":{},"BmJv2w":{},"aQRXjA":{},"w5TOlw":{},"bnhGTQ":{},"4RZUyg":{},"flRZRg":{},"/nNC3A":{},"ov7Bgw":{},"v52Mdg":{},"x5vR5A":{},"DDSUHw":{},"WZXAwQ":{},"CjL7kw":{},"hmvvig":{},"ITl3wQ":{},"v0BWCA":{},"4csGKQ":{},"PUB9yA":{},"2kDaKA":{},"k9pyPA":{},"c+PT4g":{},"/1S6iw":{},"GqeGtQ":{},"aWiv7g":{},"NpA8BQ":{},"ADSBcg":{},"C+zmgA":{},"/K7T0g":{},"YFCs/g":{},"zIpemg":{},"A/Ucpg":{},"zobSAA":{},"63G1zA":{},"cm4D8w":{}};google.y.first.push(function(){google.loadAll(['aa','abd','aspn','async','dvl','foot','fpe','ipv6','lu','m','sf','spch','tl','vs'].concat(google.xjsrm||[]));(function(){window.jsl=window.jsl||{};window.jsl.dh=window.jsl.dh||function(i,c,d){try{var e=document.getElementById(i);if(e){e.innerHTML=c;if(d){d();}}else{if(window.jsl.el){window.jsl.el(new Error('Missing ID.'),{'id':i});}}}catch(e){if(window.jsl.el){window.jsl.el(new Error('jsl.dh'));}}};})();(function(){window.jsl.dh('hdtbMenus','\x3cdiv class\x3d\x22hdtb-mn-cont\x22\x3e\x3cdiv id\x3d\x22hdtb-mn-gp\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny country\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22lr_\x22 tabindex\x3d\x220\x22\x3eAny country\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22ctr_countryIN\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dAnt-Man%C2%A0+2015+rottentomatoes\x26amp;source\x3dlnt\x26amp;tbs\x3dctr:countryIN\x26amp;cr\x3dcountryIN\x26amp;sa\x3dX\x26amp;ved\x3d0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQpwUIHQ\x22\x3eCountry: India\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22_Vxd\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny time\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22qdr_\x22 tabindex\x3d\x220\x22\x3eAny time\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_h\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dAnt-Man%C2%A0+2015+rottentomatoes\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:h\x26amp;sa\x3dX\x26amp;ved\x3d0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQpwUIHQ\x22\x3ePast hour\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_d\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dAnt-Man%C2%A0+2015+rottentomatoes\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:d\x26amp;sa\x3dX\x26amp;ved\x3d0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQpwUIHQ\x22\x3ePast 24 hours\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_w\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dAnt-Man%C2%A0+2015+rottentomatoes\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:w\x26amp;sa\x3dX\x26amp;ved\x3d0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQpwUIHQ\x22\x3ePast week\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_m\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dAnt-Man%C2%A0+2015+rottentomatoes\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:m\x26amp;sa\x3dX\x26amp;ved\x3d0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQpwUIHQ\x22\x3ePast month\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_y\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dAnt-Man%C2%A0+2015+rottentomatoes\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:y\x26amp;sa\x3dX\x26amp;ved\x3d0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQpwUIHQ\x22\x3ePast year\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22cdr_opt\x22\x3e\x3cdiv jsl\x3d\x22$t t-t_nYWbCdeK4;$x 0;\x22 class\x3d\x22r-iGmAX4RTm6Wk\x22\x3e\x3cdiv class\x3d\x22cdr_sep\x22\x3e\x3c/div\x3e\x3cspan class\x3d\x22q\x22 id\x3d\x22cdrlnk\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22r.FRTb2aDIjnc\x22 data-rtid\x3d\x22iGmAX4RTm6Wk\x22 jsl\x3d\x22$x 1;\x22 data-ved\x3d\x220ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQpwUIHQ\x22\x3eCustom range...\x3c/span\x3e\x3cdiv class\x3d\x22cdr_cont iGmAX4RTm6Wk--t6VZ5o0Dhc\x22 style\x3d\x22display:none\x22\x3e\x3cdiv class\x3d\x22cdr_bg\x22 jsaction\x3d\x22r.GnxOjRBdeA8\x22 data-rtid\x3d\x22iGmAX4RTm6Wk\x22 jsl\x3d\x22$x 2;\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22cdr_dlg\x22\x3e\x3cdiv class\x3d\x22cdr_ttl\x22\x3eCustomised date range\x3c/div\x3e\x3clabel class\x3d\x22cdr_mml cdr_minl\x22 for\x3d\x22cdr_min\x22\x3eFrom\x3c/label\x3e\x3clabel class\x3d\x22cdr_mml cdr_maxl\x22 for\x3d\x22cdr_max\x22\x3eTo\x3c/label\x3e\x3cdiv class\x3d\x22cdr_cls\x22 jsaction\x3d\x22r.GnxOjRBdeA8\x22 data-rtid\x3d\x22iGmAX4RTm6Wk\x22 jsl\x3d\x22$x 3;\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22cdr_sft\x22\x3e\x3cdiv class\x3d\x22cdr_highl\x22\x3e\x3c/div\x3e\x3cform action\x3d\x22/search\x22 class\x3d\x22cdr_frm\x22 method\x3d\x22get\x22\x3e\x3cinput type\x3dhidden name\x3dq value\x3d\x22Ant-Man\xa0 2015 rottentomatoes\x22\x3e\x3cinput name\x3d\x22source\x22 type\x3d\x22hidden\x22 value\x3d\x22lnt\x22\x3e\x3cinput value\x3d\x22cdr:1,cd_min:x,cd_max:x\x22 class\x3d\x22ctbs\x22 name\x3d\x22tbs\x22 type\x3d\x22hidden\x22\x3e\x3cinput value\x3d\x22\x22 name\x3d\x22tbm\x22 type\x3d\x22hidden\x22\x3e\x3cinput type\x3d\x22text\x22 value\x3d\x22\x22 class\x3d\x22ktf mini cdr_mm cdr_min\x22 autocomplete\x3d\x22off\x22 tabindex\x3d\x221\x22 jsaction\x3d\x22focus:r.9Ak-cPSnJQs\x22 data-rtid\x3d\x22iGmAX4RTm6Wk\x22 jsl\x3d\x22$x 4;\x22\x3e\x3cinput type\x3d\x22text\x22 value\x3d\x22\x22 class\x3d\x22ktf mini cdr_mm cdr_max\x22 autocomplete\x3d\x22off\x22 tabindex\x3d\x221\x22 jsaction\x3d\x22focus:r.9Ak-cPSnJQs\x22 data-rtid\x3d\x22iGmAX4RTm6Wk\x22 jsl\x3d\x22$x 5;\x22\x3e\x3cinput class\x3d\x22ksb mini cdr_go\x22 value\x3d\x22Go\x22 tabindex\x3d\x221\x22 type\x3d\x22submit\x22 jsaction\x3d\x22tnv.scf\x22\x3e\x3c/form\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22_Vxd\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAll results\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22li_\x22 tabindex\x3d\x220\x22\x3eAll results\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22li_1\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dAnt-Man%C2%A0+2015+rottentomatoes\x26amp;source\x3dlnt\x26amp;tbs\x3dli:1\x26amp;sa\x3dX\x26amp;ved\x3d0ahUKEwjIjvOdirbVAhWGvI8KHSI1CWwQpwUIHQ\x22\x3eVerbatim\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22_Vxd\x22\x3e\x3c/span\x3e\x3c/div\x3e');})();(function(){(function(){var sn='web';google.sn=sn;})();})();(function(){(function(){var ctx=["top_nav",[["t-js5htJpaNsk","ih6UIjHrt1t0","r-ih6UIjHrt1t0",[["top_nav",null,null,null,null,[null,"[0,0,0,null,null,null,null,null,1]\n"]
+]
+]
+]
+,["t-Nfexb0d83t0","ibWhH3Ru8sZ8","r-ibWhH3Ru8sZ8"]
+,["t-Nfexb0d83t0","iqygtWgj99uk","r-iqygtWgj99uk"]
+,["t-t_nYWbCdeK4","iGmAX4RTm6Wk","r-iGmAX4RTm6Wk",[["data",null,null,null,null,[null,"[null,null,null,null,null,null,null,null,null,1]\n"]
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
 ]
 ]
 ,null,"ttbcdr"]
 ]
 ]
+<<<<<<< HEAD
 ;try{google.jsc.x(ctx);}catch(e){}})();})();(function(){(function(){var ctx=["rhscol",[["t-5RRekjfu2Ys","ic8DyZjUAfM4","r-ic8DyZjUAfM4",[["ec",null,null,null,null,[null,"[1,1,null,1188,1276]\n"]
+=======
+;try{google.jsc.x(ctx);}catch(e){}})();})();(function(){(function(){var ctx=["rhscol",[["t-5RRekjfu2Ys","iuwDaeZ8QNys","r-iuwDaeZ8QNys",[["ec",null,null,null,null,[null,"[1,1,null,1188,1276]\n"]
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
 ]
 ]
 ]
 ]
 ]
+<<<<<<< HEAD
 ;try{google.jsc.x(ctx);}catch(e){}})();})();(function(){(function(){var ctx=["bfoot",[["t-xJZnhKySAM0","iOd_NksQyav8","r-iOd_NksQyav8"]
+=======
+;try{google.jsc.x(ctx);}catch(e){}})();})();(function(){(function(){var ctx=["bfoot",[["t-xJZnhKySAM0","iUdJ2RdqIbAg","r-iUdJ2RdqIbAg"]
+>>>>>>> 067f89b53ff3f1fce069e5909b1e897fc67c9903
 ]
 ]
 ;try{google.jsc.x(ctx);}catch(e){}})();})();if(google.med){google.med('init');google.initHistory();google.med('history');}});(function(){var m=[];for(var a=window,b=m,c={},d=0;d<b.length;d+=2)c[b[d]]=JSON.parse(b[d+1]);a.W_jd=c;})();if(google.j&&google.j.en&&google.j.xi){window.setTimeout(google.j.xi,0);}
