@@ -95,8 +95,27 @@ def result():
                               and movie_table.year = ? COLLATE NOCASE''', (movie, year)).fetchone()[0]
     print('Score : ' + str(score))
 
+    movie_id = db.conn.execute('''SELECT movie_table.id from movie_table where
+                                  movie_table.name = ? COLLATE NOCASE
+                                  and movie_table.year = ? COLLATE NOCASE''',
+                               (movie, year)).fetchone()[0]
+    comp_year = int (year) - 20
+    temp_list = get_similar(params[6], comp_year)
+    recom = []
+
+    for item in temp_list:
+        if item != movie_id:
+            tup = db.conn.execute('''SELECT movie_table.name, movie_table.year,
+                                    round(rating_table.score) from movie_table, rating_table
+                                    where movie_table.id = rating_table.id AND 
+                                    movie_table.id = ?''', (item,)).fetchone()
+            recom.append(tup)
+            print(tup)
+    print('List gathered : ')
+    print(temp_list)
+    del temp_list
     db.conn.close()
-    get_similar(params[6])
+    # get_similar(params[6])
     params.append(score)
     if 'review' in session:
         review = session['review'][:511] + '....'
@@ -104,7 +123,7 @@ def result():
         review = 'No summary available.'
     # return params[0]
     # print(review)
-    return render_template('movie.html', params=params, review=review)
+    return render_template('movie.html', params=params, review=review, recom=recom)
 
 
 @app.route('/genre', methods=['GET', 'POST'])
@@ -150,7 +169,7 @@ def show_review():
 #     return redirect('http://www.google.com/search?', q='John Glen')
 
 
-def get_similar(genre_list):
+def get_similar(genre_list, comp_year):
     movie_list = []
     db = HomeDB()
     cursors = []
@@ -159,10 +178,11 @@ def get_similar(genre_list):
         g1 = db.conn.execute('''select movie_table.id, round(rating_table.score)
                                   from movie_table, rating_table, genre_table
                                   where movie_table.id = rating_table.id 
+                                  and movie_table.year > ?
                                   and movie_table.id = genre_table.id 
                                   and genre_table.genre = ? collate nocase
                                   order by rating_table.score DESC''',
-                                (item,)).fetchall()
+                                 (comp_year, item)).fetchall()
         l1 = list(g1)
         for item in l1:
             if item[0] not in my_dict:
@@ -173,10 +193,11 @@ def get_similar(genre_list):
                 my_dict[item[0]][0] = my_dict[item[0]][0]+1
 
     # print(my_dict)
-    sorted_dict = sorted(my_dict, key=my_dict.__getitem__)
+    sorted_dict = sorted(my_dict, key=my_dict.__getitem__, reverse=True)
     print('Sorted dictionary : ')
     print(type(sorted_dict))
-    print(sorted_dict)
+    return sorted_dict[:8]
+    # print(sorted_dict)
     # for item in genre_list:
     #     g1 = db.conn.execute('''select movie_table.id, movie_table.name, movie_table.year, round(rating_table.score)
     #                             from movie_table, rating_table, genre_table

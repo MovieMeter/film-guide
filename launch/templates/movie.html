@@ -96,8 +96,37 @@
 <div style="height:100px">
 	</div>
 
-
-	
+<div >
+    <h3 style="font-family:'Dancing Script';color:#663f63">
+        You might Like:
+    </h3>
+    <table >
+        <tr style="text-align: justify; font-family:'Dancing Script'; color:#122b40; font-size:20px;font-weight:bold">
+            <td>
+                <em>Movie</em>
+            </td>
+            <td style="padding-left:20px">
+                <em>Year</em>
+            </td>
+            <td style="padding-left:20px">
+                <em>Score</em>
+            </td>
+        </tr>
+        {% for item in recom %}
+        <tr>
+            <td>
+                <a href="{{ url_for('show_movie', name=item[0]) }}">{{ item[0] }}</a>
+            </td>
+            <td style="padding-left:20px">
+                ({{ item[1] }})
+            </td>
+            <td style="padding-left:20px">
+                {{ item[2] }}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
 	
 
 <h3>
