@@ -5,7 +5,14 @@ import random
 import os
 
 
-def poster(movie=None, year=None):
+def poster(movie=None, year=None, id=None):
+    db = HomeDB()
+    check_url = db.conn.execute('''SELECT poster_url from poster_table
+                                  where poster_table.id = ?''', (id,)).fetchone()
+    if check_url is not None:
+        print(check_url)
+        db.conn.close()
+        return check_url[0]
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36'
                }
@@ -63,6 +70,9 @@ def poster(movie=None, year=None):
     img = div.find('img')
     link = 'http:' + img['src']
     print(link)
+    db.conn.execute('''INSERT INTO poster_table values(?,?)''', (id, link))
+    db.conn.commit()
+    db.conn.close()
     return link
     # r = requests.get(link, headers=headers)
     # try:

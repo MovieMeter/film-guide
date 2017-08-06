@@ -4,8 +4,9 @@ from flask import Flask, request, session, g, redirect, url_for, abort, render_t
 from Film.review_info1 import get_info
 from Film.check_and_add import check_movie
 from Film.mov import get_review
-# from Film.get_poster import poster
+from Film.get_poster import poster
 import sys
+import requests
 
 
 @app.route('/top')
@@ -30,23 +31,26 @@ def search():
         # session.clear()
         movie = request.form['title']
         params = get_info(movie)
-        review = get_review(params[0])
+        # review = get_review(params[0])
         # print(review)
         # print(type(params))
         # params.append(review)
         # More stuff
         print('Checking movie in database, wait')
-        check_movie(name=params[0], year=params[1])
+        check_movie(name=params['name'], year=params['year'])
+        # check_movie(name=params[0], year=params[1])
         session.pop('params', None)
         print('no params')
         session['params'] = params
         # session.modified = True
-        movie = params[0]
-        year = params[1]
+        movie = params['name']
+        # movie = params[0]
+        year = params['year']
+        # year = params[1]
         print(str(movie) + ', ' + str(year))
         # link = poster(movie, year)
-        if review is not None:
-            session['review'] = review[:511] + '...'
+        # if review is not None:
+        #     session['review'] = review[:511] + '...'
         session.modified = True
         # print('search : ' + str(session.modified))
         # print(session['review'])
@@ -65,8 +69,10 @@ def show_movie(name):
     session['params'] = params
     session.modified = True
     # print(session['params'])
-    movie = params[0]
-    year = params[1]
+    movie = params['name']
+    # movie = params[0]
+    year = params['year']
+    # year = params[1]
     print(str(movie) + ', ' + str(year))
     review = get_review(name)
     if review is not None:
@@ -85,8 +91,12 @@ def result():
     db = HomeDB()
     # print(params[0])
     # print(params[1])
-    movie = params[0].strip()
-    year = str(params[1]).strip()
+    print(type(params))
+    print(params)
+    movie = params['name'].strip()
+    year = str(params['year']).strip()
+    # movie = params[0].strip()
+    # year = str(params[1]).strip()
     print(str(movie) + ', ' + str(year))
     # scores = db.conn.execute('''SELECT round(rating_table.score) from rating_table''')
     score = db.conn.execute('''SELECT round(rating_table.score) from rating_table, movie_table 
@@ -99,8 +109,14 @@ def result():
                                   movie_table.name = ? COLLATE NOCASE
                                   and movie_table.year = ? COLLATE NOCASE''',
                                (movie, year)).fetchone()[0]
-    comp_year = int (year) - 20
-    temp_list = get_similar(params[6], comp_year)
+    comp_year = int(year) - 20
+
+    # Getting poster
+    link = poster(params['name'], params['year'], movie_id)
+    params['link'] = link
+    # Getting recommendations
+    temp_list = get_similar(params['genres'], comp_year)
+    # temp_list = get_similar(params[6], comp_year)
     recom = []
 
     for item in temp_list:
@@ -116,11 +132,16 @@ def result():
     del temp_list
     db.conn.close()
     # get_similar(params[6])
-    params.append(score)
-    if 'review' in session:
-        review = session['review'][:511] + '....'
+    params['score'] = score
+    # params.append(score)
+    if params['summary'] is None:
+        review = 'No summary available'
     else:
-        review = 'No summary available.'
+        review = params['summary']
+    # if 'review' in session:
+    #     review = session['review'][:511] + '....'
+    # else:
+    #     review = 'No summary available.'
     # return params[0]
     # print(review)
     return render_template('movie.html', params=params, review=review, recom=recom)
@@ -158,15 +179,23 @@ def show_review():
     except:
         print(sys.exc_info()[0])
         # info = ['None', 'None']
-    review = get_review(params[0])
+    review = get_review(params['name'])
+    # review = get_review(params[0])
     if review is None:
         review = 'No review available at the moment, sorry.'
     return render_template('show_review.html', review=review, params=params)
 
 
-# @app.route('/director')
-# def show_director():
-#     return redirect('http://www.google.com/search?', q='John Glen')
+@app.route('/director/<director>')
+def show_director(director):
+    url = 'http://www.google.com/search?'
+    params = {
+        'q': director,
+        'oq': director
+    }
+    r = requests.get(url, params=params)
+    return redirect(r.url)
+    # return redirect('http://www.google.com/search?', q='John Glen')
 
 
 def get_similar(genre_list, comp_year):

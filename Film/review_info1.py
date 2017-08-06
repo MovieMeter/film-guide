@@ -3,7 +3,6 @@ from fake_useragent import UserAgent
 import requests
 import sys
 from Film.mov import get_review
-from Film.get_poster import poster
 
 
 def get_info(movie):
@@ -61,22 +60,38 @@ def get_info(movie):
         # print(str(actor[index])+'\t'+str(character[index]))
         #fp.write('\n'+actor[index]+'\t'+ character[index]+'\n')
     #fp.close()
-
+    try:
+        summary = soup4.find('div', class_='summary_text', itemprop='description').text
+    except:
+        summary = None
     movie_rotten=movie+" movie rottentomatoes"
     params={'q':movie_rotten,'oq':movie_rotten}
     r5=requests.get(base,params=params,headers=headers)
+    print(r5.url)
     soup5=BeautifulSoup(r5.content,'lxml')
     tag4=soup5.find('div', class_='rc').a['href']
     r6=requests.get(tag4, headers=headers)
+    print(tag4)
     #print r6.url
     soup6=BeautifulSoup(r6.content, 'lxml')
     score=soup6.find('div', class_='critic-score meter').get_text().strip()
     # print(score.get_text().strip())
     # review = get_review(name)
     # score_val = score.text.strip()
-    link = poster(name, year)
-    params = [name, year, rate, score, meta, director, genres, link]
-    return params
+    # link = poster(name, year)
+    params2 = {
+        'name': name,
+        'year': year,
+        'rotten': score,
+        'imdb': rate,
+        'meta': meta,
+        'director': director,
+        'genres': genres,
+        # 'link': link,
+        'summary': summary
+    }
+    # params = [name, year, rate, score, meta, director, genres, link, summary]
+    return params2
 
 
 def hello():

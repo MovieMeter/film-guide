@@ -11,13 +11,13 @@
 {% block body %}
 <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='italy.css')}}">
 <div class="name">
-    <span style="font-size:35px;padding-right: 40px;font-family:'Bowlby One SC'"><a href="#" style="color:black">{{params[0] }}</a></span>
-    <span style="font-family:'Sofia'; font-size: 25px">{{params[1]}}</span>
+    <span style="font-size:35px;padding-right: 40px;font-family:'Bowlby One SC'"><a href="#" style="color:black">{{params['name'] }}</a></span>
+    <span style="font-family:'Sofia'; font-size: 25px">{{params['year']}}</span>
 </div>
 
 <div style="height:500px; position:block" class="row">
 	<div class="col-sm-8">
-		<img src="{{ params[7] }}" alt="Poster for {{ params[0] }}." style="width:350px;height:500px">
+		<img src="{{ params['link'] }}" alt="Poster for {{ params['name'] }}." style="width:350px;height:500px">
 	</div>
 	<div class="col-sm-4">
 	<p style="height:100px">
@@ -31,7 +31,7 @@
 					</td>
 					<td style=" font-size: 20px;width:250px">
 					<a href="#">
-					{{params[5]}}</a>
+					{{params['director']}}</a>
 					</td>
 			</tr>
 		</table>
@@ -50,7 +50,7 @@
                     Score:
                 </td>
                 <td style="color:#c13c30;font-size:30px">
-                    {{params[8]}}
+                    {{params['score']}}
                 </td>
             </tr>
 			<tr>
@@ -59,7 +59,7 @@
 					IMDB:
 				</td>
 				<td style="color:#c13c30;font-size:25px">
-					{{params[2]}}
+					{{params['imdb']}}
 				</td>
 			</tr>
 			<tr>
@@ -67,7 +67,7 @@
 					Rottentomatoes:
 				</td>
 				<td style="color:#c13c30;font-size:25px">
-					{{params[3]}}
+					{{params['rotten']}}
 				</td>
 			</tr>
 			<tr>
@@ -75,7 +75,7 @@
 					Metacritic:
 				</td>
 				<td style="color:#c13c30;font-size:25px">
-					{{params[4]}}
+					{{params['meta']}}
 				</td>
 			</tr>
 		</table>
@@ -85,7 +85,7 @@
 		<p style="height:50px">
 		</p>
 		<p style="padding-left: 40px">
-		{% for item in params[6] %}
+		{% for item in params['genres'] %}
         <span style="width:100px"><a href="{{ url_for('genre_search', genre_name=item) }}">{{item}}</a></span>
 		{% endfor %}
 		</p>
