@@ -7,6 +7,7 @@ from Film.mov import get_review
 from Film.get_poster import poster
 import sys
 import requests
+from googleS import gsearch
 
 
 @app.route('/top')
@@ -188,13 +189,16 @@ def show_review():
 
 @app.route('/director/<director>')
 def show_director(director):
-    url = 'http://www.google.com/search?'
-    params = {
-        'q': director,
-        'oq': director
-    }
-    r = requests.get(url, params=params)
-    return redirect(r.url)
+    # url = 'http://www.google.com/search?'
+    # params = {
+    #     'q': director,
+    #     'oq': director
+    # }
+    # r = requests.get(url, params=params)
+    term = str(director) + ' wikipedia'
+    url = gsearch.search(term=term)
+    return redirect(url)
+
     # return redirect('http://www.google.com/search?', q='John Glen')
 
 
