@@ -3,6 +3,7 @@ from fake_useragent import UserAgent
 import requests
 import sys
 from Film.mov import get_review
+from database.home_database import HomeDB
 
 
 def get_info(movie):
@@ -12,24 +13,24 @@ def get_info(movie):
     movie_imdb = movie+" movie imdb"
     params = {'q': movie_imdb, 'oq': movie_imdb}
     r3 = requests.get(base, params=params, headers=headers)
-    soup3=BeautifulSoup(r3.content, 'lxml')
-    tag3=soup3.find('div', class_='rc').a['href']
+    soup3 = BeautifulSoup(r3.content, 'lxml')
+    tag3 = soup3.find('div', class_='rc').a['href']
 
-    r4=requests.get(tag3, headers=headers)
-    soup4=BeautifulSoup(r4.content, 'lxml')
-    name_year=soup4.find('h1', itemprop="name").get_text().strip()
-    name=name_year[0:len(name_year)-6]
+    r4 = requests.get(tag3, headers=headers)
+    soup4 = BeautifulSoup(r4.content, 'lxml')
+    name_year = soup4.find('h1', itemprop="name").get_text().strip()
+    name = name_year[0:len(name_year)-6]
     # print(str(name))
-    year=name_year[len(name_year)-5:len(name_year)-1]
+    year = name_year[len(name_year)-5:len(name_year)-1]
     # print(year)
-    rate=soup4.find('div', class_="imdbRating").div.get_text().strip()
+    rate = soup4.find('div', class_="imdbRating").div.get_text().strip()
     # print(rate)
-    director=soup4.find('span', itemprop="director").get_text().strip()
+    director = soup4.find('span', itemprop="director").get_text().strip()
     # print(director)
-    meta=soup4.find('div', class_="titleReviewBarItem")
+    meta = soup4.find('div', class_="titleReviewBarItem")
     # print('Tag Found!')
-    if meta!=None:
-        meta=str(meta.div.get_text().strip())
+    if meta is not None:
+        meta = str(meta.div.get_text().strip())
         # print("meta score:" +str(meta))
     # else:
         # print("meta score not available")
@@ -53,8 +54,8 @@ def get_info(movie):
     index=0
     for item in soup4.find_all('td', class_="character"):
         character.append(item.get_text())
-        index+=1
-        if index>=9:
+        index = index + 1
+        if index >= 9:
             break
     # for index in range(0, len(actor)):
         # print(str(actor[index])+'\t'+str(character[index]))

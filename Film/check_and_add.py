@@ -11,6 +11,7 @@ from Film.film import Film
 
 my_db = HomeDB()
 
+
 def check(film):
     db = HomeDB()
     is_present = db.check_entry(film)
@@ -22,6 +23,7 @@ def check(film):
 
 
 def add(film):
+    # verify(film)
     rotten(film)
     get_score(film)
     db = HomeDB()

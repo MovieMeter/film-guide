@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup, SoupStrainer
 from fake_useragent import UserAgent
 from ratings.calculate import score
 import sys
+from database.home_database import HomeDB
 
 
 # Assign imdb and rt links to the film object.
@@ -15,6 +16,17 @@ def load_url(film):
     # for url in search(name + ' ' + str(year) + ' imdb', stop=1):
     #     imdb_url = url
     #     break
+    # db = HomeDB()
+    # check_id = int(db.get_row_id(film))
+    # if check_id is not None:
+    #     print('Found in database.')
+    #     cur = db.conn.execute('''SELECT imdb_link, rotten_link from link_table
+    #                               where id = ?''', (check_id,)).fetchone()
+    #     print(cur)
+    #     film.imdb_link = cur[0]
+    #     film.rotten_link = cur[1]
+    # else:
+    # print('Getting from the internet, please wait..')
     imdb_url = search(name + ' ' + str(year) + ' imdb')
     film.imdb_link = imdb_url
     print('Getting rotten link..')
@@ -23,6 +35,8 @@ def load_url(film):
     #     break
     rotten_url = search(name + ' ' + str(year) + ' rottentomatoes')
     film.rotten_link = rotten_url
+    # db.conn.execute('BEGIN EXCLUSIVE')
+
 
 
 # Load the imdb ratings, meta score, and the genres to the movie by referencing its IMDb page.

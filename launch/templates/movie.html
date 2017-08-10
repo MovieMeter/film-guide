@@ -19,17 +19,26 @@
 	<div class="col-sm-8">
 		<img src="{{ params['link'] }}" alt="Poster for {{ params['name'] }}." style="width:350px;height:500px">
 	</div>
+    <div>
+    	<h3>
+    <a href="{{ url_for('show_review') }}">Summary :</a>
+</h3>
+<p style="font-family:Dosis;font-size:16px">
+    {{review}}
+</p>
+    </div>
 	<div class="col-sm-4">
-	<p style="height:100px">
-	</p>
-		<!-- <p><span style="font-size:35px;color:#c13c30">Rating:</span></p> -->
-		<p>
+{#	<p style="height:100px">#}
+{#	</p>#}
+{#		<!-- <p><span style="font-size:35px;color:#c13c30">Rating:</span></p> -->#}
+
+			<p>
 		<table>
-			<tr style="height:150px;z-index: 1">
-					<td style="color:#663f63;font-family:Dosis, serif;font-size:23px;width:150px;text-align:center">
+			<tr style="height:80px;z-index: 1">
+					<td style="color:#663f63;font-family:Dosis, serif;font-size:18px;width:150px;text-align:center">
 						Directed by:
 					</td>
-					<td style=" font-size: 20px;width:250px">
+					<td style=" font-size: 18px;width:250px;text-align:center">
 					<a href="{{ url_for('show_director', director=params['director']) }}">
 					{{params['director']}}</a>
 					</td>
@@ -93,14 +102,17 @@
 
 	</div>
 </div>
-<div style="height:100px">
+<div style="height:30px">
 	</div>
+<div class="row">
+<div class="col-sm-7">
 
-<div >
+</div>
+<div class="col-sm-5">
     <h3 style="font-family:'Dancing Script';color:#663f63">
         You might Like:
     </h3>
-    <table >
+    <table style="width:300px">
         <tr style="text-align: justify; font-family:'Dancing Script'; color:#122b40; font-size:20px;font-weight:bold">
             <td>
                 <em>Movie</em>
@@ -114,27 +126,22 @@
         </tr>
         {% for item in recom %}
         <tr>
-            <td>
+            <td style="font-family:Dosis;font-size:18px">
                 <a href="{{ url_for('show_movie', name=item[0]) }}">{{ item[0] }}</a>
             </td>
             <td style="padding-left:20px">
                 ({{ item[1] }})
             </td>
-            <td style="padding-left:20px">
+            <td style="font-family:Dosis;font-size:18px;padding-left:20px">
                 {{ item[2] }}
             </td>
         </tr>
         {% endfor %}
     </table>
 </div>
+</div>
 	
 
-<h3>
-    <a href="{{ url_for('show_review') }}">Summary :</a>
-</h3>
-<p>
-    {{review}}
-</p>
 {% endblock %}
 <!-- {#</body>#}
 {#</html>#} -->
