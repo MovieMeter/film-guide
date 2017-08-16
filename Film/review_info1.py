@@ -2,14 +2,20 @@ from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 import requests
 import sys
-from Film.mov import get_review
+# from Film.mov import get_review
+from Film.film import Film
 from database.home_database import HomeDB
 
 
-def get_info(movie):
+def get_info(film):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36'}
     # movie = input('Enter movie? ')
     base = "https://www.google.co.in/search?"
+    movie = film.name
+    year = film.year
+    imdb_link = film.imdb_link
+    # db = HomeDB()
+    # if db.check_entry(film) is True:
     movie_imdb = movie+" movie imdb"
     params = {'q': movie_imdb, 'oq': movie_imdb}
     r3 = requests.get(base, params=params, headers=headers)
@@ -29,29 +35,27 @@ def get_info(movie):
     # print(director)
     meta = soup4.find('div', class_="titleReviewBarItem")
     # print('Tag Found!')
-    if meta is not None:
+    if meta is not None:    
         meta = str(meta.div.get_text().strip())
         # print("meta score:" +str(meta))
     # else:
         # print("meta score not available")
     genres = []
-    genre_list=soup4.find_all('span', class_="itemprop", itemprop="genre")
+    genre_list = soup4.find_all('span', class_="itemprop", itemprop="genre")
     for item in genre_list:
-        item=item.get_text().strip()
+        item = item.get_text().strip()
         # print(item)
         genres.append(item)
 
-
-
-    index=0
-    actor=list()
-    character=list()
+    index = 0
+    actor = list()
+    character = list()
     for item in soup4.find_all('span', class_="itemprop"):
         actor.append(item.get_text())
-        index+=1
-        if index>=9:
+        index += 1
+        if index >= 9:
             break
-    index=0
+    index = 0
     for item in soup4.find_all('td', class_="character"):
         character.append(item.get_text())
         index = index + 1
@@ -73,9 +77,9 @@ def get_info(movie):
     tag4=soup5.find('div', class_='rc').a['href']
     r6=requests.get(tag4, headers=headers)
     print(tag4)
-    #print r6.url
-    soup6=BeautifulSoup(r6.content, 'lxml')
-    score=soup6.find('div', class_='critic-score meter').get_text().strip()
+    # print r6.url
+    soup6 = BeautifulSoup(r6.content, 'lxml')
+    score = soup6.find('div', class_='critic-score meter').get_text().strip()
     # print(score.get_text().strip())
     # review = get_review(name)
     # score_val = score.text.strip()

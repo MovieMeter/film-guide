@@ -1,0 +1,35 @@
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Title</title>#}
+{#</head>#}
+{#<body>#}
+{##}
+{#</body>#}
+{#</html>#}
+
+{% extends 'layout.html' %}
+{% block body %}
+
+
+<div class="container">
+    <div>
+    <h3>
+        Search Results
+    </h3>
+    </div>
+    <div>
+    <ul>
+        {% for item in movie_list %}
+        <li>
+            <a href="{{ url_for('get_result', name=item[0], year=item[1], link=item[2]) }}">
+                {{ item[0] }}, {{ item[1] }}
+            </a>
+            <br>
+        </li>
+        {% endfor %}
+    </ul>
+    </div>
+</div>
+{% endblock %}

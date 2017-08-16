@@ -5,9 +5,10 @@ from Film.review_info1 import get_info
 from Film.check_and_add import check_movie
 from Film.mov import get_review
 from Film.get_poster import poster
+from Film.film import Film
 import sys
-import requests
 from googleS import gsearch
+from Film.search_film import show_search
 
 
 @app.route('/top')
@@ -31,34 +32,49 @@ def search():
         # Call Script review_info1.py
         # session.clear()
         movie = request.form['title']
-        params = get_info(movie)
-        # review = get_review(params[0])
-        # print(review)
-        # print(type(params))
-        # params.append(review)
-        # More stuff
-        print('Checking movie in database, wait')
-        check_movie(name=params['name'], year=params['year'])
-        # check_movie(name=params[0], year=params[1])
-        session.pop('params', None)
-        print('no params')
-        session['params'] = params
-        # session.modified = True
-        movie = params['name']
-        # movie = params[0]
-        year = params['year']
-        # year = params[1]
-        print(str(movie) + ', ' + str(year))
-        # link = poster(movie, year)
-        # if review is not None:
-        #     session['review'] = review[:511] + '...'
-        session.modified = True
-        # print('search : ' + str(session.modified))
-        # print(session['review'])
-        # print(session)
-        return redirect(url_for('result'))
+
+        # Calling the search script
+        movie_list = show_search(movie)
+        return render_template('movie_list.html', movie_list=movie_list)
 
     return render_template('search.html', error=error)
+
+
+@app.route('/get_result')
+def get_result():
+    movie = request.args.get('name')
+    year = request.args.get('year')
+    # return 'Name = ' + str(name) + ', Year = ' + str(year)
+    film = Film()
+    film.name = movie
+    film.year = year
+    film.imdb_link = request.args.get('link')
+    params = get_info(film)
+    # review = get_review(params[0])
+    # print(review)
+    # print(type(params))
+    # params.append(review)
+    # More stuff
+    print('Checking movie in database, wait')
+    check_movie(name=params['name'], year=params['year'])
+    # check_movie(name=params[0], year=params[1])
+    session.pop('params', None)
+    print('no params')
+    session['params'] = params
+    # session.modified = True
+    movie = params['name']
+    # movie = params[0]
+    year = params['year']
+    # year = params[1]
+    print(str (movie) + ', ' + str(year))
+    # link = poster(movie, year)
+    # if review is not None:
+    #     session['review'] = review[:511] + '...'
+    session.modified = True
+    # print('search : ' + str(session.modified))
+    # print(session['review'])
+    # print(session)
+    return redirect(url_for('result'))
 
 
 @app.route('/movie/<name>')
