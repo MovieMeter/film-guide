@@ -127,7 +127,7 @@
         {% for item in recom %}
         <tr>
             <td style="font-family:Dosis;font-size:18px">
-                <a href="{{ url_for('show_movie', name=item[0]) }}">{{ item[0] }}</a>
+                <a href="{{ url_for('get_result', name=item[0], year = item[1]) }}">{{ item[0] }}</a>
             </td>
             <td style="padding-left:20px">
                 ({{ item[1] }})

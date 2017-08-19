@@ -11,6 +11,8 @@ class Film:
         self.year = None
         self.genre = []
         self.ratings = {}
+        self.director = None
+        # self.summary = None
 
     def set_name(self, name):
         self.name = name

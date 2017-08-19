@@ -42,6 +42,7 @@ def search():
 
 @app.route('/get_result')
 def get_result():
+    print('called')
     movie = request.args.get('name')
     year = request.args.get('year')
     # return 'Name = ' + str(name) + ', Year = ' + str(year)
@@ -49,37 +50,52 @@ def get_result():
     film.name = movie
     film.year = year
     film.imdb_link = request.args.get('link')
-    params = get_info(film)
-    # review = get_review(params[0])
-    # print(review)
-    # print(type(params))
-    # params.append(review)
-    # More stuff
-    print('Checking movie in database, wait')
-    check_movie(name=params['name'], year=params['year'])
-    # check_movie(name=params[0], year=params[1])
-    session.pop('params', None)
-    print('no params')
+    check_movie(film)
+    print(str(film.name) + ', ' + str(film.year))
+    print(film.ratings)
+    params = obj_to_dict(film)
+    try:
+        params['summary'] = str(get_review(film.name))[:511]
+    except:
+        params['summary'] = None
+
     session['params'] = params
-    # session.modified = True
-    movie = params['name']
-    # movie = params[0]
-    year = params['year']
+    session.modified = True
+    # params = get_info(film)
+    # # review = get_review(params[0])
+    # # print(review)
+    # # print(type(params))
+    # # params.append(review)
+    # # More stuff
+    # print('Checking movie in database, wait')
+    # check_movie(name=params['name'], year=params['year'])
+    # # check_movie(name=params[0], year=params[1])
+    # session.pop('params', None)
+    # print('no params')
+    # session['params'] = params
+    # # session.modified = True
+    # movie = params['name']
+    # # movie = params[0]
+    # year = params['year']
     # year = params[1]
-    print(str (movie) + ', ' + str(year))
+    # print(str(movie) + ', ' + str(year))
     # link = poster(movie, year)
     # if review is not None:
     #     session['review'] = review[:511] + '...'
-    session.modified = True
+    # session.modified = True
     # print('search : ' + str(session.modified))
     # print(session['review'])
     # print(session)
     return redirect(url_for('result'))
 
 
-@app.route('/movie/<name>')
-def show_movie(name):
-    params = get_info(name)
+@app.route('/movie/show')
+def show_movie():
+    film = Film()
+    film.name = request.args.get('name')
+    film.year = request.args.get('year')
+    check_movie(film)
+    params = get_info(film)
     # session.clear()
     # check_movie(name=params[0], year=params[1])
     # session.pop('params', None)
@@ -91,7 +107,7 @@ def show_movie(name):
     year = params['year']
     # year = params[1]
     print(str(movie) + ', ' + str(year))
-    review = get_review(name)
+    review = get_review(film.name)
     if review is not None:
         session['review'] = review[:511] + '...'
     session.modified = True
@@ -116,10 +132,11 @@ def result():
     # year = str(params[1]).strip()
     print(str(movie) + ', ' + str(year))
     # scores = db.conn.execute('''SELECT round(rating_table.score) from rating_table''')
-    score = db.conn.execute('''SELECT round(rating_table.score) from rating_table, movie_table 
-                              where movie_table.id = rating_table.id 
-                              and movie_table.name = ? COLLATE NOCASE
-                              and movie_table.year = ? COLLATE NOCASE''', (movie, year)).fetchone()[0]
+    # score = db.conn.execute('''SELECT round(rating_table.score) from rating_table, movie_table
+    #                           where movie_table.id = rating_table.id
+    #                           and movie_table.name = ? COLLATE NOCASE
+    #                           and movie_table.year = ? COLLATE NOCASE''', (movie, year)).fetchone()[0]
+    score = params['score']
     print('Score : ' + str(score))
 
     movie_id = db.conn.execute('''SELECT movie_table.id from movie_table where
@@ -149,7 +166,7 @@ def result():
     del temp_list
     db.conn.close()
     # get_similar(params[6])
-    params['score'] = score
+    # params['score'] = score
     # params.append(score)
     if params['summary'] is None:
         review = 'No summary available'
@@ -268,5 +285,17 @@ def get_similar(genre_list, comp_year):
     #
 
 
-
-
+def obj_to_dict(film):
+    params2 = {
+        'name': film.name,
+        'year': film.year,
+        'rotten': film.ratings['rt'],
+        'imdb': film.ratings['imdb'],
+        'meta': film.ratings['meta'],
+        'director': film.director,
+        'genres': film.genre,
+        'score': film.score
+        # 'link': link,
+        # 'summary': film.summary
+    }
+    return params2

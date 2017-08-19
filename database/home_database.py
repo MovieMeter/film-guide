@@ -91,10 +91,11 @@ class HomeDB:
             print('Genres for this movie are already added. Sorry. Modification not available right now')
             return
         else:
+            self.conn.execute('BEGIN EXCLUSIVE')
             for item in film_obj.genre:
                 self.c.execute('insert into genre_table values(?,?)',
                                (row_id, item))
-        # self.conn.commit()
+            self.conn.commit()
 
     # Add ratings for the movie, including the database score
     def set_ratings(self, film_obj):
@@ -120,9 +121,9 @@ class HomeDB:
                      film_obj.ratings['rt'],
                      film_obj.ratings['audience'],
                      movie_score)
-
+            self.c.execute('BEGIN EXCLUSIVE')
             self.c.execute('insert into rating_table values(?,?,?,?,?,?)', r_tuple)
-        # self.conn.commit()
+            self.conn.commit()
 
     # view table (duh)
     def view_movies(self):
@@ -142,3 +143,45 @@ class HomeDB:
         cursor = self.c.execute('select * from rating_table')
         for row in cursor:
             print(row)
+
+    def check_director(self, film):
+        id = self.get_row_id(film)
+        if id is None:
+            return None
+        dir = self.conn.execute('''SELECT director, id from director_table where id = ?''', (id,)).fetchone()
+        if dir is None:
+            return None
+        return dir[0]
+
+    def add_director(self, film, id):
+        if self.check_director(film) is not None:
+            print('Director already present.')
+            return
+        if film.director is None:
+            print('No director value for this movie.')
+            return
+        self.conn.execute('BEGIN EXCLUSIVE')
+        self.conn.execute('''INSERT into director_table values(?,?)''', (id, film.director))
+        print('Added director.')
+        self.conn.commit()
+
+    def check_links(self, film):
+        id = self.get_row_id(film)
+        if id is None:
+            return None
+        links = self.conn.execute('''SELECT imdb_link, rotten_link from link_table where id = ?''', (id,)).fetchone()
+        if links is None:
+            return None
+        return links
+
+    def add_links(self, film, id):
+        if self.check_links(film) is not None:
+            print('Links already present.')
+            return
+        if film.imdb_link is None or film.rotten_link is None:
+            print('Links not provided.')
+            return
+        self.conn.execute('BEGIN EXCLUSIVE')
+        self.conn.execute('''INSERT into link_table values(?,?,?)''', (id, film.imdb_link, film.rotten_link))
+        print('Added links.')
+        self.conn.commit()

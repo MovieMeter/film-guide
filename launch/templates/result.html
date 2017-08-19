@@ -8,14 +8,14 @@
 {% extends 'layout.html' %}
 {% block body %}
 <h1>
-    <strong>Results:</strong><br>
+    <strong>Results-</strong><br>
 </h1>
 {% for m in m_list %}
 <h2>
     Movie Name :
 </h2>
 <p>
-    <a href="{{ url_for('show_movie', name=m[1]) }}">{{ m[1] }}</a> ({{m[2]}})
+    <a href="{{ url_for('get_result', name=m[1], year=m[2]) }}">{{ m[1] }}</a> ({{m[2]}})
 </p>
 {% endfor %}
 {% endblock %}
