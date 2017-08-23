@@ -29,8 +29,12 @@ def home():
     for item in movies:
         movie = [item[0], item[1], item[2]]
         # print(movie)
-        poster = db.conn.execute('''SELECT * from poster_table where id = ?''',
-                                 (movie[0],)).fetchone()[1]
+        posters = db.conn.execute('''SELECT * from poster_table where id = ?''',
+                                 (movie[0],)).fetchone()
+        if posters is not None:
+            poster = posters[1]
+        else:
+            poster = None
         # print(poster)
         movie.append(poster)
         popular_list.append(movie)
@@ -38,6 +42,8 @@ def home():
         if count == 3:
             break
     print(popular_list)
+    # db.conn.close()
+        
     return render_template('home.html', popular_list=popular_list)
 
 
