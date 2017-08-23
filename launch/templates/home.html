@@ -8,13 +8,27 @@
 {##}
 {% extends 'layout.html'%}
 {% block body %}
-<h1>
-    Welcome to Film-Guide!
-</h1>
-<p>
-    A movie search-and-store database to gather your favourite movies and recommend further ones.
-    Built by, and for, movie enthusiasts. :)
-</p>
+<div class="row">
+    <div class="col-sm-8">
+        <h1>
+            Welcome to Film-Guide!
+        </h1>
+        <p>
+            A movie search-and-store database to gather your favourite movies and recommend further ones.
+            Built by, and for, movie enthusiasts. :)
+        </p>
+    </div>
+
+    <div class="col-sm-4">
+        <h2>
+        Getting Started
+        </h2>
+        <a href="{{ url_for('search') }}">Search for movies by name.</a>
+        <br>
+        <a href="{{ url_for('show_movies') }}">Show Top Movies from our database.</a><br>
+        <a href="{{ url_for('genre_search') }}">View by genre.</a>
+    </div>
+</div>
 
 
 <div style="height:50px">
@@ -69,13 +83,6 @@
     </div>
 </div>
 
-<h2>
-    Getting Started
-</h2>
-<a href="{{ url_for('search') }}">Search for movies by name.</a>
-<br>
-<a href="{{ url_for('show_movies') }}">Show Top Movies from our database.</a><br>
-<a href="{{ url_for('genre_search') }}">View by genre.</a>
 
 
 {% endblock %}
