@@ -15,6 +15,60 @@
     A movie search-and-store database to gather your favourite movies and recommend further ones.
     Built by, and for, movie enthusiasts. :)
 </p>
+
+
+<div style="height:50px">
+
+</div>
+<div class="row">
+    <div style="padding-bottom:10px">
+        <h3 style="font-family: Laksaman">
+            Popular movies right now:
+        </h3>
+    </div>
+    <div>
+        {% for item in popular_list %}
+         <span style="text-align:center">
+        <div class="col-sm-4" >
+            <img src="{{ item[3] }}"  alt="downloading image" height="100%" width="100%" style="padding-left:5%;padding-right:5%"/>
+                <a href="{{ url_for('get_result', name=item[1], year=item[2]) }}">
+                     
+                        {{ item[1] }}
+                   
+                 </a>
+        </div>
+         </span>
+        {% endfor %}
+    </div>
+</div>
+
+
+<div style="height:100px">
+</div>
+
+
+<div class="row">
+    <div style="padding-bottom:10px">
+        <h3 style="font-family: Laksaman">
+            Top movies from our database:
+        </h3>
+    </div>
+    <div>
+        {% for item in popular_list %}
+         <span style="text-align:center">
+        <div class="col-sm-4" >
+            <img src="{{ item[3] }}"  alt="downloading image" height="100%" width="100%" style="padding-left:5%;padding-right:5%"/>
+                <a href="{{ url_for('get_result', name=item[1], year=item[2]) }}">
+
+                        {{ item[1] }}
+
+                 </a>
+        </div>
+         </span>
+        {% endfor %}
+    </div>
+</div>
+
 <h2>
     Getting Started
 </h2>
@@ -23,49 +77,7 @@
 <a href="{{ url_for('show_movies') }}">Show Top Movies from our database.</a><br>
 <a href="{{ url_for('genre_search') }}">View by genre.</a>
 
-<div style="height:50px">
 
-</div>
-
-<div style="padding-bottom:10px">
-    <h3 style="font-family: Laksaman">
-        Popular movies right now:
-    </h3>
-</div>
-<div>
-    {% for item in popular_list %}
-     <span style="text-align:center">
-    <div class="col-sm-4" >
-        <img src="{{ item[3] }}"  alt="downloading image" height="100%" width="100%" style="padding-left:5%;padding-right:5%"/>
-            <a href="{{ url_for('get_result', name=item[1], year=item[2]) }}">
-                 
-                    {{ item[1] }}
-               
-             </a>
-    </div>
-     </span>
-    {% endfor %}
-</div>
-
-<div style="padding-bottom:10px">
-    <h3 style="font-family: Laksaman">
-        Top movies from our database:
-    </h3>
-</div>
-<div>
-    {% for item in popular_list %}
-     <span style="text-align:center">
-    <div class="col-sm-4" >
-        <img src="{{ item[3] }}"  alt="downloading image" height="100%" width="100%" style="padding-left:5%;padding-right:5%"/>
-            <a href="{{ url_for('get_result', name=item[1], year=item[2]) }}">
-
-                    {{ item[1] }}
-
-             </a>
-    </div>
-     </span>
-    {% endfor %}
-</div>
 {% endblock %}
 {#</body>#}
 {#</html>#}
