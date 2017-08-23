@@ -68,13 +68,13 @@
         </h3>
     </div>
     <div>
-        {% for item in popular_list %}
+        {% for item in top_movies %}
          <span style="text-align:center">
         <div class="col-sm-4" >
-            <img src="{{ item[3] }}"  alt="downloading image" height="100%" width="100%" style="padding-left:5%;padding-right:5%"/>
-                <a href="{{ url_for('get_result', name=item[1], year=item[2]) }}">
+            <img src="{{ item[2] }}"  alt="downloading image" height="100%" width="100%" style="padding-left:5%;padding-right:5%"/>
+                <a href="{{ url_for('get_result', name=item[0], year=item[1]) }}">
 
-                        {{ item[1] }}
+                        {{ item[0] }}
 
                  </a>
         </div>
