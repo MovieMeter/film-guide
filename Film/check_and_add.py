@@ -107,6 +107,9 @@ def check_movie(film=None, name=None, year=None):
         print('Validating movie information..')
         if check(film) is not True:
             print('Movie Not present in database. Adding..')
+            print(film.name + ', ' + str(film.year))
+            if film.imdb_link is None:
+                review_info1.load_imdb_url(film)
             review_info1.imdb_content(film)
             print(film.genre)
             review_info1.get_rotten_link(film)
