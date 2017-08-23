@@ -30,11 +30,15 @@
 <div>
     {% for item in popular_list %}
      <span style="text-align:center">
-    <div class="col-sm-4">
-        <img src="{{ item[3] }}" style="height:300px width:800% " alt="downloading image"/>
-            <a href="{{ url_for('get_result', name=item[1], year=item[2]) }}"> {{ item[1] }} </a>
+    <div class="col-sm-4" >
+        <img src="{{ item[3] }}"  alt="downloading image" height="100%" width="100%" style="padding-left:5%;padding-right:5%"/>
+            <a href="{{ url_for('get_result', name=item[1], year=item[2]) }}">
+                 
+                    {{ item[1] }}
+               
+             </a>
     </div>
-    </span>
+     </span>
     {% endfor %}
 </div>
 {% endblock %}
