@@ -16,7 +16,7 @@
 </h3>
 {% for movie in m_list %}
 <ul>
-    <li><a href="{{ url_for('show_movie', name=movie[1]) }}">{{ movie[1] }}</a> ({{ movie[2] }}) - {{ movie[3] }}</li>
+    <li><a href="{{ url_for('get_result', name=movie[1], year=movie[2]) }}">{{ movie[1] }}</a> ({{ movie[2] }}) - {{ movie[3] }}</li>
 </ul>
 {% endfor %}
 {% endblock %}

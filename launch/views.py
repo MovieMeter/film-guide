@@ -21,7 +21,24 @@ def show_movies():
 
 @app.route('/')
 def home():
-    return render_template('home.html')
+    db = HomeDB()
+    popular_list = []
+
+    count = 0
+    movies = db.conn.execute('''SELECT * from popular_now''').fetchall()
+    for item in movies:
+        movie = [item[0], item[1], item[2]]
+        # print(movie)
+        poster = db.conn.execute('''SELECT * from poster_table where id = ?''',
+                                 (movie[0],)).fetchone()[1]
+        # print(poster)
+        movie.append(poster)
+        popular_list.append(movie)
+        count = count + 1
+        if count == 3:
+            break
+    print(popular_list)
+    return render_template('home.html', popular_list=popular_list)
 
 
 @app.route('/search', methods=['GET', 'POST'])
