@@ -43,8 +43,22 @@ def home():
             break
     print(popular_list)
     # db.conn.close()
-        
-    return render_template('home.html', popular_list=popular_list)
+    top_movies=[]
+    count=0
+    mov=db.conn.execute('''select movie_table.name, movie_table.year, poster_table.poster_url 
+                          from movie_table, poster_table,rating_table where 
+                          movie_table.id=poster_table.id and 
+                          movie_table.id=rating_table.id order by rating_table.score DESC; ''').fetchall()
+    for items in mov:
+        movie=[items[0],items[1],items[2]]
+        count=count+1
+        top_movies.append(movie)
+        if count==3:
+            break
+
+
+
+    return render_template('home.html', popular_list=popular_list,top_movies=top_movies)
 
 
 @app.route('/search', methods=['GET', 'POST'])
@@ -58,6 +72,7 @@ def search():
 
         # Calling the search script
         movie_list = show_search(movie)
+        print(movie_list)
         return render_template('movie_list.html', movie_list=movie_list)
 
     return render_template('search.html', error=error)
