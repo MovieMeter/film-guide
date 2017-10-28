@@ -2,10 +2,18 @@
 Movie Database. (Getting started. Stay tuned.)
 
 
-Just beginning to add html pages, which are more like terminal print commands at the moment.
-Basically, no style added at all.
+A movie recommendation application, with recommendation for movies based on genres and directors.
+The Web Pages working right now include the home page, the search page, movie page and listings.
+The movie page has a 'You May Like:' section which contains recommendations gathered from the database.
+The home page has a list of currently popular movies, along with database top picks.
 
+Pages render using HTML, CSS and Bootstrap mainly. Jinja2 template rendering has been used.
+Some scripting on the back end is populating these movie lists and recommendations, along with the information
+for each individual movie like Poster, Director, Casting (to be added), among others.
 
+The database is stored in the 'database' directory.
+The Flask application is in the 'launch' directory.
+A few movie objects and scraping scripts are in the 'Film' directory.
 
 Run the server by navigating to the root of the repo, and typing :
 
